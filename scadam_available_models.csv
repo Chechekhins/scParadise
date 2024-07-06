@@ -1,3 +1,3 @@
-Tissue,Description,Overall accuracy,Version
-PBMC_5,Peripheral blood mononuclear cells of healthy adults,0.9614,v1
-BMMC,Bone marrow mononuclear cell of healthy adults,0.95,v1
+Tissue,Model,Description,Overall accuracy,Version
+PBMC_5,PBMC_5_v1,Peripheral blood mononuclear cells of healthy adults 5' scRNA seq,0.9614,v1
+BMMC,BMMC_v1,Bone marrow mononuclear cell of healthy adults,0.95,v1
