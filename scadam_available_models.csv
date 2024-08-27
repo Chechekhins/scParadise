@@ -1,3 +1,5 @@
-Tissue,Model,Description,Overall accuracy,Version
-PBMC_5,PBMC_5_v1,Peripheral blood mononuclear cells of healthy adults 5' scRNA seq,0.9614,v1
-BMMC,BMMC_v1,Bone marrow mononuclear cell of healthy adults,0.95,v1
+Tissue,Model,Description,Overall accuracy,Suspension,Number of Levels
+PBMC,PBMC_5p,Peripheral blood mononuclear cells of healthy adults 5' scRNA seq,0.9614,cells,3
+BMMC,BMMC,Bone marrow mononuclear cell of healthy adults,0.95,cells,3
+Lung,Lung,Core Human Lung Cell Atlas,0.965,cells,5
+Retina,Retina,Single cell atlas of the human retina,0.984,cells,4
