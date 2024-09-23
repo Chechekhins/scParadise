@@ -20,7 +20,7 @@ pip install scparadise
 # Available models
 ### scAdam
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.979 | 0.979 | 3 | 
 | BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.947 | 0.942 | 3 | 
 | Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
