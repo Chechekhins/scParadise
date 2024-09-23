@@ -33,7 +33,9 @@ pip install scparadise
 | BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 3 | 
 
 Mean AE - Mean Absolute Error
+
 RMSE - Root Mean Squared Error
+
 For error metrics (RMSE, Mean AE), a lower value indicates better prediction.
 
 # Citation
