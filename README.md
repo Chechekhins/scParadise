@@ -27,6 +27,14 @@ pip install scparadise
 | Retina  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
 
 ### scEve
+| Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Levels |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 3 | 
+| BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 3 | 
+
+Mean AE - Mean Absolute Error
+RMSE - Root Mean Squared Error
+For error metrics (RMSE, Mean AE), a lower value indicates better prediction.
 
 # Citation
 
