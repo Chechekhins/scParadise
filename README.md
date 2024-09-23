@@ -17,6 +17,11 @@ pip install scparadise
 
 [Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
+# Available models
+### scAdam
+table(https://github.com/Chechekhins/scParadise/blob/main/scadam_available_models.csv)
+### scEve
+
 # Citation
 
 
