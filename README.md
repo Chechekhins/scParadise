@@ -18,7 +18,7 @@ pip install scparadise
 [Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
 # Available models
-### scAdam
+### scAdam models
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.979 | 0.979 | 3 | 
@@ -26,7 +26,7 @@ pip install scparadise
 | Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
 | Retina  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
 
-### scEve
+### scEve models
 | Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 3 | 
