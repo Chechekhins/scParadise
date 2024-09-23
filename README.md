@@ -11,5 +11,14 @@ pip install scparadise
 
 [Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
+[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+
 [Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict_R.R)
+
+[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+
+# Citation
+
+
+
  
