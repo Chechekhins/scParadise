@@ -35,6 +35,8 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 [Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
+[Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scEve_predict_R.R)
+
 # Available models
 ### scAdam models
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
