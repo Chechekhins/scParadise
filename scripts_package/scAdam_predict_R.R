@@ -11,7 +11,7 @@ library(reticulate)
 set.seed(0)
 
 # import Python libraries
-use_condaenv('scrna')
+use_condaenv('scparadise')
 sc <- import("scanpy", convert = FALSE)
 scp <- import("scparadise", convert = FALSE)
 
