@@ -6,8 +6,6 @@ scParadise is a fast, tunable, high-throughput automatic cell type annotation an
 ```console
 pip install scparadise
 ```
-Tested on Windows 10, 11, Ubuntu
-
 ## Create environment for using scparadise in R
 ```console
 conda create -n scparadise python=3.9
