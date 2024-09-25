@@ -58,6 +58,10 @@ RMSE - Root Mean Squared Error
 
 For error metrics (RMSE, Mean AE), a lower value indicates better prediction.
 
+# Contributing
+
+We warmly welcome contributions to scParadise! If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request. Additionally, we encourage you to report any issues you encounter while using scParadise. Your feedback is invaluable in helping us improve the tool!
+
 # Citation
 ```bibtex
 @article {Chechekhina2024.09.23.614509,
