@@ -91,10 +91,10 @@ df <- scp$scadam$available_models()
 View(df)
 
 # Download scAdam model
-scp$scadam$download_model(model_name = 'PBMC', save_path = '')
+scp$scadam$download_model(model_name = 'Human_PBMC', save_path = '')
 
 # Predict cell types using scAdam model
-scp$scadam$predict(adata, path_model = 'PBMC_scAdam')
+scp$scadam$predict(adata, path_model = 'Human_PBMC_scAdam')
 
 # Add AnnData.obs to Seurat object meta.data
 meta <- py_to_r(adata$obs)
