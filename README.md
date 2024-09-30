@@ -54,10 +54,10 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 | Mouse_Retina  | Single cell atlas of the mouse retina | cells | 0.967 | 0.960 | 4 | 
 
 ### scEve models
-| Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Levels |
+| Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Proteins |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Human_PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 3 | 
-| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 3 | 
+| Human_PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 224 | 
+| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 134 | 
 
 Mean AE - Mean Absolute Error
 
