@@ -35,11 +35,11 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 [Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
-[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_train.ipynb)
 
 [Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict_R.R)
 
-[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scEVE_clusterization.ipynb)
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scEve_predict_R.R)
 
