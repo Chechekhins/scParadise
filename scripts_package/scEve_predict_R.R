@@ -92,17 +92,17 @@ View(df)
 
 ## scEve 
 # Download scEve model
-scp$sceve$download_model(model_name = 'PBMC', save_path = '')
+scp$sceve$download_model(model_name = 'Human_PBMC', save_path = '')
 
 # Predict surface proteins using scEve model
-adata_adt_pred <- scp$sceve$predict(adata, path_model = 'PBMC_scEve', return_mdata = FALSE)
+adata_adt_pred <- scp$sceve$predict(adata, path_model = 'Human_PBMC_scEve', return_mdata = FALSE)
 
 ## scAdam (you can skip this step if cells are already annotated)
 # Download scAdam model
-scp$scadam$download_model(model_name = 'PBMC', save_path = '')
+scp$scadam$download_model(model_name = 'Human_PBMC', save_path = '')
 
 # Predict cell types using scAdam model
-scp$scadam$predict(adata, path_model = 'PBMC_scAdam')
+scp$scadam$predict(adata, path_model = 'Human_PBMC_scAdam')
 
 # Add AnnData.obs to Seurat object meta.data
 meta <- py_to_r(adata$obs)
