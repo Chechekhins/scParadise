@@ -47,16 +47,17 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 ### scAdam models
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.979 | 0.979 | 3 | 
-| BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.947 | 0.942 | 3 | 
-| Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
-| Retina  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
+| Human_PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.979 | 0.979 | 3 | 
+| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.947 | 0.942 | 3 | 
+| Human_Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
+| Human_Retina  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
+| Mouse_Retina  | Single cell atlas of the mouse retina | cells | 0.967 | 0.960 | 4 | 
 
 ### scEve models
 | Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 3 | 
-| BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 3 | 
+| Human_PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 3 | 
+| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 3 | 
 
 Mean AE - Mean Absolute Error
 
