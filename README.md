@@ -18,7 +18,7 @@ pip install scparadise
 ```
 Set Python environment in R Studio: Tools - Global Options - Python
 
-## Create environment from .yml
+## Create environment from scparadise.yml
 1) Download scparadise.yml. 
 2) Execute the following command in Anaconda (from directory with scparadise.yml):
 ```console
