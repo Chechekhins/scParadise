@@ -54,6 +54,7 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 | Human_Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
 | Human_Retina  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
 | Mouse_Retina  | Single cell atlas of the mouse retina | cells | 0.967 | 0.960 | 4 | 
+| Macaque_Cerebellum  | Single nuclei atlas of the Macaque cerebellum | nuclei | 0.995 | 0.994 | 2 | 
 
 ### scEve models
 | Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Proteins |
