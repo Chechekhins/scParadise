@@ -1,0 +1,1 @@
+[{"Endothelial": 0, "Fibroblast": 1, "Glia": 2, "Macrophage": 3, "Mural": 4, "Neuron": 5}, {"Astrocyte": 0, "Bergmann": 1, "Choroid": 2, "Endothelial": 3, "Ependymal": 4, "Fibroblast": 5, "Golgi": 6, "Granule": 7, "MLI1": 8, "MLI2": 9, "Macrophage": 10, "Microglia": 11, "Mural": 12, "ODC": 13, "OPC": 14, "PLI": 15, "Purkinje": 16, "UBC": 17}]
