@@ -35,15 +35,15 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 # Tutorials
 
-[Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+[Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/scAdam_predict.ipynb)
 
-[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_train.ipynb)
+[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/scAdam_train.ipynb)
 
-[Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict_R.R)
+[Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/R_scAdam_predict.R)
 
-[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scEVE_clusterization.ipynb)
+[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEVE_clusterization.ipynb)
 
-[Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scEve_predict_R.R)
+[Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
 # Available models
 ### scAdam models
