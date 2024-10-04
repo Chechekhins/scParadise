@@ -84,6 +84,4 @@ We warmly welcome contributions to scParadise! If you have any ideas, enhancemen
 	journal = {bioRxiv}
  }
 ```
-
-google-site-verification: googlef04f36290992ed5e.html
  
