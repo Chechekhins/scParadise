@@ -1,13 +1,23 @@
 import os
 import sys
+from pathlib import Path, PurePosixPath
 
-sys.path.insert(0, os.path.abspath(".."))
+HERE = Path(__file__).parent
+sys.path[:0] = [str(HERE.parent), str(HERE / "extensions")]
 
 project = "scParadise"
 repository_url = "https://github.com/Chechekhins/scParadise"
 copyright = '2024, Vadim Chechekhin'
 author = "Vadim Chechekhin"
 release = "0.1.1b"
+
+html_context = {
+    "display_github": True,  # Integrate GitHub
+    "github_user": "Chechekhins",  # Username
+    "github_repo": project,  # Repo name
+    "github_version": "main",  # Version
+    "conf_py_path": "/docs/",  # Path in the checkout to the docs root
+}
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -46,7 +56,7 @@ html_theme_options = {
     "show_toc_level": 1,
     "launch_buttons": {"colab_url": "https://colab.research.google.com"},
     "path_to_docs": "docs/",
-    "repository_branch": version,
+    "repository_branch": release,
 }
 html_static_path = ["_static"]
 
