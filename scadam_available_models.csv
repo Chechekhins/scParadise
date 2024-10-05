@@ -6,3 +6,4 @@ Human_Retina,Single cell atlas of the human retina,cells,0.984,0.979,4
 Mouse_Retina,Single cell atlas of the mouse retina,cells,0.967,0.960,4
 Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
 Macaque_Cerebellum,Single nuclei atlas of the Macaque cerebellum,nuclei,0.995,0.994,2
+Marmoset_Cerebellum,Single nuclei atlas of the Marmoset cerebellum,nuclei,0.988,0.987,2
