@@ -3,12 +3,12 @@ scEve
 
 Modality prediction using downloaded or custom scEve model.
 
-.. currentmodule:: scparadise
+.. py:currentmodule:: scparadise
 
 Download model
 --------------
 
-Download pretrained model from [scParadise repository](https://github.com/Chechekhins/scParadise).
+Download pretrained model from `scParadise repository <https://github.com/Chechekhins/scParadise>`_.
 
 .. automodule:: sceve
    :members: 
