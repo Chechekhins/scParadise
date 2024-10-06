@@ -12,8 +12,7 @@ Balancing dataset using your own annotation for future model training.
 Oversmaple or undersample some cell types.
 
 .. automodule:: scnoah
-   :members: 
-   :private-members: balance, oversample, undersample
+   :members: balance, oversample, undersample
 
 Annotation metrics
 ------------------
@@ -21,8 +20,7 @@ Annotation metrics
 Test annotation method quality using confusion matrix, accuracy, balanced accuracy and calculating cell type specific precision, recall (also called sensitivity), specificity, f1-score, geometric mean, and index balanced accuracy of the geometric mean.
 
 .. automodule:: scnoah
-   :members: 
-   :private-members: report_classif_full, report_classif_sens_spec, conf_matrix, pred_status
+   :members: report_classif_full, report_classif_sens_spec, conf_matrix, pred_status
 
 Regression metrics
 ------------------
@@ -40,8 +38,7 @@ PC - Pearson coefficient
 For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
 .. automodule:: scnoah
-   :members: 
-   :private-members: report_reg, regres_status, pearson_coef_prot
+   :members: report_reg, regres_status, pearson_coef_prot
 
 Count cells
 -----------
@@ -49,6 +46,5 @@ Count cells
 Count number of cell types per sample or condition.
 
 .. automodule:: scnoah
-   :members: 
-   :private-members: cell_counter
+   :members: cell_counter
 
