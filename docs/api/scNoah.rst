@@ -3,7 +3,7 @@ scNoah
    
 Benchmarking cell type annotation and modality prediction.
 
-.. currentmodule:: scparadise
+.. py:currentmodule:: scparadise
 
 Balance dataset
 ---------------
