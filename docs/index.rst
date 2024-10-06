@@ -17,7 +17,13 @@ and modality prediction in scRNA-seq analysis.
 
 scParadise is now in active development. 
 
-If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a [scParadise GitHub repo](https://github.com/Chechekhins/scParadise).
+If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a `scParadise GitHub repo <https://github.com/Chechekhins/scParadise>`_.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Installation:
+
+   installation
 
 
 ::::{grid} 1 2 3 3
@@ -58,11 +64,7 @@ The repository where you can try to find a solution of your problem
 :::
 ::::
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Installation:
 
-   installation
 
 
 .. toctree::
