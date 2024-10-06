@@ -4,7 +4,7 @@ Installation
 Using pip
 --------
 
-```console
+```python
 pip install scparadise
 ```
 
