@@ -26,13 +26,6 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 Installation guide for scParadise.
 :::
 
-:::{grid-item-card} API reference {octicon}`book;1em;`
-:link: api/index
-:link-type: doc
-
-The API reference of scParadise modules and functions
-:::
-
 :::{grid-item-card} Tutorials {octicon}`play;1em;`
 :link: tutorials/index
 :link-type: doc
@@ -41,10 +34,23 @@ The tutorials of scParadise models usage in scRNA-seq analysis.
 Do you want your cells to be annotated and modalities predicted?
 :::
 
+:::{grid-item-card} Models {octicon}`info;1em;`
+:link: models/index
+:link-type: doc
+The list of scAdam and scEve models
+:::
+
+:::{grid-item-card} API reference {octicon}`book;1em;`
+:link: api/index
+:link-type: doc
+
+The API reference of scParadise modules and functions
+:::
+
 :::{grid-item-card} GitHub {octicon}`mark-github;1em;`
 :link: https://github.com/Chechekhins/scParadise
 
-Our repository where you can try to find a solution to your problem
+The repository where you can try to find a solution of your problem
 :::
 ::::
 
@@ -55,6 +61,7 @@ Our repository where you can try to find a solution to your problem
 
 installation
 tutorials/index
+models/index
 api/index
 GitHub <https://github.com/Chechekhins/scParadise>
 ```
