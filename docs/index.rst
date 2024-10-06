@@ -58,14 +58,14 @@ The repository where you can try to find a solution of your problem
 :::
 ::::
 
-```{toctree}
-:hidden: true
-:maxdepth: 3
-:titlesonly: true
+.. toctree
+    :hidden: true
+    :maxdepth: 3
+    :titlesonly: true
+    
+    installation
+    tutorials/index
+    models/index
+    api/index
+    GitHub <https://github.com/Chechekhins/scParadise>
 
-installation
-tutorials/index
-models/index
-api/index
-GitHub <https://github.com/Chechekhins/scParadise>
-```
