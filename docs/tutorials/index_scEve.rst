@@ -1,4 +1,6 @@
-# scEve
+scEve
+=====
+
 Reference dataset independent modality prediction.
 
 .. toctree::
