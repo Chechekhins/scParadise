@@ -19,41 +19,42 @@ scParadise is now in active development.
 
 If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a `scParadise GitHub repo <https://github.com/Chechekhins/scParadise>`_.
 
-.. grid:: 1 2 2 3
+.. grid:: 3
    :gutter: 2
 
-  .. grid-item-card:: Installation
-     :link: installation
-     :link-type: doc
+   .. grid-item-card:: Installation
+      :link: installation
+      :link-type: doc
 
-     Installation guide for scParadise.
+      Installation guide for scParadise.
 
-  .. grid-item-card:: Tutorials
-     :link: tutorials/index
-     :link-type: doc
+   .. grid-item-card:: Tutorials
+      :link: tutorials/index
+      :link-type: doc
 
-     Do you want your cells to be annotated and modalities predicted?
+      Do you want your cells to be annotated and modalities predicted?
 
-  .. grid-item-card:: Models
-     :link: models/index
-     :link-type: doc
+   .. grid-item-card:: Models
+      :link: models/index
+      :link-type: doc
 
-     The table of scAdam and scEve models
+      The table of scAdam and scEve models
 
-  .. grid-item-card:: API reference
-     :link: api/index
-     :link-type: doc
+.. grid:: 2
+   :gutter: 2
+   .. grid-item-card:: API reference
+      :link: api/index
+      :link-type: doc
 
-     The API reference of scParadise modules and functions
+      The API reference of scParadise modules and functions
 
-  .. grid-item-card:: GitHub
-     :link: https://github.com/Chechekhins/scParadise
+   .. grid-item-card:: GitHub
+      :link: https://github.com/Chechekhins/scParadise
 
-     The repository where you can try to find a solution of your problem
+      The repository where you can try to find a solution of your problem
 
 
 .. toctree::
-   :hidden: true
    :maxdepth: 2
 
    installation
