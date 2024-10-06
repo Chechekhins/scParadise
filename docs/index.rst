@@ -59,6 +59,13 @@ The repository where you can try to find a solution of your problem
 ::::
 
 .. toctree::
+   :maxdepth: 3
+   :caption: Installation:
+
+   installation
+
+
+.. toctree::
    :hidden: true
    :maxdepth: 3
    :titlesonly: true
@@ -67,5 +74,5 @@ The repository where you can try to find a solution of your problem
    tutorials/index
    models/index
    api/index
-   GitHub <https://github.com/Chechekhins/scParadise>
+   `GitHub <https://github.com/Chechekhins/scParadise>`_
 
