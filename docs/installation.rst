@@ -4,7 +4,7 @@ Installation
 Using pip
 ---------
 
-```python
+```{code-block} python
 pip install scparadise
 ```
 
