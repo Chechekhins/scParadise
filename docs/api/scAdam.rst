@@ -8,8 +8,8 @@ Cell type annotation using downloaded or custom scAdam model.
 ```
 Cross-tissue fast multi-level multi-class cell type annotation.
 
-## Download model
-
+Download model
+--------------
 Download pretrained model from [scParadise repository](https://github.com/Chechekhins/scParadise).
 
 ```{eval-rst}
