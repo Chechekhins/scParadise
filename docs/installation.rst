@@ -30,7 +30,6 @@ Create environment from scparadise.yml
 --------------------------------------
 
 1. Download `scparadise.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise.yml>`_.
-`GitHub <https://github.com/bowang-lab/scGPT>`
                              
 2. Execute the following command in Anaconda (from directory with scparadise.yml):
 
