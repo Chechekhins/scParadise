@@ -4,7 +4,8 @@ Installation
 Using pip
 ---------
 
-.. code-block::
+.. code-block:: python
+
    pip install scparadise
 
 
