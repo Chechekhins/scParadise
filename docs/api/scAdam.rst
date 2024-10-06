@@ -1,9 +1,9 @@
 scAdam
 =======
 
-Cell type annotation using downloaded or custom scAdam model.
+Module for cell type annotation using downloaded or custom scAdam model.
 
-.. currentmodule:: scparadise
+.. py:currentmodule:: scparadise
 
 Cross-tissue fast multi-level multi-class cell type annotation.
 
@@ -24,7 +24,6 @@ Model training and tuning
 Train custom scAdam model using your own reference dataset.
 Hyperparameter tuning is also available to achieve better model performance.
 
-```{eval-rst}
 .. autosummary::
    :toctree: generated
    :nosignatures:
