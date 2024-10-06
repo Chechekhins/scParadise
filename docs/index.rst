@@ -1,6 +1,8 @@
-# Documentation
+Welcome to scParadise documentation!
+===================================
 
 `scParadise` is a fast, tunable, high-throughput automatic cell type annotation and modality prediction python framework.
+
 `scParadise` includes three sets of tools: 
 
   1) `scAdam` - fast multi-task multi-class cell type annotation; 
