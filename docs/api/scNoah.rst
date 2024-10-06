@@ -1,13 +1,13 @@
-# scNoah
-
+scNoah
+======
+   
 Benchmarking cell type annotation and modality prediction.
 
-```{eval-rst}
 .. currentmodule:: scparadise
-```
 
-## Balance dataset
-
+Balance dataset
+---------------
+   
 Balancing dataset using your own annotation for future model training.
 Oversmaple or undersample some cell types.
 
@@ -21,7 +21,8 @@ Oversmaple or undersample some cell types.
 
 ```
 
-## Annotation metrics
+Annotation metrics
+------------------
 
 Test annotation method quality using confusion matrix, accuracy, balanced accuracy and calculating cell type specific precision, recall (also called sensitivity), specificity, f1-score, geometric mean, and index balanced accuracy of the geometric mean.
 
@@ -36,7 +37,8 @@ Test annotation method quality using confusion matrix, accuracy, balanced accura
 
 ```
 
-## Regression metrics
+Regression metrics
+------------------
 
 Test modality prediction method quality using error metrics (RMSE, MedianAE, MeanAE), EVS, R² score and PC. 
 Also, visualise metrics on cell embeddings.
@@ -60,7 +62,8 @@ For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
 ```
 
-## Count cells
+Count cells
+-----------
 
 Count number of cell types per sample or condition.
 
