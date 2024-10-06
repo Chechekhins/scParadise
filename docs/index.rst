@@ -57,7 +57,6 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
 .. toctree::
    :maxdepth: 2
-   :titlesonly: true
 
    installation
    tutorials/index
