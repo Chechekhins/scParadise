@@ -1,4 +1,5 @@
-# scAdam
+scAdam
+=======
 
 Cell type annotation using downloaded or custom scAdam model.
 
@@ -13,6 +14,7 @@ Download pretrained model from [scParadise repository](https://github.com/Cheche
 
 ```{eval-rst}
 .. autosummary::
+   :toctree: generated
    :nosignatures:
 
    scadam.available_models
@@ -27,6 +29,7 @@ Hyperparameter tuning is also available to achieve better model performance.
 
 ```{eval-rst}
 .. autosummary::
+   :toctree: generated
    :nosignatures:
 
    scadam.train
@@ -40,6 +43,7 @@ Cell type annotation using downloaded or custom scAdam model.
 
 ```{eval-rst}
 .. autosummary::
+   :toctree: generated
    :nosignatures:
 
    scadam.predict
