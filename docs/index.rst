@@ -59,7 +59,7 @@ The repository where you can try to find a solution of your problem
 ::::
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Installation:
 
    installation
