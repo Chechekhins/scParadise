@@ -11,10 +11,12 @@ Welcome to scParadise documentation!
 
 `scParadise` enables users to utilize a selection of pre-existing models (`scAdam` or `scEve`) 
 as well as to develop and train custom models tailored to specific research needs. 
+
 `scNoah` facilitates the evaluation of novel models and methods for automated cell type annotation 
 and modality prediction in scRNA-seq analysis.
 
 scParadise is now in active development. 
+
 If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a [scParadise GitHub repo](https://github.com/Chechekhins/scParadise).
 
 
