@@ -97,7 +97,7 @@ scEve models
      - 0.305
      - 0.226
      - 224
-     - :cite:`hao2021integrated‎`
+     - :cite:p:`hao2021integrated‎`
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
