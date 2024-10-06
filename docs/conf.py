@@ -47,7 +47,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # html_show_sourcelink = True
 html_theme = "sphinx_book_theme"
-html_title = project_name
+html_title = project
 
 html_logo = "_static/scParadise_logo.png"
 
