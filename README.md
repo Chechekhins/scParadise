@@ -35,7 +35,7 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 # Tutorials
 
-[Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/scAdam_predict.ipynb)
+[Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
 
 [Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/scAdam_train.ipynb)
 
