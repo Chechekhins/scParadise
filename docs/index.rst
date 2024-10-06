@@ -19,62 +19,59 @@ scParadise is now in active development.
 
 If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a `scParadise GitHub repo <https://github.com/Chechekhins/scParadise>`_.
 
+.. grid:: 1 2 2 3
+   :gutter: 1
+
+  .. grid-item-card:: Installation
+     :link: installation
+     :link-type: doc
+
+     Installation guide for scParadise.
+
+  .. grid-item-card:: Tutorials
+     :link: tutorials/index
+     :link-type: doc
+
+     Do you want your cells to be annotated and modalities predicted?
+
+  .. grid-item-card:: Models
+     :link: models/index
+     :link-type: doc
+
+     The table of scAdam and scEve models
+
+  .. grid-item-card:: API reference
+     :link: api/index
+     :link-type: doc
+
+     The API reference of scParadise modules and functions
+
+  .. grid-item-card:: GitHub
+     :link: https://github.com/Chechekhins/scParadise
+
+     The repository where you can try to find a solution of your problem
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Installation:
 
    installation
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Tutorials:
 
-::::{grid} 1 2 3 3
-:gutter: 2
-
-:::{grid-item-card} Installation {octicon}`plug;1em;`
-:link: installation
-:link-type: doc
-
-Installation guide for scParadise.
-:::
-
-:::{grid-item-card} Tutorials {octicon}`play;1em;`
-:link: tutorials/index
-:link-type: doc
-
-The tutorials of scParadise models usage in scRNA-seq analysis.
-Do you want your cells to be annotated and modalities predicted?
-:::
-
-:::{grid-item-card} Models {octicon}`info;1em;`
-:link: models/index
-:link-type: doc
-The list of scAdam and scEve models
-:::
-
-:::{grid-item-card} API reference {octicon}`book;1em;`
-:link: api/index
-:link-type: doc
-
-The API reference of scParadise modules and functions
-:::
-
-:::{grid-item-card} GitHub {octicon}`mark-github;1em;`
-:link: https://github.com/Chechekhins/scParadise
-
-The repository where you can try to find a solution of your problem
-:::
-::::
-
-
-
+   tutorials/index
 
 .. toctree::
-   :hidden: true
    :maxdepth: 3
-   :titlesonly: true
-    
-   installation
-   tutorials/index
-   models/index
-   api/index
-   `GitHub <https://github.com/Chechekhins/scParadise>`_
+   :caption: Models:
 
+   models/index
+
+.. toctree::
+   :maxdepth: 3
+   :caption: API:
+
+   api/index
