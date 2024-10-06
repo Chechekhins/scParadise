@@ -10,6 +10,7 @@ repository_url = "https://github.com/Chechekhins/scParadise"
 copyright = '2024, Vadim Chechekhin'
 author = "Vadim Chechekhin"
 release = "0.1.1b"
+bibtex_bibfiles = ['refs.bib']
 
 html_context = {
     "display_github": True,  # Integrate GitHub
