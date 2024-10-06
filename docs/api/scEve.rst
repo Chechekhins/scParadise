@@ -1,45 +1,34 @@
-# scEve
+scEve
+=====
 
 Modality prediction using downloaded or custom scEve model.
 
-```{eval-rst}
 .. currentmodule:: scparadise
-```
 
-## Download model
+Download model
+--------------
 
 Download pretrained model from [scParadise repository](https://github.com/Chechekhins/scParadise).
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
+.. automodule:: sceve
+   :members: 
+   :private-members: available_models, download_model
 
-   sceve.available_models
-   sceve.download_model
-
-```
-
-## Model training and tuning
+Model training and tuning
+-------------------------
 
 Train custom scEve model using your own multimodal dataset.
 Hyperparameter tuning is also available to achieve better model performance.
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
+.. automodule:: sceve
+   :members: 
+   :private-members: train, tune, train_tuned
 
-   sceve.train
-   sceve.tune
-   sceve.train_tuned
-```
-
-## Prediction 
+Prediction 
+----------
 
 Modality prediction using downloaded or custom scEve model.
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
-
-   sceve.predict
-```
+.. automodule:: sceve
+   :members: 
+   :private-members: predict
