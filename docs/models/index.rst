@@ -1,13 +1,14 @@
-# scParadise models
+scParadise models
+=================
 
 scParadise includes 2 type of models:
 
 1) scAdam models - reference free fast multi-level multi-class cell type annotation.
 2) scEve models - reference free fast modality prediction in scRNA-seq data.
 
-## scAdam models
+scAdam models
+-------------
 
-```{eval-rst}
 .. list-table::
    :widths: auto
    :header-rows: 1
@@ -75,12 +76,10 @@ scParadise includes 2 type of models:
      - 0.987
      - 2
      - :cite:p:`hao2024cross‎`
-```
 
-## scEve models
+scEve models
+------------
 
-
-```{eval-rst}
 .. list-table::
    :widths: auto
    :header-rows: 1
@@ -106,11 +105,9 @@ scParadise includes 2 type of models:
      - 0.454
      - 134
      - :cite:p:`‎NEURIPS_DATASETS_AND_BENCHMARKS2021_158f3069`
-```
 
-
-
-## References
+References
+----------
 
 .. bibliography:: refs.bib
    :style: plain
