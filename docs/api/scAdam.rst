@@ -3,7 +3,7 @@ scAdam
 
 Cell type annotation using downloaded or custom scAdam model.
 
-```{autodoc2-summary}
+```{eval-rst}
 .. currentmodule:: scparadise
 ```
 Cross-tissue fast multi-level multi-class cell type annotation.
@@ -12,7 +12,7 @@ Download model
 --------------
 Download pretrained model from [scParadise repository](https://github.com/Chechekhins/scParadise).
 
-```{autodoc2-summary}
+```{eval-rst}
 .. autosummary::
    :toctree: generated
    :nosignatures:
