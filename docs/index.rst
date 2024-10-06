@@ -20,7 +20,7 @@ scParadise is now in active development.
 If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request in a `scParadise GitHub repo <https://github.com/Chechekhins/scParadise>`_.
 
 .. grid:: 1 2 2 3
-   :gutter: 1
+   :gutter: 2
 
   .. grid-item-card:: Installation
      :link: installation
@@ -53,8 +53,7 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly: true
+   :maxdepth: 3
 
    installation
    tutorials/index
