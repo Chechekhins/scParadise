@@ -1,4 +1,6 @@
-# scAdam
+scAdam
+======
+
 Fast multi-task multi-class cell type annotation.
 
 .. toctree::
