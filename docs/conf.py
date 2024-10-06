@@ -32,7 +32,6 @@ extensions = [
     "nbsphinx",
     "sphinx.ext.autosummary",
     "sphinxcontrib.bibtex",
-    "matplotlib.sphinxext.plot_directive",
     "sphinx_autodoc_typehints",  # needs to be after napoleon
     "nbsphinx_link",
     # "myst_nb",
