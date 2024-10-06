@@ -11,8 +11,7 @@ Download model
 Download pretrained model from `scParadise repository <https://github.com/Chechekhins/scParadise>`_.
 
 .. automodule:: sceve
-   :members: 
-   :private-members: available_models, download_model
+   :members: available_models, download_model
 
 Model training and tuning
 -------------------------
@@ -21,8 +20,7 @@ Train custom scEve model using your own multimodal dataset.
 Hyperparameter tuning is also available to achieve better model performance.
 
 .. automodule:: sceve
-   :members: 
-   :private-members: train, tune, train_tuned
+   :members: train, tune, train_tuned
 
 Prediction 
 ----------
@@ -30,5 +28,4 @@ Prediction
 Modality prediction using downloaded or custom scEve model.
 
 .. automodule:: sceve
-   :members: 
-   :private-members: predict
+   :members: predict
