@@ -11,31 +11,18 @@ Balance dataset
 Balancing dataset using your own annotation for future model training.
 Oversmaple or undersample some cell types.
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
-
-   scnoah.balance
-   scnoah.oversample
-   scnoah.undersample
-
-```
+.. automodule:: scnoah
+   :members: 
+   :private-members: balance, oversample, undersample
 
 Annotation metrics
 ------------------
 
 Test annotation method quality using confusion matrix, accuracy, balanced accuracy and calculating cell type specific precision, recall (also called sensitivity), specificity, f1-score, geometric mean, and index balanced accuracy of the geometric mean.
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
-
-   scnoah.report_classif_full
-   scnoah.report_classif_sens_spec
-   scnoah.conf_matrix
-   scnoah.pred_status
-
-```
+.. automodule:: scnoah
+   :members: 
+   :private-members: report_classif_full, report_classif_sens_spec, conf_matrix, pred_status
 
 Regression metrics
 ------------------
@@ -52,25 +39,16 @@ PC - Pearson coefficient
 
 For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
-
-   scnoah.report_reg
-   scnoah.regres_status
-   scnoah.pearson_coef_prot
-
-```
+.. automodule:: scnoah
+   :members: 
+   :private-members: report_reg, regres_status, pearson_coef_prot
 
 Count cells
 -----------
 
 Count number of cell types per sample or condition.
 
-```{eval-rst}
-.. autosummary::
-   :nosignatures:
-
-   scnoah.cell_counter
-```
+.. automodule:: scnoah
+   :members: 
+   :private-members: cell_counter
 
