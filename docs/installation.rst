@@ -12,9 +12,10 @@ Using pip
 Create environment for using scparadise in R
 --------------------------------------------
 
-```console
-conda create -n scparadise python=3.9
-```
+.. code-block:: bash
+
+   conda create -n scparadise python=3.9
+
 ```console
 conda activate scparadise
 ```
