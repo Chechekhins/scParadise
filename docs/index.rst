@@ -54,24 +54,9 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation:
+   :titlesonly: true
 
    installation
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Tutorials:
-
    tutorials/index
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Models:
-
    models/index
-
-.. toctree::
-   :maxdepth: 3
-   :caption: API:
-
    api/index
