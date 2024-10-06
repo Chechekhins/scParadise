@@ -1,4 +1,5 @@
-# API reference
+API reference
+=============
 
 This section contains a complete description of the modules and functions of the scParadise package.
 
