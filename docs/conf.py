@@ -1,5 +1,6 @@
 import os
 import sys
+import scparadise
 from pathlib import Path, PurePosixPath
 
 HERE = Path(__file__).parent
