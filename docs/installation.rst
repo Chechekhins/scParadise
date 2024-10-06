@@ -2,7 +2,7 @@ Installation
 ===================================
 
 Using pip
---------
+---------
 
 ```python
 pip install scparadise
