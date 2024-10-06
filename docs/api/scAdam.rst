@@ -3,7 +3,7 @@ scAdam
 
 Cell type annotation using downloaded or custom scAdam model.
 
-```{eval-rst}
+```{autodoc2-summary}
 .. currentmodule:: scparadise
 ```
 Cross-tissue fast multi-level multi-class cell type annotation.
@@ -12,7 +12,7 @@ Download model
 --------------
 Download pretrained model from [scParadise repository](https://github.com/Chechekhins/scParadise).
 
-```{eval-rst}
+```{autodoc2-summary}
 .. autosummary::
    :toctree: generated
    :nosignatures:
@@ -22,8 +22,8 @@ Download pretrained model from [scParadise repository](https://github.com/Cheche
 
 ```
 
-## Model training and tuning
-
+Model training and tuning
+-------------------------
 Train custom scAdam model using your own reference dataset.
 Hyperparameter tuning is also available to achieve better model performance.
 
@@ -37,8 +37,8 @@ Hyperparameter tuning is also available to achieve better model performance.
    scadam.train_tuned
 ```
 
-## Prediction 
-
+Prediction 
+----------
 Cell type annotation using downloaded or custom scAdam model.
 
 ```{eval-rst}
