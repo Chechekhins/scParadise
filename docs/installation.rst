@@ -4,9 +4,9 @@ Installation
 Using pip
 ---------
 
-```{code-block} python
+{code-block}
 pip install scparadise
-```
+
 
 Create environment for using scparadise in R
 --------------------------------------------
