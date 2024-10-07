@@ -13,6 +13,7 @@ Oversmaple or undersample some cell types.
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    scnoah.balance
    scnoah.oversample
@@ -25,6 +26,7 @@ Test annotation method quality using confusion matrix, accuracy, balanced accura
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    scnoah.report_classif_full
    scnoah.report_classif_sens_spec
@@ -48,6 +50,7 @@ For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    scnoah.report_reg
    scnoah.regres_status
@@ -60,6 +63,7 @@ Count number of cell types per sample or condition.
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    scnoah.cell_counter
 
