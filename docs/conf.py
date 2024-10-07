@@ -11,7 +11,6 @@ repository_url = "https://github.com/Chechekhins/scParadise"
 copyright = '2024, Vadim Chechekhin'
 author = "Vadim Chechekhin"
 release = "0.1.1b"
-bibtex_bibfiles = ['refs.bib']
 
 html_context = {
     "display_github": True,  # Integrate GitHub
@@ -44,6 +43,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 autosummary_generate = True
 autodoc_member_order = "bysource"
 
+bibtex_bibfiles = ["refs.bib"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
