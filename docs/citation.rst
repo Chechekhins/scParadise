@@ -5,7 +5,6 @@ Chechekhina E., Tkachuk V., Chechekhin V., scParadise: Tunable highly accurate m
 
 .. list-table::
    :widths: auto
-   :header-rows: 1
 
    * - `Bibtex <https://www.biorxiv.org/highwire/citation/4104797/bibtext>`_
      - `XML <https://www.biorxiv.org/highwire/citation/4104797/endnote-8-xml>`_
