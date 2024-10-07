@@ -2,7 +2,7 @@ scAdam models
 =============
 
 
-:cite:`‎Kozareva2021`
+:cite:`2021:‎Kozareva`
 
 :ref:`Hao2024‎`
 
