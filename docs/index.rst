@@ -62,3 +62,4 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
    tutorials/index
    models/index
    api/index
+   GitHub <https://github.com/Chechekhins/scParadise>
