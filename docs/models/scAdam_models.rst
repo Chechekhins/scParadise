@@ -32,7 +32,7 @@ scAdam models
      - 0.965
      - 0.964
      - 5
-     - :cite:`2023:‎Sikkema`
+     - :cite:`2023:Sikkema`
    * - Human_Retina
      - Single cell atlas of the human retina
      - cells
