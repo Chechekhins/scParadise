@@ -1,4 +1,4 @@
-scParadise models
+Models
 =================
 
 scParadise includes 2 type of models:
