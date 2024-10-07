@@ -9,6 +9,10 @@ Chechekhina E., Tkachuk V., Chechekhin V., scParadise: Tunable highly accurate m
    * - `Bibtex <https://www.biorxiv.org/highwire/citation/4104797/bibtext>`_
      - `XML <https://www.biorxiv.org/highwire/citation/4104797/endnote-8-xml>`_
      - `Mendeley <https://www.biorxiv.org/highwire/citation/4104797/mendeley>`_
+     - `Bookends <https://www.biorxiv.org/highwire/citation/4104797/bookends>`_
+     - `Easybib <https://www.biorxiv.org/highwire/citation/4104797/easybib>`_
+     - `Zotero <https://www.biorxiv.org/highwire/citation/4104797/zotero>`_
+     - `RIS <https://www.biorxiv.org/highwire/citation/4104797/ris>`_
 
 
 
