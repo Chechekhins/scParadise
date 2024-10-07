@@ -39,7 +39,7 @@ scAdam models
      - 0.984
      - 0.979
      - 4
-     - :cite:`2023:Li‎`
+     - :cite:`2023:Li`
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
@@ -53,7 +53,7 @@ scAdam models
      - 0.999
      - 0.999
      - 2
-     - :cite:`2021:‎Kozareva,2024:Hao`
+     - :cite:`2024:Hao,2021:‎Kozareva`
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
