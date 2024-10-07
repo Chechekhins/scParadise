@@ -61,7 +61,7 @@ scAdam models
      - 0.999
      - 0.999
      - 2
-     - :cite:p:`‎kozareva2021transcriptomic,hao2024cross`
+     - :cite:`‎kozareva2021transcriptomic,hao2024cross`
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
