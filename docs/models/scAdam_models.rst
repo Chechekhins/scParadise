@@ -3,7 +3,7 @@ scAdam models
 
 
 .. list-table::
-   :widths: 15 40 15 10 10 10 20
+   :widths: 10 40 15 10 10 10 20
    :header-rows: 1
 
    * - Model
