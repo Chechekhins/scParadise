@@ -1,7 +1,7 @@
 Citation
 ========
 
-Chechekhina, Elizaveta and Tkachuk, Vsevolod and Chechekhin, Vadim, scParadise: Tunable highly accurate multi-task cell type annotation and surface protein abundance prediction, 2024, https://www.biorxiv.org/content/early/2024/09/24/2024.09.23.614509, bioRxiv
+Chechekhina E., Tkachuk V., Chechekhin V., scParadise: Tunable highly accurate multi-task cell type annotation and surface protein abundance prediction, 2024, https://www.biorxiv.org/content/early/2024/09/24/2024.09.23.614509, bioRxiv
 
 `Bibtex <https://www.biorxiv.org/highwire/citation/4104797/bibtext>`_
 
