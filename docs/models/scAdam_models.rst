@@ -70,3 +70,9 @@ scAdam models
      - 2
      - :cite:p:`Hao2024‎`
 
+
+:cite:p:`Hao2024‎`
+:cite:p:`Hao2024‎`
+:cite:`‎Kozareva2021`
+:cite:p:`Hao2024‎`
+:cite:p:`‎Sikkema2023`
