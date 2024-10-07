@@ -19,14 +19,14 @@ scAdam models
      - 0.979
      - 0.979
      - 3
-     - :cite:p:`hao2021‎`
+     - :cite:p:`Hao2021‎`
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
      - 0.947
      - 0.942
      - 3
-     - :cite:p:`‎NEURIPS_DATASETS_AND_BENCHMARKS2021_158f3069`
+     - :cite:p:`‎Luecken2021`
    * - Human_Lung
      - Core Human Lung Cell Atlas
      - cells
@@ -40,33 +40,33 @@ scAdam models
      - 0.984
      - 0.979
      - 4
-     - :cite:p:`li2023integrated‎`
+     - :cite:p:`Li2023‎`
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
      - 0.967
      - 0.960
      - 4
-     - :cite:p:`‎li2024comprehensive`
+     - :cite:p:`‎Li2024`
    * - Mouse_Cerebellum
      - Single nuclei atlas of the Mouse cerebellum
      - nuclei
      - 0.999
      - 0.999
      - 2
-     - :cite:`‎kozareva2021transcriptomic,hao2024cross`
+     - :cite:`‎Kozareva2021,Hao2024`
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
      - 0.995
      - 0.994
      - 2
-     - :cite:p:`hao2024cross‎`
+     - :cite:p:`Hao2024‎`
    * - Marmoset_Cerebellum
      - Single nuclei atlas of the Marmoset cerebellum
      - nuclei
      - 0.988
      - 0.987
      - 2
-     - :cite:p:`hao2024cross‎`
+     - :cite:p:`Hao2024‎`
 
