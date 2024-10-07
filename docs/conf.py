@@ -44,7 +44,7 @@ autosummary_generate = True
 autodoc_member_order = "bysource"
 
 bibtex_bibfiles = ["refs.bib"]
-bibtex_default_style = 'author_year'
+bibtex_reference_style = "author_year"
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
