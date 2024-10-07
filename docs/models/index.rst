@@ -105,8 +105,3 @@ scEve models
      - 0.454
      - 134
      - :cite:p:`‎NEURIPS_DATASETS_AND_BENCHMARKS2021_158f3069`
-
-References
-----------
-
-.. bibliography:: /refs.bib
