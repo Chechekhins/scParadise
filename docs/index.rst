@@ -1,3 +1,7 @@
+.. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
+    :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 Welcome to scParadise documentation!
 ===================================
 
