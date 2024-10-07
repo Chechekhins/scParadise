@@ -14,6 +14,7 @@ Download pretrained model from `scParadise repository <https://github.com/Cheche
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    sceve.available_models
    sceve.download_model
@@ -26,6 +27,7 @@ Hyperparameter tuning is also available to achieve better model performance.
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    sceve.train
    sceve.tune
@@ -38,5 +40,6 @@ Modality prediction using downloaded or custom scEve model.
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
 
    sceve.predict
