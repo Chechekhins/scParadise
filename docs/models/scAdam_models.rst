@@ -19,7 +19,7 @@ scAdam models
      - 0.979
      - 0.979
      - 3
-     - :cite:p:`hao2021integrated‎`
+     - :cite:`hao2021integrated‎`
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
