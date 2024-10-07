@@ -15,7 +15,8 @@ Download pretrained model from `scParadise repository <https://github.com/Cheche
 
 .. autosummary:: 
    :nosignatures:
-   
+   :toctree: generated/
+
    scadam.available_models
    scadam.download_model
 
