@@ -46,7 +46,7 @@ scAdam models
      - 0.967
      - 0.960
      - 4
-     - :cite:`‎2024:Li`
+     - :cite:`2024:Li`
    * - Mouse_Cerebellum
      - Single nuclei atlas of the Mouse cerebellum
      - nuclei
@@ -60,11 +60,11 @@ scAdam models
      - 0.995
      - 0.994
      - 2
-     - :cite:`2024:Hao‎`
+     - :cite:`2024:Hao`
    * - Marmoset_Cerebellum
      - Single nuclei atlas of the Marmoset cerebellum
      - nuclei
      - 0.988
      - 0.987
      - 2
-     - :cite:`2024:Hao‎`
+     - :cite:`2024:Hao`
