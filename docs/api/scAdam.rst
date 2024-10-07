@@ -28,6 +28,7 @@ Hyperparameter tuning is also available to achieve better model performance.
 
 .. autosummary::
    :nosignatures:
+   :toctree: generated/
    
    scadam.train
    scadam.tune
@@ -39,5 +40,6 @@ Cell type annotation using downloaded or custom scAdam model.
 
 .. autosummary:: 
    :nosignatures:
+   :toctree: generated/
    
    scadam.predict
