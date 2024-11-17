@@ -61,7 +61,7 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 | Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Proteins |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Human_PBMC_3p  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 224 | 
-| Human_PBMC_5p  | Peripheral blood mononuclear cells of healthy adults 5' scRNA seq  | cells | 0.320 | 0.233 | 54 | 
+| Human_PBMC_5p  | Peripheral blood mononuclear cells of healthy adults 5' scRNA seq  | cells | 0.308 | 0.225 | 54 | 
 | Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 134 | 
 
 Mean AE - Mean Absolute Error
