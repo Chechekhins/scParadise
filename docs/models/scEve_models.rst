@@ -22,8 +22,8 @@ scEve models
    * - Human_PBMC_5p
      - Peripheral blood mononuclear cells of healthy adults 5' scRNA seq	
      - cells
-     - 0.320
-     - 0.233
+     - 0.308
+     - 0.225
      - 54
      - :cite:`2021:Hao‎`
    * - Human_BMMC
