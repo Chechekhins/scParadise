@@ -12,12 +12,19 @@ scEve models
      - MAE
      - Number of Proteins
      - Reference
-   * - Human_PBMC
+   * - Human_PBMC_3p
      - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
      - cells
      - 0.305
      - 0.226
      - 224
+     - :cite:`2021:Hao‎`
+   * - Human_PBMC_5p
+     - Peripheral blood mononuclear cells of healthy adults 5' scRNA seq	
+     - cells
+     - 0.320
+     - 0.233
+     - 54
      - :cite:`2021:Hao‎`
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
