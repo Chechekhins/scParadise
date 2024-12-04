@@ -25,9 +25,13 @@ dependencies:
   - zlib=1.2.13=h5eee18b_1
   - pip:
       - absl-py==2.1.0
+      - adjusttext==1.3.0
+      - aiobotocore==2.5.4
       - aiohappyeyeballs==2.4.2
       - aiohttp==3.10.8
+      - aioitertools==0.12.0
       - aiosignal==1.3.1
+      - airr==1.5.1
       - alembic==1.13.3
       - anndata==0.10.8
       - anyio==4.6.0
@@ -35,36 +39,53 @@ dependencies:
       - argon2-cffi-bindings==21.2.0
       - array-api-compat==1.8
       - arrow==1.3.0
+      - asciitree==0.3.3
       - asttokens==2.4.1
       - async-lru==2.0.4
       - async-timeout==4.0.3
       - attrs==24.2.0
+      - awkward==2.7.1
+      - awkward-cpp==42
       - babel==2.16.0
+      - bamnostic==1.1.10
       - beautifulsoup4==4.12.3
       - bleach==6.1.0
+      - botocore==1.31.17
       - certifi==2024.8.30
       - cffi==1.17.1
       - charset-normalizer==3.3.2
       - chex==0.1.86
+      - click==8.1.7
+      - cloudpickle==3.1.0
+      - colorcet==3.1.0
       - colorlog==6.8.2
       - comm==0.2.2
       - contextlib2==21.6.0
       - contourpy==1.3.0
       - cycler==0.12.1
+      - dask==2024.8.0
+      - dask-expr==1.1.10
+      - dask-image==2024.5.3
+      - datashader==0.16.3
       - debugpy==1.8.6
       - decorator==5.1.1
+      - decoupler==1.8.0
       - defusedxml==0.7.1
+      - distributed==2024.8.0
       - docrep==0.3.2
+      - episcanpy==0.4.0
       - etils==1.5.2
       - exceptiongroup==1.2.2
       - executing==2.1.0
+      - fasteners==0.19
       - fastjsonschema==2.20.0
       - filelock==3.16.1
       - flax==0.8.5
       - fonttools==4.54.1
       - fqdn==1.5.1
       - frozenlist==1.4.1
-      - fsspec==2024.9.0
+      - fsspec==2023.6.0
+      - geopandas==1.0.1
       - get-annotations==0.1.2
       - greenlet==3.1.1
       - h11==0.14.0
@@ -75,9 +96,12 @@ dependencies:
       - humanize==4.10.0
       - idna==3.10
       - igraph==0.11.6
+      - imageio==2.36.1
       - imbalanced-learn==0.12.3
       - importlib-metadata==8.5.0
       - importlib-resources==6.4.5
+      - inflect==7.4.0
+      - intervaltree==3.1.0
       - ipykernel==6.29.5
       - ipython==8.18.1
       - isoduration==20.11.0
@@ -87,6 +111,7 @@ dependencies:
       - jaxlib==0.4.30
       - jedi==0.19.1
       - jinja2==3.1.4
+      - jmespath==1.0.1
       - joblib==1.4.2
       - json5==0.9.25
       - jsonpointer==3.0.0
@@ -102,26 +127,33 @@ dependencies:
       - jupyterlab-pygments==0.3.0
       - jupyterlab-server==2.27.3
       - kiwisolver==1.4.7
+      - kneed==0.8.5
+      - lazy-loader==0.4
       - legacy-api-wrap==1.4
       - leidenalg==0.10.2
+      - levenshtein==0.26.1
       - lightning==2.4.0
       - lightning-utilities==0.11.7
       - llvmlite==0.43.0
+      - locket==1.0.0
       - mako==1.3.5
       - markdown-it-py==3.0.0
       - markupsafe==2.1.5
       - matplotlib==3.9.2
       - matplotlib-inline==0.1.7
+      - matplotlib-scalebar==0.8.1
       - mdurl==0.1.2
       - mistune==3.0.2
       - ml-collections==0.1.1
       - ml-dtypes==0.5.0
+      - more-itertools==10.5.0
       - mousipy==0.1.6
       - mpmath==1.3.0
       - msgpack==1.1.0
       - mudata==0.2.4
       - multidict==6.1.0
       - multipledispatch==1.0.0
+      - multiscale-spatial-image==1.0.1
       - muon==0.1.6
       - natsort==8.4.0
       - nbclient==0.10.0
@@ -131,6 +163,7 @@ dependencies:
       - networkx==3.2.1
       - notebook-shim==0.2.4
       - numba==0.60.0
+      - numcodecs==0.12.1
       - numpy==1.25.0
       - numpyro==0.15.3
       - nvidia-cublas-cu12==12.1.3.1
@@ -146,6 +179,8 @@ dependencies:
       - nvidia-nccl-cu12==2.20.5
       - nvidia-nvjitlink-cu12==12.6.68
       - nvidia-nvtx-cu12==12.1.105
+      - ome-zarr==0.9.0
+      - omnipath==1.0.8
       - opt-einsum==3.4.0
       - optax==0.2.3
       - optuna==4.0.0
@@ -154,56 +189,84 @@ dependencies:
       - packaging==24.1
       - pandas==2.2.3
       - pandocfilters==1.5.1
+      - param==2.1.1
+      - parasail==1.3.4
       - parso==0.8.4
+      - partd==1.4.2
       - patsy==0.5.6
       - pexpect==4.9.0
       - pillow==10.4.0
+      - pims==0.7
       - platformdirs==4.3.6
+      - pooch==1.8.2
       - prometheus-client==0.21.0
       - prompt-toolkit==3.0.48
       - protobuf==5.28.2
       - psutil==6.0.0
       - ptyprocess==0.7.0
       - pure-eval==0.2.3
+      - pyarrow==18.1.0
       - pycparser==2.22
+      - pyct==0.5.0
       - pygments==2.18.0
       - pynndescent==0.5.13
+      - pyogrio==0.10.0
       - pyparsing==3.1.4
+      - pyproj==3.6.1
       - pyro-api==0.1.2
       - pyro-ppl==1.9.1
+      - pysam==0.22.1
       - python-dateutil==2.9.0.post0
       - python-json-logger==2.0.7
+      - python-levenshtein==0.26.1
       - pytorch-lightning==2.4.0
       - pytorch-tabnet==4.1.0
       - pytz==2024.2
       - pyyaml==6.0.2
       - pyzmq==26.2.0
+      - rapidfuzz==3.10.1
       - referencing==0.35.1
       - requests==2.32.3
       - rfc3339-validator==0.1.4
       - rfc3986-validator==0.1.1
       - rich==13.8.1
       - rpds-py==0.20.0
+      - s3fs==2023.6.0
       - scanpy==1.10.3
+      - scgen==2.1.0
+      - scikit-image==0.24.0
       - scikit-learn==1.5.2
       - scipy==1.13.1
+      - scirpy==0.17.2
       - scparadise==0.1.2b0
       - scvi-tools==1.1.6.post2
       - seaborn==0.13.2
       - send2trash==1.8.3
       - session-info==1.0.0
+      - setuptools-scm==8.1.0
+      - shapely==2.0.6
       - six==1.16.0
+      - slicerator==1.1.0
       - sniffio==1.3.1
+      - sortedcontainers==2.4.0
       - soupsieve==2.6
+      - spatial-image==1.1.0
+      - spatialdata==0.2.5.post0
       - sqlalchemy==2.0.35
+      - squarify==0.4.4
+      - squidpy==1.6.1
       - stack-data==0.6.3
       - statsmodels==0.14.3
       - stdlib-list==0.10.0
       - sympy==1.13.3
+      - tbb==2022.0.0
+      - tblib==3.0.0
+      - tcmlib==1.2.0
       - tensorstore==0.1.66
       - terminado==0.18.1
       - texttable==1.7.0
       - threadpoolctl==3.5.0
+      - tifffile==2024.8.30
       - tinycss2==1.3.0
       - tomli==2.0.1
       - toolz==0.12.1
@@ -213,16 +276,27 @@ dependencies:
       - tqdm==4.66.5
       - traitlets==5.14.3
       - triton==3.0.0
+      - typeguard==4.4.1
       - types-python-dateutil==2.9.0.20240906
       - typing-extensions==4.12.2
       - tzdata==2024.2
       - umap-learn==0.5.6
       - uri-template==1.3.0
-      - urllib3==2.2.3
+      - urllib3==1.26.20
+      - validators==0.34.0
       - wcwidth==0.2.13
       - webcolors==24.8.0
       - webencodings==0.5.1
       - websocket-client==1.8.0
+      - wrapt==1.17.0
+      - xarray==2024.7.0
+      - xarray-dataclasses==1.8.0
+      - xarray-datatree==0.0.15
+      - xarray-schema==0.0.3
+      - xarray-spatial==0.4.0
+      - yamlordereddictloader==0.4.2
       - yarl==1.13.1
+      - zarr==2.18.2
+      - zict==3.0.0
       - zipp==3.20.2
 prefix: /home/vadim/anaconda3/envs/scparadise
