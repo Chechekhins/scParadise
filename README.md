@@ -26,7 +26,7 @@ Set Python environment in R Studio: Tools - Global Options - Python
 ```console
 conda env create -f scparadise.yml
 ```
-Installed environment includes scvi-tools, scanpy, muon, harmony, jupyterlab and other packages for scRNA-seq analysis.
+Installed environment includes scvi-tools, scanpy, muon, harmony, jupyterlab, pytorch, decoupler and other packages for scRNA-seq analysis.
 
 ## GPU support
 scParadise supports GPU usage automatically.
