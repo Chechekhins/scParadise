@@ -50,7 +50,7 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 # Tuning
 
-scParadise supports both hyperparameter and fine tuning.
+scParadise supports both hyperparameter tuning and warm start.
 More information in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/)
 
 # Available models
