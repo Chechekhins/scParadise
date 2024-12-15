@@ -48,7 +48,13 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
+# Tuning
+
+scParadise supports both hyperparameter and fine tuning.
+More information in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/)
+
 # Available models
+The full list of models is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/models/index.html)
 ### scAdam models
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
