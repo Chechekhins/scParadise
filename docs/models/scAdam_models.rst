@@ -54,6 +54,13 @@ scAdam models
      - 0.999
      - 2
      - :cite:`2024:Hao,2021:‎Kozareva`
+   * - Mouse_Hippocampus
+     - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
+     - nuclei
+     - 0.949
+     - 0.948
+     - 2
+     - unpublished data
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
