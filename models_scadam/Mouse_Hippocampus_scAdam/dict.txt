@@ -1,0 +1,1 @@
+[{"Dorsal": 0, "Ventral": 1}, {"Astrocyte": 0, "Ent/Sub": 1, "ExN.CA1.1": 2, "ExN.CA1.2": 3, "ExN.CA2": 4, "ExN.CA3": 5, "ExN.DG": 6, "ExN.Sub.1": 7, "ExN.Sub.2": 8, "GABAergic.1": 9, "GABAergic.2": 10, "GABAergic.3": 11, "GABAergic.4": 12, "GABAergic.5": 13, "Glutamatergic": 14, "Microglia": 15, "OPCs": 16, "Oligodendrocyte": 17}]
