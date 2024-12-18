@@ -30,7 +30,7 @@ Hyperparameter tuning is also available to achieve better model performance.
    :toctree: generated/
 
    sceve.train
-   sceve.tune
+   sceve.hyperparameter_tuning
    sceve.train_tuned
 
 Prediction 
