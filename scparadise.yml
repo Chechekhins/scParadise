@@ -71,6 +71,7 @@ dependencies:
       - decorator==5.1.1
       - decoupler==1.8.0
       - defusedxml==0.7.1
+      - deprecated==1.2.15
       - distributed==2024.8.0
       - docrep==0.3.2
       - episcanpy==0.4.0
@@ -198,6 +199,7 @@ dependencies:
       - pillow==10.4.0
       - pims==0.7
       - platformdirs==4.3.6
+      - plotly==5.24.1
       - pooch==1.8.2
       - prometheus-client==0.21.0
       - prompt-toolkit==3.0.48
@@ -208,6 +210,7 @@ dependencies:
       - pyarrow==18.1.0
       - pycparser==2.22
       - pyct==0.5.0
+      - pydot==3.0.3
       - pygments==2.18.0
       - pynndescent==0.5.13
       - pyogrio==0.10.0
@@ -234,18 +237,21 @@ dependencies:
       - s3fs==2023.6.0
       - scanpy==1.10.3
       - scgen==2.1.0
+      - scib==1.1.6
       - scikit-image==0.24.0
       - scikit-learn==1.5.2
       - scipy==1.13.1
       - scirpy==0.17.2
-      - scparadise==0.1.2b0
+      - scparadise==0.2.0b0
       - scvi-tools==1.1.6.post2
       - seaborn==0.13.2
       - send2trash==1.8.3
       - session-info==1.0.0
       - setuptools-scm==8.1.0
+      - shap==0.46.0
       - shapely==2.0.6
       - six==1.16.0
+      - slicer==0.0.8
       - slicerator==1.1.0
       - sniffio==1.3.1
       - sortedcontainers==2.4.0
@@ -262,6 +268,7 @@ dependencies:
       - tbb==2022.0.0
       - tblib==3.0.0
       - tcmlib==1.2.0
+      - tenacity==9.0.0
       - tensorstore==0.1.66
       - terminado==0.18.1
       - texttable==1.7.0
@@ -288,6 +295,7 @@ dependencies:
       - webcolors==24.8.0
       - webencodings==0.5.1
       - websocket-client==1.8.0
+      - wget==3.2
       - wrapt==1.17.0
       - xarray==2024.7.0
       - xarray-dataclasses==1.8.0
