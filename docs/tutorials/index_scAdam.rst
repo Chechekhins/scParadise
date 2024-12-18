@@ -8,4 +8,5 @@ Fast multi-task multi-class cell type annotation.
   
    notebooks/scAdam/scAdam_predict
    notebooks/scAdam/scAdam_train
+   notebooks/scAdam/scAdam_model_optimization
 
