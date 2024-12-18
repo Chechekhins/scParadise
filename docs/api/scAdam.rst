@@ -20,10 +20,10 @@ Download pretrained model from `scParadise repository <https://github.com/Cheche
    scadam.available_models
    scadam.download_model
 
-Model training and tuning
+Model training and optimization
 -------------------------
 Train custom scAdam model using your own reference dataset.
-Hyperparameter tuning is also available to achieve better model performance.
+Warm start training and hyperparameter tuning are also available to achieve better model performance.
 
 
 .. autosummary::
@@ -31,7 +31,8 @@ Hyperparameter tuning is also available to achieve better model performance.
    :toctree: generated/
    
    scadam.train
-   scadam.tune
+   scadam.warm_start
+   scadam.hyperparameter_tuning
    scadam.train_tuned
 
 Prediction 
