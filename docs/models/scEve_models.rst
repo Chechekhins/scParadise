@@ -33,3 +33,10 @@ scEve models
      - 0.454
      - 134
      - :cite:`2021:‎Luecken`
+   * - Mouse_Spleen_Lymph_node
+     - Spleen and Lymph node immune cells of healthy mouse
+     - cells
+     - 0.313
+     - 0.214
+     - 113
+     - `10x Genomics <https://www.10xgenomics.com/datasets/Mixture-of-cells-from-mouse-lymph-nodes-and-spleen-stained-with-totalseqc-mouse-universal-cocktail>`_.
