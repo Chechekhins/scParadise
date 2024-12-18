@@ -39,4 +39,4 @@ scEve models
      - 0.313
      - 0.214
      - 113
-     - `10x Genomics <https://www.10xgenomics.com/datasets/Mixture-of-cells-from-mouse-lymph-nodes-and-spleen-stained-with-totalseqc-mouse-universal-cocktail>`_.
+     - `10x Genomics <https://www.10xgenomics.com/datasets/Mixture-of-cells-from-mouse-lymph-nodes-and-spleen-stained-with-totalseqc-mouse-universal-cocktail>`_
