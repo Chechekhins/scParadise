@@ -14,7 +14,7 @@ Welcome to scParadise documentation!
   3) `scNoah` - benchmarking cell type annotation and modality prediction. 
 
 `scParadise` enables users to utilize a selection of pre-existing models (`scAdam` or `scEve`) 
-as well as to develop and train custom models tailored to specific research needs. 
+as well as to develop, train and optimize custom models tailored to specific research needs. 
 
 `scNoah` facilitates the evaluation of novel models and methods for automated cell type annotation 
 and modality prediction in scRNA-seq analysis.
