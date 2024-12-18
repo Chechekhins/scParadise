@@ -48,9 +48,9 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
-# Tuning
+# Model optimization
 
-scParadise supports both hyperparameter tuning and warm start.
+scParadise supports both hyperparameter tuning and warm start training.
 More information in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/)
 
 # Available models
