@@ -51,7 +51,7 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 # Model optimization
 
 scParadise supports both hyperparameter tuning and warm start training.
-More information in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/)
+More information in [scParadise documentation]([https://scparadise.readthedocs.io/en/latest/](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scAdam/scAdam_model_optimization.html))
 
 # Available models
 The full list of models is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/models/index.html)
