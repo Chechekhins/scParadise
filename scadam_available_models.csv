@@ -6,5 +6,16 @@ Human_Retina,Single cell atlas of the human retina,cells,0.984,0.979,4
 Mouse_Retina,Single cell atlas of the mouse retina,cells,0.967,0.960,4
 Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
 Mouse_Hippocampus,Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA),nuclei,0.949,0.948,2
+Mouse_iWAT,Pansci inguinal adipose tissue atlas,nuclei,0.988,0.950,2
+Mouse_gWAT,Pansci perigonadal adipose tissue atlas,nuclei,0.977,0.947,2
+Mouse_BAT,Pansci brown adipose tissue atlas,nuclei,0.979,0.945,2
+Mouse_Muscle,Pansci muscle atlas,nuclei,0.975,0.942,2
+Mouse_Stomach,Pansci stomach atlas,nuclei,0.962,0.914,2
+Mouse_Duodenum,Pansci duodenum atlas,nuclei,0.964,0.897,2
+Mouse_Ileum,Pansci ileum atlas,nuclei,0.973,0.950,2
+Mouse_Jejunum,Pansci jejunum atlas,nuclei,0.975,0.926,2
+Mouse_Colon,Pansci colon atlas,nuclei,0.968,0.933,2
+Mouse_Liver,Pansci liver atlas,nuclei,0.986,0.950,2
+Mouse_Lung,Pansci lung atlas,nuclei,0.975,0.953,2
 Macaque_Cerebellum,Single nuclei atlas of the Macaque cerebellum,nuclei,0.995,0.994,2
 Marmoset_Cerebellum,Single nuclei atlas of the Marmoset cerebellum,nuclei,0.988,0.987,2
