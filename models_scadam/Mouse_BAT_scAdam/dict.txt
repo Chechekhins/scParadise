@@ -1,0 +1,1 @@
+[{"Adipose": 0, "Endothelial": 1, "Immune": 2, "Muscle": 3, "Neural": 4, "Stromal": 5}, {"Adipoce stem and progenitor cells": 0, "Adipocytes": 1, "Brown adipocytes": 2, "Fcgbp positive cells": 3, "Lymphoid cells_B cells": 4, "Lymphoid cells_T cells": 5, "Mural cells": 6, "Myeloid cells": 7, "Neural cells": 8, "Skeletal muscle cells": 9, "Vascular endothelial cells": 10}]
