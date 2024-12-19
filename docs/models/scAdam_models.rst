@@ -61,6 +61,76 @@ scAdam models
      - 0.948
      - 2
      - unpublished data
+   * - Mouse_iWAT
+     - Pansci perigonadal adipose tissue atlas
+     - nuclei
+     - 0.977
+     - 0.947
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_BAT
+     - Pansci brown adipose tissue atlas
+     - nuclei
+     - 0.979
+     - 0.945
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Muscle
+     - Pansci muscle atlas
+     - nuclei
+     - 0.975	
+     - 0.942
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Stomach
+     - Pansci stomach atlas
+     - nuclei
+     - 0.962
+     - 0.914
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Duodenum
+     - Pansci duodenum atlas
+     - nuclei
+     - 0.964
+     - 0.897
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Ileum
+     - Pansci ileum atlas
+     - nuclei
+     - 0.973
+     - 0.950
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Jejunum
+     - Pansci jejunum atlas
+     - nuclei
+     - 0.975
+     - 0.926
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Colon
+     - Pansci colon atlas
+     - nuclei
+     - 0.968
+     - 0.933
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Liver
+     - Pansci liver atlas
+     - nuclei
+     - 0.986
+     - 0.950
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Lung
+     - Pansci lung atlas
+     - nuclei
+     - 0.975
+     - 0.953
+     - 2
+     - :cite:`2024:Zhang`
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
