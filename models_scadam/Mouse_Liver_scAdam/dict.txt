@@ -1,0 +1,1 @@
+[{"Adipose": 0, "Endothelial": 1, "Epithelial": 2, "Immune": 3, "Stromal": 4}, {"Adipocytes": 0, "Cacna1b positive cells": 1, "Cholangiocytes": 2, "Hepatic stellate cells": 3, "Hepatocytes": 4, "Lymphoid cells_B cells": 5, "Lymphoid cells_T cells": 6, "Mesothelial cells": 7, "Myeloid cells": 8, "Vascular endothelial cells": 9}]
