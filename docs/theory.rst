@@ -2,6 +2,11 @@ Theory
 ######
 This section aims to clarify the key concepts that underpin the operation of the scParadise library. Below are the characteristics of the scAdam and scEve models. Additionally, the quality control metrics used by scNoah are explained.
 
+
+.. math::
+   Precision = True Positives (TP) \\ 
+               True Positives (TP)  + False Positives (FP)
+
 Model
 *****
 A machine learning model is a computational framework or program that has been trained to recognize patterns and make predictions based on input data. It is the result of applying a machine learning algorithm to a dataset, allowing the model to learn from the data and generalize its knowledge to new, unseen instances.
