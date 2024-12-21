@@ -2,9 +2,6 @@ Theory
 ######
 This section aims to clarify the key concepts that underpin the operation of the scParadise library. Below are the characteristics of the scAdam and scEve models. Additionally, the quality control metrics used by scNoah are explained.
 
-.. math::
-   Precision = \frac {True Positives (TP)}{True Positives (TP)  + False Positives (FP)}
-
 Model
 *****
 A machine learning model is a computational framework or program that has been trained to recognize patterns and make predictions based on input data. It is the result of applying a machine learning algorithm to a dataset, allowing the model to learn from the data and generalize its knowledge to new, unseen instances.
@@ -95,9 +92,22 @@ Precision is a key metric in machine learning that evaluates the accuracy of a m
 Mathematically, precision can be expressed as:
 
 .. math::
-   Precision = True Positives (TP) \\ True Positives (TP)  + False Positives (FP)
+   Precision = \frac {True Positives (TP)}{True Positives (TP)  + False Positives (FP)}
 
 Where:
 •	True Positives (TP): The number of correct positive predictions made by the model.
 •	False Positives (FP): The number of incorrect positive predictions made by the model.
 
+Interpretation
+==============
+
+Precision answers the question: "Of all the instances predicted as positive, how many were actually positive?" A higher precision indicates that a larger proportion of predicted positives are indeed correct, which is particularly important in scenarios where false positives carry significant costs or consequences.
+
+Example
+=======
+For instance, in a T cell classification task, if a model predicts 100 cells as T cells but only 80 of those are indeed T cells (20 are false positives), the precision would be:
+
+.. math::
+   Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 or 80%
+
+This means that 80% of the cells classified as T cells were actually T cells.
