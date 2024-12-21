@@ -138,16 +138,16 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 actual
 
 F1-score
 ********
-The F1 score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
+The F1-score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
 
 Mathematically, f1-score can be expressed as:
 
 .. math::
-   F1-score = 2 \times \frac {Precision + Recall}{Precision × Recall}
+   F1_score = 2 \times \frac {Precision + Recall}{Precision × Recall}
 
 Interpretation
 ==============
-The F1 score ranges from 0 to 1, where:
+The F1-score ranges from 0 to 1, where:
 * 0 indicates the worst performance (the model failed to identify any true positives).
 * 1 indicates perfect precision and recall (the model correctly identifies all positive instances without any false positives).
 
@@ -160,8 +160,41 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
-   F1-score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7%
+   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7%
 
 
 Accuracy
 ********
+Accuracy is a fundamental metric used to evaluate the performance of machine learning models, particularly in classification tasks. It measures the overall correctness of a model's predictions by calculating the proportion of correct predictions out of the total number of predictions made.
+
+Mathematically, accuracy can be expressed as:
+
+.. math::
+   Accuracy = \frac {Correct Predictions}{Total Predictions} = \frac {TP+TN}{TP+TN+FP+FN}
+
+Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of cell type annotation should be regarded as a multiclass classification problem. In the context of multiclass classification (scRNA-seq cell type anotation), **accuracy** can also be expressed as:
+
+.. math::
+   Accuracy = \frac {\epsilon_i=1^N TP_i}{\epsilon_i=1^N (TP_i + FP_i + FN_i)}
+
+​Interpretation
+==============
+Accuracy values range from 0 to 1, or 0% to 100%. An accuracy of 1 (or 100%) indicates perfect predictions, while an accuracy of 0 means that all predictions were incorrect.
+
+Limitations
+===========
+While accuracy is a straightforward and intuitive measure, it may not always be the best indicator of model performance, especially in scRNA-seq cell type annotation.
+
+**Accuracy paradox**
+The "accuracy paradox" refers to situations where a model achieves high accuracy but performs poorly on critical aspects of the task. This often occurs in scRNA-seq cell type annotation where the majority cell type (CD14+ Monocytes in PBMC) dominates the predictions, leading to misleadingly high accuracy scores while neglecting minority cell types (Innate Lymphoid Cells in PBMC).
+
+To obtain a more comprehensive understanding of model performance, it is essential to use additional metrics such as precision, recall, F1 score, balanced accuracy, and others that account for the specific characteristics of the problem at hand.
+
+Example
+=======
+Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells detection model on a test dataset consisting of 1000 cells. The dataset contains 950 Monocytes and 50 AXL+ Dendritic cells. The model identified that there are 990 Monocytes and 10 AXL+ Dendritic cells in the dataset. Out of the 990 Monocytes identified by the model, 940 are true Monocytes, and out of the 10 AXL+ Dendritic cells, 0 are true AXL+ Dendritic cells. 
+
+.. math::
+   Accuracy = \frac {940 + 0}{990 + 10} = \frac {940}{1000} = 0.94 = 94%
+
+The model has a very high level of accuracy but is unable to detect AXL+ Dendritic cells.
