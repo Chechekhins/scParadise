@@ -53,7 +53,7 @@ scEve models
 *************
 
 
-scNoah mrtrics
+scNoah metrics
 **************
 
 The scNoah models are part of the scParadise framework, which is designed for benchmarking of cell type annotation methods and modality prediction in scRNA-seq data.
