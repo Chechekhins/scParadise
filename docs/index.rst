@@ -54,7 +54,7 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
       The API reference of scParadise modules and functions
 
 
-   .. grid-item-card:: GitHub
+   .. grid-item-card:: Theory
       :link: theory
       :link-type: doc
 
