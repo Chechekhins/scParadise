@@ -53,6 +53,13 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
       The API reference of scParadise modules and functions
 
+
+   .. grid-item-card:: GitHub
+      :link: theory
+      :link-type: doc
+
+      The theory of scParadise key concepts 
+
    .. grid-item-card:: GitHub
       :link: https://github.com/Chechekhins/scParadise
 
@@ -67,6 +74,7 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
    tutorials/index
    models/index
    api/index
+   theory 
    GitHub <https://github.com/Chechekhins/scParadise>
    references
    citation
