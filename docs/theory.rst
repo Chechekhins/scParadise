@@ -54,8 +54,8 @@ scEve models
 *************
 
 
-scNoah
-******
+scNoah mrtrics
+**************
 
 The scNoah models are part of the scParadise framework, which is designed for benchmarking of cell type annotation methods and modality prediction in scRNA-seq data.
 
@@ -83,4 +83,18 @@ scNoah is particularly useful in:
 *	Comparative Studies: scNoah can be used to evaluate and compare the effectiveness of various existing methods for cell type annotation and modality prediction, assisting in the selection of the most appropriate approach for specific datasets.
 
 *	Quality Control: By providing detailed metrics and visualizations, scNoah helps maintain high standards in the analysis of single-cell data, ensuring that findings are robust and reproducible. 
+
+
+Precision
+*********
+Precision is a key metric in machine learning that evaluates the accuracy of a model's positive predictions. It is defined as the ratio of true positive predictions to the total number of instances predicted as positive (which includes both true positives and false positives). Usefull for scAdam model quality control.
+
+Mathematically, precision can be expressed as:
+
+.. math::
+   Precision = (True Positives (TP)) / (True Positives (TP)  + False Positives (FP))
+
+Where:
+•	True Positives (TP): The number of correct positive predictions made by the model.
+•	False Positives (FP): The number of incorrect positive predictions made by the model.
 
