@@ -110,7 +110,7 @@ Example
 For instance, in a T cell classification task, if a model predicts 100 cells as T cells but only 80 of those are indeed T cells (20 are false positives), the precision would be:
 
 .. math::
-   Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 or 80%
+   Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80%
 
 This means that 80% of the cells classified as T cells were actually T cells.
 
@@ -133,7 +133,7 @@ Example
 Suppose a T cell detection model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
 
 .. math::
-   Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 or 80%
+   Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80%
 
 
 F1-score
@@ -143,7 +143,7 @@ The F1 score is a crucial evaluation metric used in machine learning, particular
 Mathematically, f1-score can be expressed as:
 
 .. math::
-   F1-score = 2x \frac {Precision + Recall}{Precision × Recall}
+   F1-score = 2 \times \frac {Precision + Recall}{Precision × Recall}
 
 Interpretation
 ==============
@@ -160,7 +160,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
-   F1-score = 2x \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 or 79.7%
+   F1-score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7%
 
 
 Accuracy
