@@ -17,5 +17,7 @@ Mouse_Jejunum,Pansci jejunum atlas,nuclei,0.975,0.926,2
 Mouse_Colon,Pansci colon atlas,nuclei,0.968,0.933,2
 Mouse_Liver,Pansci liver atlas,nuclei,0.986,0.950,2
 Mouse_Lung,Pansci lung atlas,nuclei,0.975,0.953,2
+Mouse_Kidney,Pansci kidney atlas,nuclei,0.988,0.949,2
+Mouse_Heart,Pansci heart atlas,nuclei,0.961,0.932,2
 Macaque_Cerebellum,Single nuclei atlas of the Macaque cerebellum,nuclei,0.995,0.994,2
 Marmoset_Cerebellum,Single nuclei atlas of the Marmoset cerebellum,nuclei,0.988,0.987,2
