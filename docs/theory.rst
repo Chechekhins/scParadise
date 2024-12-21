@@ -179,8 +179,9 @@ Mathematically, accuracy can be expressed as:
 Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of cell type annotation should be regarded as a multiclass classification problem. In the context of multiclass classification (scRNA-seq cell type anotation), **accuracy** can also be expressed as:
 
 .. math::
-   Accuracy = \frac {\Sigma_1^N TP_i}{\Sigma_1^N (TP_i + FP_i + FN_i)}
+   Accuracy = \frac {\sum_{i=1}^N TP_i}{\sum_{i=1}^N (TP_i + FP_i + FN_i)}
 
+i is a cell type.
 N is the total number of cell types.
 
 ​Interpretation
@@ -213,7 +214,7 @@ Balanced accuracy is a performance metric used to evaluate classification models
 In multiclass classification, balanced accuracy is calculated as the average of the recall scores for each class:
 
 .. math::
-   Balanced Accuracy = \frac {1}{N} \Sigma_(i=1)^N Recall_i
+   Balanced Accuracy = \frac {1}{N} \sum_{i=1}^N Recall_i
 
 i is a cell type.
 
