@@ -44,7 +44,7 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
       The table of scAdam and scEve models
 
-.. grid:: 2
+.. grid:: 3
    :gutter: 2
 
    .. grid-item-card:: API reference
