@@ -152,7 +152,7 @@ The F1-score ranges from 0 to 1, where:
 * 1 indicates perfect precision and recall (the model correctly identifies all positive instances without any false positives).
 
 A high F1 score generally signifies a well-balanced model that achieves both high precision and high recall, while a low F1 score often indicates a trade-off between these two metrics, suggesting that the model struggles to balance them effectively.
-​
+
 Example
 -------
 Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
