@@ -110,7 +110,7 @@ Example
 For instance, in a T cell classification task, if a model predicts 100 cells as T cells but only 80 of those are indeed T cells (20 are false positives), the precision would be:
 
 .. math::
-   Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80%
+   Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80\%
 
 This means that 80% of the cells classified as T cells were actually T cells.
 
@@ -133,7 +133,7 @@ Example
 Suppose a T cell detection model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
 
 .. math::
-   Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80%
+   Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80\%
 
 
 F1-score
@@ -160,7 +160,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
-   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7%
+   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7\%
 
 
 Accuracy
@@ -195,6 +195,6 @@ Example
 Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells detection model on a test dataset consisting of 1000 cells. The dataset contains 950 Monocytes and 50 AXL+ Dendritic cells. The model identified that there are 990 Monocytes and 10 AXL+ Dendritic cells in the dataset. Out of the 990 Monocytes identified by the model, 940 are true Monocytes, and out of the 10 AXL+ Dendritic cells, 0 are true AXL+ Dendritic cells. 
 
 .. math::
-   Accuracy = \frac {940 + 0}{990 + 10} = \frac {940}{1000} = 0.94 = 94%
+   Accuracy = \frac {940 + 0}{990 + 10} = \frac {940}{1000} = 0.94 = 94\%
 
 The model has a very high level of accuracy but is unable to detect AXL+ Dendritic cells.
