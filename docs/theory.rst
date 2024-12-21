@@ -26,9 +26,9 @@ The scAdam model is a component of the scParadise framework, which is designed f
 
 Overview of scAdam
 ==================
-#	Purpose: scAdam is primarily used for multi-level cell type annotation in single-cell datasets. It aims to enhance the accuracy and consistency of cell type predictions, particularly for rare cell types that are often challenging to identify with traditional methods.
+*	Purpose: scAdam is primarily used for multi-level cell type annotation in single-cell datasets. It aims to enhance the accuracy and consistency of cell type predictions, particularly for rare cell types that are often challenging to identify with traditional methods.
 
-#	Functionality: The model incorporates several key steps in its pipeline:
+*	Functionality: The model incorporates several key steps in its pipeline:
 
 1.	Feature Selection (optional): scAdam begins by selecting significant features (genes) that are most relevant for the classification task. This includes identifying highly variable genes and excluding those that do not contribute meaningfully to distinguishing between different cell types.
 
@@ -37,6 +37,7 @@ Overview of scAdam
 3.	Model Training: The model is then trained using the selected features and balanced data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
 
 Key Features
+============
 
 *	High Accuracy: scAdam has been shown to surpass existing methods in annotating rare cell types, achieving high average accuracy across diverse datasets.
 
