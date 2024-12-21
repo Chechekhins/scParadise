@@ -215,5 +215,24 @@ In multiclass classification, balanced accuracy is calculated as the average of 
 .. math::
    Balanced Accuracy = \frac {1}{N} \Sigma_(i=1)^N Recall_i
 
-i is a cell type
+i is a cell type.
+
 N is the total number of cell types.
+
+Importance in scRNA-seq annotation
+----------------------------------
+1. Handling Imbalance: Balanced accuracy is particularly useful in situations where some cell types are significantly underrepresented. By averaging recall/sensitivity across all cell types, it mitigates the bias that can occur when using standard accuracy, which may be skewed by the majority cell type.
+
+2. Equal Weighting: This metric ensures that each cell type has an equal impact on the overall performance evaluation, making it suitable for applications where identifying all cell types accurately is crucial.
+
+Example
+-------
+Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells detection model on a test dataset consisting of 1000 cells. The dataset contains 950 Monocytes and 50 AXL+ Dendritic cells. The model identified that there are 990 Monocytes and 10 AXL+ Dendritic cells in the dataset. Out of the 990 Monocytes identified by the model, 940 are true Monocytes, and out of the 10 AXL+ Dendritic cells, 0 are true AXL+ Dendritic cells. 
+
+.. math::
+   Recall/Sensitivity (Monocytes) = \frac {940}{950} = 0.989
+   Recall/Sensitivity (AXL+ Dendritic cells) = \frac {0}{50} = 0
+   Balanced Accuracy = \frac {0.989 + 0}{2} = 0.4945 = 49.45\%
+
+The model has a very high level of accuracy and low level of balanced accuracy. Model is unable to detect AXL+ Dendritic cells.
+
