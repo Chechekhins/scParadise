@@ -23,11 +23,12 @@ Key Characteristics
 
 4. Storage: Machine learning models can be saved as files or objects, allowing them to be reused for future predictions without needing retraining.
 
+
 scAdam models
 *************
 The scAdam model is a component of the scParadise framework, which is designed for fast reference-free multi-level multi-label cell type annotation. 
 
-Overview of scAdam
+Overview of scAdam 
 ==================
 *	Purpose: scAdam is primarily used for multi-level cell type annotation in single-cell datasets. It aims to enhance the accuracy and consistency of cell type predictions, particularly for rare cell types that are often challenging to identify with traditional methods.
 *	Functionality: The model incorporates several key steps in its pipeline:
@@ -37,7 +38,6 @@ Overview of scAdam
 
 Key Features
 ============
-
 *	High Accuracy and Balanced Accuracy: scAdam has been shown to surpass existing methods in annotating rare cell types, achieving high average accuracy and balanced_accuracy across diverse datasets.
 
 *	Robustness: The model provides consistent results even when applied to different test datasets, which is crucial for reproducibility in scientific research.
@@ -46,11 +46,31 @@ Key Features
 
 Applications
 ============
-
 scAdam is particularly valuable in biomedical research where understanding cellular composition and interactions within tissues is critical. By providing accurate annotations of cell types from complex single-cell datasets, it aids researchers in exploring tissue architecture and cellular functions more effectively. 
+
 
 scEve models
 *************
+The scEve models are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data. Here’s a detailed overview based on the information provided:
+
+Overview of scEve
+==================
+*	Purpose: The scEve models are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
+*	Functionality:
+    1. Surface Protein Prediction: scEve utilizes the expression data from selected features (genes) to make predictions about the abundance of specific cell surface proteins. This is important for identifying and characterizing different cell types based on their protein markers.
+    2. Integration with scAdam: The scEve models complement the scAdam models, which are focused on multi-level cell type annotation. Together, they enhance the overall analysis pipeline by providing both annotations and functional insights regarding cell surface markers.
+
+Key Features
+============
+* Enhanced Clustering and Cell Type Separation: The scEve models improve the clustering of cells and the separation of different cell types within single-cell datasets. This is particularly valuable in complex tissues where multiple cell types may be present in close proximity.
+* Visualization and Analysis Tools: By predicting surface protein levels, scEve aids in visualizing cellular composition and interactions, facilitating deeper biological insights.
+* Fast and Reliable: The models are designed to be efficient, enabling rapid analyses that are essential in modern biomedical research.
+
+Applications
+============
+The applications of scEve models include:
+* Cell Sorting: By predicting surface protein markers, researchers can isolate specific subpopulations of cells for further study. This is particularly useful in applications such as immunology and cancer research, where understanding specific cell types is critical.
+* Functional Studies: The information gleaned from surface protein predictions can guide experiments aimed at understanding cellular functions and interactions within various biological contexts. 
 
 
 scNoah metrics
