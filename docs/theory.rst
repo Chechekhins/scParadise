@@ -147,7 +147,7 @@ Recall, also known as sensitivity or the true positive rate, is a critical metri
 Mathematically, recall/sensitivity can be expressed as:
 
 .. math::
-   Recall/Sensitivity = \frac {True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
+   Recall/Sensitivity = \frac {True\,Positives\,(TP)}{True\,Positives\,(TP) + False\,Negatives\,(FN)}
 
 Interpretation
 --------------
@@ -168,7 +168,7 @@ The F1-score is a crucial evaluation metric used in machine learning, particular
 Mathematically, f1-score can be expressed as:
 
 .. math::
-   F1_score = 2 \times \frac {Precision + Recall}{Precision × Recall}
+   F1_score = 2 \times \frac {Precision + Recall}{Precision \times Recall}
 
 Interpretation
 --------------
@@ -185,7 +185,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
-   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 = 79.7\%
+   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 \times 0.75} = 0.797 = 79.7\%
 
 
 Accuracy
@@ -195,7 +195,7 @@ Accuracy is a fundamental metric used to evaluate the performance of machine lea
 Mathematically, accuracy can be expressed as:
 
 .. math::
-   Accuracy = \frac {Correct Predictions}{Total Predictions} = \frac {TP+TN}{TP+TN+FP+FN}
+   Accuracy = \frac {Correct\,Predictions}{Total\,Predictions} = \frac {TP+TN}{TP+TN+FP+FN}
 
 Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of cell type annotation should be regarded as a multiclass classification problem. In the context of multiclass classification (scRNA-seq cell type anotation), **accuracy** can also be expressed as:
 
@@ -203,6 +203,7 @@ Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of
    Accuracy = \frac {\sum_{i=1}^N TP_i}{\sum_{i=1}^N (TP_i + FP_i + FN_i)}
 
 i is a cell type.
+
 N is the total number of cell types.
 
 ​Interpretation
@@ -214,6 +215,7 @@ Limitations
 While accuracy is a straightforward and intuitive measure, it may not always be the best indicator of model performance, especially in scRNA-seq cell type annotation.
 
 **Accuracy paradox**
+
 The "accuracy paradox" refers to situations where a model achieves high accuracy but performs poorly on critical aspects of the task. This often occurs in scRNA-seq cell type annotation where the majority cell type (CD14+ Monocytes in PBMC) dominates the predictions, leading to misleadingly high accuracy scores while neglecting minority cell types (Innate Lymphoid Cells in PBMC).
 
 To obtain a more comprehensive understanding of model performance, it is essential to use additional metrics such as precision, recall, F1 score, balanced accuracy, and others that account for the specific characteristics of the problem at hand.
@@ -235,7 +237,7 @@ Balanced accuracy is a performance metric used to evaluate classification models
 In multiclass classification, balanced accuracy is calculated as the average of the recall scores for each class:
 
 .. math::
-   Balanced Accuracy = \frac {1}{N} \sum_{i=1}^N Recall_i
+   Balanced\,Accuracy = \frac {1}{N} \sum_{i=1}^N Recall_i
 
 i is a cell type.
 
@@ -258,7 +260,7 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
    Recall/Sensitivity (AXL+ Dendritic cells) = \frac {0}{50} = 0
 
 .. math::
-   Balanced Accuracy = \frac {0.989 + 0}{2} = 0.4945 = 49.45\%
+   Balanced\,Accuracy = \frac {0.989 + 0}{2} = 0.4945 = 49.45\%
 
 The model has a very high level of accuracy and low level of balanced accuracy. Model is unable to detect AXL+ Dendritic cells.
 
