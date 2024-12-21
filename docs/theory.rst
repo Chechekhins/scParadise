@@ -252,7 +252,11 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
 
 .. math::
    Recall/Sensitivity (Monocytes) = \frac {940}{950} = 0.989
+
+.. math::
    Recall/Sensitivity (AXL+ Dendritic cells) = \frac {0}{50} = 0
+
+.. math::
    Balanced Accuracy = \frac {0.989 + 0}{2} = 0.4945 = 49.45\%
 
 The model has a very high level of accuracy and low level of balanced accuracy. Model is unable to detect AXL+ Dendritic cells.
