@@ -82,6 +82,15 @@ scNoah is particularly useful in:
 
 *	Quality Control: By providing detailed metrics and visualizations, scNoah helps maintain high standards in the analysis of single-cell data, ensuring that findings are robust and reproducible. 
 
+.. figure:: 
+   :align: center
+   _static/TP_TN_FP_FN.png
+
+Where:
+1. True Positives (TP): The number of correct positive predictions made by the model.
+2. False Positives (FP): The number of incorrect positive predictions made by the model.
+3. True Negatives (TN): The number of correct negative predictions made by the model (model accurately identified instances that do not belong to the positive class).
+4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
 Precision
 *********
@@ -92,13 +101,8 @@ Mathematically, precision can be expressed as:
 .. math::
    Precision = \frac {True Positives (TP)}{True Positives (TP)  + False Positives (FP)}
 
-Where:
-•	True Positives (TP): The number of correct positive predictions made by the model.
-•	False Positives (FP): The number of incorrect positive predictions made by the model.
-
 Interpretation
 ==============
-
 Precision answers the question: "Of all the instances predicted as positive, how many were actually positive?" A higher precision indicates that a larger proportion of predicted positives are indeed correct, which is particularly important in scenarios where false positives carry significant costs or consequences.
 
 Example
@@ -109,3 +113,55 @@ For instance, in a T cell classification task, if a model predicts 100 cells as 
    Precision = \frac {80}{80+20} = \frac {80}{100} = 0.8 or 80%
 
 This means that 80% of the cells classified as T cells were actually T cells.
+
+
+Recall/Sensitivity
+******************
+Recall, also known as sensitivity or the true positive rate, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
+
+Mathematically, recall/sensitivity can be expressed as:
+
+.. math::
+   Recall/Sensitivity = \frac {True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
+
+Interpretation
+==============
+Recall/Sensitivity answers the question: "What fraction of actual positive instances are correctly identified by the model?" It measures the ability of a classification model to capture all relevant instances from the dataset. 
+
+Example
+=======
+Suppose a T cell detection model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
+
+.. math::
+   Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 or 80%
+
+
+F1-score
+********
+The F1 score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
+
+Mathematically, f1-score can be expressed as:
+
+.. math::
+   F1-score = 2x \frac {Precision + Recall}{Precision × Recall}
+
+Interpretation
+==============
+The F1 score ranges from 0 to 1, where:
+* 0 indicates the worst performance (the model failed to identify any true positives).
+* 1 indicates perfect precision and recall (the model correctly identifies all positive instances without any false positives).
+
+A high F1 score generally signifies a well-balanced model that achieves both high precision and high recall, while a low F1 score often indicates a trade-off between these two metrics, suggesting that the model struggles to balance them effectively.
+​
+Example
+=======
+Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
+* Precision: 0.85 (the model correctly identifies 85% of the T cells)
+* Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
+
+.. math::
+   F1-score = 2x \frac {0.85 + 0.75}{0.85 × 0.75} = 0.797 or 79.7%
+
+
+Accuracy
+********
