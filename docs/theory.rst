@@ -258,10 +258,10 @@ Example
 Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells detection model on a test dataset consisting of 1000 cells. The dataset contains 950 Monocytes and 50 AXL+ Dendritic cells. The model identified that there are 990 Monocytes and 10 AXL+ Dendritic cells in the dataset. Out of the 990 Monocytes identified by the model, 940 are true Monocytes, and out of the 10 AXL+ Dendritic cells, 0 are true AXL+ Dendritic cells. 
 
 .. math::
-   Recall/Sensitivity (Monocytes) = \frac {940}{950} = 0.989
+   Recall/Sensitivity\,(Monocytes) = \frac {940}{950} = 0.989
 
 .. math::
-   Recall/Sensitivity (AXL+ Dendritic cells) = \frac {0}{50} = 0
+   Recall/Sensitivity\,(AXL+ Dendritic cells) = \frac {0}{50} = 0
 
 .. math::
    Balanced\,Accuracy = \frac {0.989 + 0}{2} = 0.4945 = 49.45\%
