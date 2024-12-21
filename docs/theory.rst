@@ -87,9 +87,13 @@ scNoah is particularly useful in:
    :align: center
 
 Where:
+
 1. True Positives (TP): The number of correct positive predictions made by the model.
+
 2. False Positives (FP): The number of incorrect positive predictions made by the model.
+
 3. True Negatives (TN): The number of correct negative predictions made by the model (model accurately identified instances that do not belong to the positive class).
+
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
 Precision
