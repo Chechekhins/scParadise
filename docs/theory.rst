@@ -4,7 +4,6 @@ This section aims to clarify the key concepts that underpin the operation of the
 
 
 .. math::
-   :nowrap: False
    Precision = /frac {True Positives (TP)} {True Positives (TP)  + False Positives (FP)}
 
 Model
