@@ -93,7 +93,7 @@ Where:
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
 Precision
-*********
+=========
 Precision is a key metric in machine learning that evaluates the accuracy of a model's positive predictions. It is defined as the ratio of true positive predictions to the total number of instances predicted as positive (which includes both true positives and false positives). Usefull for scAdam model quality control.
 
 Mathematically, precision can be expressed as:
@@ -102,11 +102,11 @@ Mathematically, precision can be expressed as:
    Precision = \frac {True Positives (TP)}{True Positives (TP)  + False Positives (FP)}
 
 Interpretation
-==============
+--------------
 Precision answers the question: "Of all the instances predicted as positive, how many were actually positive?" A higher precision indicates that a larger proportion of predicted positives are indeed correct, which is particularly important in scenarios where false positives carry significant costs or consequences.
 
 Example
-=======
+-------
 For instance, in a T cell classification task, if a model predicts 100 cells as T cells but only 80 of those are indeed T cells (20 are false positives), the precision would be:
 
 .. math::
@@ -116,7 +116,7 @@ This means that 80% of the cells classified as T cells were actually T cells.
 
 
 Recall/Sensitivity
-******************
+==================
 Recall, also known as sensitivity or the true positive rate, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
 
 Mathematically, recall/sensitivity can be expressed as:
@@ -125,11 +125,11 @@ Mathematically, recall/sensitivity can be expressed as:
    Recall/Sensitivity = \frac {True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
 
 Interpretation
-==============
+--------------
 Recall/Sensitivity answers the question: "What fraction of actual positive instances are correctly identified by the model?" It measures the ability of a classification model to capture all relevant instances from the dataset. 
 
 Example
-=======
+-------
 Suppose a T cell detection model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
 
 .. math::
@@ -137,7 +137,7 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 actual
 
 
 F1-score
-********
+========
 The F1-score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
 
 Mathematically, f1-score can be expressed as:
@@ -146,7 +146,7 @@ Mathematically, f1-score can be expressed as:
    F1_score = 2 \times \frac {Precision + Recall}{Precision × Recall}
 
 Interpretation
-==============
+--------------
 The F1-score ranges from 0 to 1, where:
 * 0 indicates the worst performance (the model failed to identify any true positives).
 * 1 indicates perfect precision and recall (the model correctly identifies all positive instances without any false positives).
@@ -154,7 +154,7 @@ The F1-score ranges from 0 to 1, where:
 A high F1 score generally signifies a well-balanced model that achieves both high precision and high recall, while a low F1 score often indicates a trade-off between these two metrics, suggesting that the model struggles to balance them effectively.
 ​
 Example
-=======
+-------
 Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
 * Precision: 0.85 (the model correctly identifies 85% of the T cells)
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
@@ -164,7 +164,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 
 
 Accuracy
-********
+========
 Accuracy is a fundamental metric used to evaluate the performance of machine learning models, particularly in classification tasks. It measures the overall correctness of a model's predictions by calculating the proportion of correct predictions out of the total number of predictions made.
 
 Mathematically, accuracy can be expressed as:
@@ -178,11 +178,11 @@ Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of
    Accuracy = \frac {\epsilon_i=1^N TP_i}{\epsilon_i=1^N (TP_i + FP_i + FN_i)}
 
 ​Interpretation
-==============
+--------------
 Accuracy values range from 0 to 1, or 0% to 100%. An accuracy of 1 (or 100%) indicates perfect predictions, while an accuracy of 0 means that all predictions were incorrect.
 
 Limitations
-===========
+-----------
 While accuracy is a straightforward and intuitive measure, it may not always be the best indicator of model performance, especially in scRNA-seq cell type annotation.
 
 **Accuracy paradox**
@@ -191,7 +191,7 @@ The "accuracy paradox" refers to situations where a model achieves high accuracy
 To obtain a more comprehensive understanding of model performance, it is essential to use additional metrics such as precision, recall, F1 score, balanced accuracy, and others that account for the specific characteristics of the problem at hand.
 
 Example
-=======
+-------
 Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells detection model on a test dataset consisting of 1000 cells. The dataset contains 950 Monocytes and 50 AXL+ Dendritic cells. The model identified that there are 990 Monocytes and 10 AXL+ Dendritic cells in the dataset. Out of the 990 Monocytes identified by the model, 940 are true Monocytes, and out of the 10 AXL+ Dendritic cells, 0 are true AXL+ Dendritic cells. 
 
 .. math::
