@@ -105,6 +105,7 @@ scNoah is particularly useful in:
 
 .. figure:: _static/TP_TN_FP_FN.png
    :align: center
+   :width: 75%
 
 Where:
 
