@@ -175,7 +175,9 @@ Mathematically, accuracy can be expressed as:
 Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of cell type annotation should be regarded as a multiclass classification problem. In the context of multiclass classification (scRNA-seq cell type anotation), **accuracy** can also be expressed as:
 
 .. math::
-   Accuracy = \frac {\epsilon_i=1^N TP_i}{\epsilon_i=1^N (TP_i + FP_i + FN_i)}
+   Accuracy = \frac {\Sigma_1^N TP_i}{\Sigma_1^N (TP_i + FP_i + FN_i)}
+
+N is the total number of cell types.
 
 ​Interpretation
 --------------
