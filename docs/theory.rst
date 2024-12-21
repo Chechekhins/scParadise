@@ -2,10 +2,8 @@ Theory
 ######
 This section aims to clarify the key concepts that underpin the operation of the scParadise library. Below are the characteristics of the scAdam and scEve models. Additionally, the quality control metrics used by scNoah are explained.
 
-r"""
 .. math::
    Precision = \frac {True Positives (TP)}{True Positives (TP)  + False Positives (FP)}
-"""
 
 Model
 *****
