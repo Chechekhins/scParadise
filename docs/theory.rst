@@ -33,11 +33,11 @@ Overview of scAdam
 
 *	Functionality: The model incorporates several key steps in its pipeline:
 
- 1.	Feature Selection (optional): scAdam begins by selecting significant features (genes) that are most relevant for the classification task. This includes identifying highly variable genes and excluding those that do not contribute meaningfully to distinguishing between different cell types.
+   1.	Feature Selection (optional): scAdam begins by selecting significant features (genes) that are most relevant for the classification task. This includes identifying highly variable genes and excluding those that do not contribute meaningfully to distinguishing between different cell types.
 
- 2.	Automated Dataset Balancing (optional): Given the imbalanced nature of many single-cell datasets (where certain cell types are underrepresented), scAdam employs techniques to balance the dataset, ensuring that all classes are adequately represented during training.
+   2.	Automated Dataset Balancing (optional): Given the imbalanced nature of many single-cell datasets (where certain cell types are underrepresented), scAdam employs techniques to balance the dataset, ensuring that all classes are adequately represented during training.
 
- 3.	Model Training: The model is then trained using the selected features and balanced data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
+   3.	Model Training: The model is then trained using the selected features and balanced data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
 
 Key Features
 ============
@@ -67,8 +67,8 @@ Overview of scNoah
 *	Purpose: scNoah serves as a benchmarking tool within the scParadise framework. Its primary function is to evaluate the performance of cell type annotation and modality prediction methods, ensuring that these processes are reliable and accurate.
 
 *	Functionality:
- 1. Unified Benchmarking: scNoah provides a unified approach to assess various automatic cell type annotation methods and modality prediction techniques. This is crucial for comparing different models and understanding their strengths and weaknesses.
- 2. Comprehensive Metrics: The model employs a range of classic machine learning metrics, such as accuracy, balanced accuracy, precision, sensitivity, specificity, F1-score, and geometric mean. These metrics help in evaluating the quality of predictions made by different models.
+   1. Unified Benchmarking: scNoah provides a unified approach to assess various automatic cell type annotation methods and modality prediction techniques. This is crucial for comparing different models and understanding their strengths and weaknesses.
+   2. Comprehensive Metrics: The model employs a range of classic machine learning metrics, such as accuracy, balanced accuracy, precision, sensitivity, specificity, F1-score, and geometric mean. These metrics help in evaluating the quality of predictions made by different models.
 
 Key Features
 ============
