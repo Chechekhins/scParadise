@@ -92,7 +92,7 @@ Precision is a key metric in machine learning that evaluates the accuracy of a m
 Mathematically, precision can be expressed as:
 
 .. math::
-   Precision = (True Positives (TP)) / (True Positives (TP)  + False Positives (FP))
+   Precision = True Positives (TP) \\ True Positives (TP)  + False Positives (FP)
 
 Where:
 •	True Positives (TP): The number of correct positive predictions made by the model.
