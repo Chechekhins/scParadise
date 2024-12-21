@@ -4,7 +4,10 @@ This section aims to clarify the key concepts that underpin the operation of the
 
 
 .. math::
-   Precision = \frac {True Positives (TP)} {True Positives (TP)  + False Positives (FP)}
+   Precision = \frac 
+               {
+               True Positives (TP)
+               } {True Positives (TP)  + False Positives (FP)}
 
 Model
 *****
