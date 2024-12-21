@@ -131,6 +131,20 @@ scAdam models
      - 0.953
      - 2
      - :cite:`2024:Zhang`
+   * - Mouse_Kidney
+     - Pansci kidney atlas
+     - nuclei
+     - 0.988
+     - 0.949
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Heart
+     - Pansci heart atlas
+     - nuclei
+     - 0.961
+     - 0.932
+     - 2
+     - :cite:`2024:Zhang`
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
