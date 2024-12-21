@@ -9,9 +9,9 @@ Welcome to scParadise documentation!
 
 `scParadise` includes three sets of tools: 
 
-  1) `scAdam` - fast multi-task multi-class cell type annotation; 
-  2) `scEve` - modality prediction; 
-  3) `scNoah` - benchmarking cell type annotation and modality prediction. 
+    1) `scAdam` - fast multi-task multi-class cell type annotation; 
+    2) `scEve` - modality prediction; 
+    3) `scNoah` - benchmarking cell type annotation and modality prediction. 
 
 `scParadise` enables users to utilize a selection of pre-existing models (`scAdam` or `scEve`) 
 as well as to develop, train and optimize custom models tailored to specific research needs. 
