@@ -104,7 +104,7 @@ scNoah is particularly useful in:
 *	Quality Control: By providing detailed metrics and visualizations, scNoah helps maintain high standards in the analysis of single-cell data, ensuring that findings are robust and reproducible. 
 
 .. figure:: _static/TP_TN_FP_FN.png
-   :width: 75%
+   :scale: 50% 
    :align: center
 
 Where:
