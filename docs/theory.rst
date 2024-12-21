@@ -200,3 +200,16 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
    Accuracy = \frac {940 + 0}{990 + 10} = \frac {940}{1000} = 0.94 = 94\%
 
 The model has a very high level of accuracy but is unable to detect AXL+ Dendritic cells.
+
+
+Balanced accuracy
+=================
+Balanced accuracy is a performance metric used to evaluate classification models, particularly in multiclass scenarios (scRNA-seq cell type annotation) where the class (cell type) distribution may be imbalanced. In scRNA-seq cell type annotation it provides a more reliable assessment of model performance by averaging the recall (sensitivity) across all cell types, ensuring that each cell type contributes equally to the final score.
+
+In multiclass classification, balanced accuracy is calculated as the average of the recall scores for each class:
+
+.. math::
+   Balanced Accuracy = \frac {1}{N} \Sigma_(i=1)^N Recall_i
+
+i is a cell type
+N is the total number of cell types.
