@@ -20,3 +20,30 @@ Key Characteristics
 
 4. Storage: Machine learning models can be saved as files or objects, allowing them to be reused for future predictions without needing retraining.
 
+scAdam models
+*************
+The scAdam model is a component of the scParadise framework, which is designed for advanced single-cell RNA sequencing (scRNA-seq) analysis. Here’s a detailed overview of scAdam based on the provided information:
+
+Overview of scAdam
+==================
+#	Purpose: scAdam is primarily used for multi-level cell type annotation in single-cell datasets. It aims to enhance the accuracy and consistency of cell type predictions, particularly for rare cell types that are often challenging to identify with traditional methods.
+
+#	Functionality: The model incorporates several key steps in its pipeline:
+
+1.	Feature Selection (optional): scAdam begins by selecting significant features (genes) that are most relevant for the classification task. This includes identifying highly variable genes and excluding those that do not contribute meaningfully to distinguishing between different cell types.
+
+2.	Automated Dataset Balancing (optional): Given the imbalanced nature of many single-cell datasets (where certain cell types are underrepresented), scAdam employs techniques to balance the dataset, ensuring that all classes are adequately represented during training.
+
+3.	Model Training: The model is then trained using the selected features and balanced data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
+
+Key Features
+
+*	High Accuracy: scAdam has been shown to surpass existing methods in annotating rare cell types, achieving high average accuracy across diverse datasets.
+
+*	Robustness: The model provides consistent results even when applied to different test datasets, which is crucial for reproducibility in scientific research.
+
+*	Multi-task Learning: scAdam supports multitasking capabilities, enabling it to extract individual cell types for more targeted investigations.
+
+Applications
+
+scAdam is particularly valuable in biomedical research where understanding cellular composition and interactions within tissues is critical. By providing accurate annotations of cell types from complex single-cell datasets, it aids researchers in exploring tissue architecture and cellular functions more effectively. 
