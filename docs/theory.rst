@@ -22,7 +22,7 @@ Key Characteristics
 
 scAdam models
 *************
-The scAdam model is a component of the scParadise framework, which is designed for advanced single-cell RNA sequencing (scRNA-seq) analysis. Here’s a detailed overview of scAdam based on the provided information:
+The scAdam model is a component of the scParadise framework, which is designed for fast reference-free multi-level multi-label cell type annotation. 
 
 Overview of scAdam
 ==================
@@ -39,12 +39,48 @@ Overview of scAdam
 Key Features
 ============
 
-*	High Accuracy: scAdam has been shown to surpass existing methods in annotating rare cell types, achieving high average accuracy across diverse datasets.
+*	High Accuracy and Balanced Accuracy: scAdam has been shown to surpass existing methods in annotating rare cell types, achieving high average accuracy and balanced_accuracy across diverse datasets.
 
 *	Robustness: The model provides consistent results even when applied to different test datasets, which is crucial for reproducibility in scientific research.
 
 *	Multi-task Learning: scAdam supports multitasking capabilities, enabling it to extract individual cell types for more targeted investigations.
 
 Applications
+============
 
 scAdam is particularly valuable in biomedical research where understanding cellular composition and interactions within tissues is critical. By providing accurate annotations of cell types from complex single-cell datasets, it aids researchers in exploring tissue architecture and cellular functions more effectively. 
+
+scEve models
+*************
+
+
+scNoah
+******
+
+The scNoah models are part of the scParadise framework, which is designed for benchmarking of cell type annotation methods and modality prediction in scRNA-seq data.
+
+Overview of scNoah
+==================
+*	Purpose: scNoah serves as a benchmarking tool within the scParadise framework. Its primary function is to evaluate the performance of cell type annotation and modality prediction methods, ensuring that these processes are reliable and accurate.
+
+*	Functionality:
+ 1. Unified Benchmarking: scNoah provides a unified approach to assess various automatic cell type annotation methods and modality prediction techniques. This is crucial for comparing different models and understanding their strengths and weaknesses.
+ 2. Comprehensive Metrics: The model employs a range of classic machine learning metrics, such as accuracy, balanced accuracy, precision, sensitivity, specificity, F1-score, and geometric mean. These metrics help in evaluating the quality of predictions made by different models.
+
+Key Features
+============
+
+*	Visualization Tools: scNoah includes tools for visualizing prediction performance using normalized confusion matrices. This allows researchers to see how well each model performs across different cell types, highlighting areas where predictions may be inconsistent or inaccurate.
+
+*	Detailed Quality Assessment: The model emphasizes the need for a thorough evaluation of cell type annotation methods by recommending the use of multiple test datasets. This approach helps ensure reproducibility and reliability in predictions across diverse datasets.
+
+*	Support for Modality Prediction: In addition to benchmarking cell type annotation, scNoah also facilitates the assessment of modality prediction methods, making it a versatile tool within the scParadise framework.
+
+Applications
+============
+scNoah is particularly useful in:
+
+*	Comparative Studies: scNoah can be used to evaluate and compare the effectiveness of various existing methods for cell type annotation and modality prediction, assisting in the selection of the most appropriate approach for specific datasets.
+
+*	Quality Control: By providing detailed metrics and visualizations, scNoah helps maintain high standards in the analysis of single-cell data, ensuring that findings are robust and reproducible. 
+
