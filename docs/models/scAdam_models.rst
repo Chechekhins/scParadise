@@ -33,6 +33,13 @@ scAdam models
      - 0.964
      - 5
      - :cite:`2023:Sikkema`
+   * - Human_oropharyngeal_SCC
+     - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNAseq
+     - cells
+     - 0.972
+     - 0.968
+     - 2
+     - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
    * - Human_Retina
      - Single cell atlas of the human retina
      - cells
