@@ -299,6 +299,6 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0 + 0 + 1}{4}} = \approx 0.559
+   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0 + 0 + 1}{4}} \approx 0.559
 
 
