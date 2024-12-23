@@ -117,7 +117,7 @@ Where:
 
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
-For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref: `precision <Precision>`, recall, F1-score, accuracy, balanced accuracy, geometric mean, and the index of balanced accuracy of the geometric mean.
+For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref:`precision <Precision>`, recall, F1-score, accuracy, balanced accuracy, geometric mean, and the index of balanced accuracy of the geometric mean.
 
 For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: RMSE, MedianAE, MeanAE, EVS, and R² score.
 
