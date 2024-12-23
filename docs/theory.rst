@@ -268,3 +268,18 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
 
 The model has a very high level of accuracy and low level of balanced accuracy. Model is unable to detect AXL+ Dendritic cells.
 
+Root Mean Square Error (RMSE)
+=============================
+Root Mean Square Error (RMSE) is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted values and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE is used as a quality metric for the performance of scEve models.
+
+RMSE is defined mathematically as the square root of the average of the squared differences between predicted values (y_pred) and actual values (y_true).
+
+.. math::
+   RMSE = \sqrt{\frac {1}{N} \sum_{i=1}^N (y_true_i - y_pred_i)^2}
+
+Interpretation
+--------------
+1. Lower RMSE Values: Indicate a better fit of the model to the data, meaning that predictions are close to actual values.
+2. Higher RMSE Values: Suggest poorer model performance, indicating larger discrepancies between predicted and actual values.
+3. An RMSE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
+
