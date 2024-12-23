@@ -117,10 +117,11 @@ Where:
 
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
-For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: precision, recall, F1-score, accuracy, balanced accuracy, geometric mean, and the index of balanced accuracy of the geometric mean.
+For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref: `precision <Precision>`, recall, F1-score, accuracy, balanced accuracy, geometric mean, and the index of balanced accuracy of the geometric mean.
 
 For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: RMSE, MedianAE, MeanAE, EVS, and R² score.
 
+.. _Precision:
 Precision
 =========
 Precision is a key metric in machine learning that evaluates the accuracy of a model's positive predictions. It is defined as the ratio of true positive predictions to the total number of instances predicted as positive (which includes both true positives and false positives). Usefull for scAdam model quality control.
