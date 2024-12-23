@@ -292,7 +292,9 @@ Interpretation
 Example
 -------
 Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
+
 * Actual Values: [3, 0, 2, 7]
+
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
