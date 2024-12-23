@@ -278,7 +278,9 @@ RMSE is defined mathematically as the square root of the average of the squared 
    RMSE = \sqrt{\frac {1}{N} \sum_{i=1}^N (y_{true\,i} - y_{pred\,i})^2}
 
 N is the number of cells.
+
 `y_true` is the actual value for observation (surface protein) i.
+
 `y_pred` is the predicted value for observation (surface protein) i. 
 
 Interpretation
