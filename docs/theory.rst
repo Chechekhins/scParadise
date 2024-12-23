@@ -278,17 +278,14 @@ RMSE is defined mathematically as the square root of the average of the squared 
    RMSE = \sqrt{\frac {1}{N} \sum_{i=1}^N (y_{true\,i} - y_{pred\,i})^2}
 
 N is the number of cells.
-
-`y_true` is the actual value for observation.
-
-`y_pred` is the predicted value for observation. 
+`y_true` is the actual value for observation (surface protein) i.
+`y_pred` is the predicted value for observation (surface protein) i. 
 
 Interpretation
 --------------
 1. Lower RMSE Values: Indicate a better fit of the model to the data, meaning that predictions are close to actual values.
 2. Higher RMSE Values: Suggest poorer model performance, indicating larger discrepancies between predicted and actual values.
 3. An RMSE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
-
 
 Example
 -------
@@ -297,4 +294,6 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 (0 - 0)^2 (2 - 2)^2 (7 - 8)^2}
+   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0 + 0 + 1}{4}} = \approx 0.559
+
+
