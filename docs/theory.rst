@@ -275,7 +275,13 @@ Root Mean Square Error (RMSE) is a statistical measure used to assess the accura
 RMSE is defined mathematically as the square root of the average of the squared differences between predicted values (y_pred) and actual values (y_true).
 
 .. math::
-   RMSE = \sqrt{\frac {1}{N} \sum_{i=1}^N (y_true_i - y_pred_i)^2}
+   RMSE = \sqrt{\frac {1}{N} \sum_{i=1}^N (y_{true\,i} - y_{pred\,i})^2}
+
+N is the number of cells.
+
+`y_true` is the actual value for observation.
+
+`y_pred` is the predicted value for observation. 
 
 Interpretation
 --------------
@@ -283,3 +289,12 @@ Interpretation
 2. Higher RMSE Values: Suggest poorer model performance, indicating larger discrepancies between predicted and actual values.
 3. An RMSE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
+
+Example
+-------
+Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
+* Actual Values: [3, 0, 2, 7]
+* Predicted Values: [2.5, 0.0, 2, 8]
+
+.. math::
+   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 (0 - 0)^2 (2 - 2)^2 (7 - 8)^2}
