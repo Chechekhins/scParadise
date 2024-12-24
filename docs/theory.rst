@@ -117,7 +117,7 @@ Where:
 
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
-For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref:`precision <Precision>`, :ref:`recall <Recall>`, :ref:`F1-score <F1score>`, :ref:`accuracy <Accuracy>`, :ref:`balanced accuracy <Balancedaccuracy>`, :ref:`geometric mean <geometricmean>`, and the :ref:`index of balanced accuracy of the geometric mean <ibagm>`.
+For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref:`precision <Precision>`, :ref:`recall <Recall>`, :ref:`specificity <specificity>`, :ref:`F1-score <F1score>`, :ref:`accuracy <Accuracy>`, :ref:`balanced accuracy <Balancedaccuracy>`, :ref:`geometric mean <geometricmean>`, and the :ref:`index of balanced accuracy of the geometric mean <ibagm>`.
 
 For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: :ref:`RMSE <RMSE>`, :ref:`MedianAE <MedianAE>`, :ref:`MeanAE <MeanAE>`, :ref:`EVS <EVS>`, and :ref:`R² score <Rscore>`.
 
@@ -149,7 +149,7 @@ This means that 80% of the cells classified as T cells were actually T cells.
 .. _Recall:
 Recall/Sensitivity
 ==================
-Recall, also known as sensitivity or the true positive rate, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
+Recall, also known as sensitivity or the **True Positive Rate (TPR)**, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
 
 Mathematically, recall/sensitivity can be expressed as:
 
@@ -166,6 +166,30 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 actual
 
 .. math::
    Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80\%
+
+
+.. _specificity:
+Specificity
+===========
+Specificity, also known as the **True Negative Rate (TNR)**, quantifies the proportion of actual negative cases that are correctly classified as negative by the model. In other words, it indicates how effectively a model identifies instances that do not belong to the positive class (cell type).
+
+The formula for calculating specificity is:
+
+.. math::
+   Specificity = \frac {True\,Negatives\,(TN)}{True\,Negatives\,(TN) + False\,Positives\,(FP)}
+
+Interpretation
+--------------
+1. A specificity of 100% means that all actual negative cases are correctly identified by the model, with no false positives.
+
+2. A lower specificity indicates that the model misclassifies some negative cases as positive, which can be problematic in applications where false positives carry significant consequences (e.g., medical diagnoses).
+
+Example
+-------
+Suppose a T cell detection model is evaluated on a dataset containing 100 cells. In the dataset, there are actually 20 T cells present. The model correctly identified 70 of cells as non T cells and 30 cells as T cells (10 actually not T cells).
+
+.. math::
+   Specificity = \frac {70}{70+10} = \frac {70}{80} = 0.875 = 87.5\%
 
 
 .. _F1score:
@@ -199,6 +223,24 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 .. _geometricmean:
 Geometric mean
 ==============
+Geometric Mean (G-Mean) is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
+
+In scNoah metrics Geometric Mean mathematically can be expressed as:
+.. math::
+  Geometric Mean = \sqrt{Sensitivity * Specificity}
+
+Key Characteristics
+-------------------
+The Geometric mean ensures that the model performs well across all classes, not just the majority class. This is crucial in imbalanced datasets where one class may dominate.
+
+Example
+-------
+Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
+* Recall/Sensitivity: 0.75 (the model correctly identifies 75% of all actual T cells)
+* Specificity: 0.95 (95% of the actual non-T cells are correctly classified as non-T cells)
+
+.. math::
+   Geometric Mean = \sqrt{0.75 * 0.95} \approx 0.844 \approx 84.4\%
 
 
 .. _ibagm:
