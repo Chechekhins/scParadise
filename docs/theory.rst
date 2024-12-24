@@ -13,17 +13,17 @@ Key Characteristics
 
 2. Types of Learning:
 
-   * Supervised Learning: The model is trained on labeled data, where each input is paired with the correct output (e.g., classification tasks).
+   * Supervised Learning: The model is trained on labeled data, where each input is paired with the correct output (e.g., classification, regression - :ref:`scAdam <scAdam>`, :ref:`scEve <scEve>`, `celltypist <https://www.celltypist.org/>`_, `scGPT <https://scgpt.readthedocs.io/en/latest/>`_).
   
-   *	Unsupervised Learning: The model learns from unlabeled data to identify patterns or groupings without explicit instructions (e.g., clustering).
+   *	Unsupervised Learning: The model learns from unlabeled data to identify patterns or groupings without explicit instructions (e.g., clustering - KNN, K-means).
    *	Semi-Supervised Learning: Combines labeled and unlabeled data for training, enhancing performance when labeled data is limited.
    *	Reinforcement Learning: The model learns by interacting with an environment and receiving feedback in the form of rewards or penalties.
 
-3. Output: Once trained, a machine learning model can make predictions on new data. For example, it can classify images, predict numerical values, or recognize speech based on previously unseen inputs.
+3. Output: Once trained, a machine learning model can make predictions on new data. For example, it can classify cells or images, predict numerical values, or recognize speech based on previously unseen inputs.
 
-4. Storage: Machine learning models can be saved as files or objects, allowing them to be reused for future predictions without needing retraining.
+4. Storage: Machine learning models can be saved as files or objects, allowing them to be reused for future predictions without needing retraining. 
 
-
+.. _scAdam:
 scAdam models
 *************
 The scAdam model is a component of the scParadise framework, which is designed for fast reference-free multi-level multi-label cell type annotation. 
@@ -48,7 +48,7 @@ Applications
 ============
 scAdam is particularly valuable in biomedical research where understanding cellular composition and interactions within tissues is critical. By providing accurate annotations of cell types from complex single-cell datasets, it aids researchers in exploring tissue architecture and cellular functions more effectively. 
 
-
+.. _scEve:
 scEve models
 *************
 The scEve models are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data. Here’s a detailed overview based on the information provided:
@@ -117,9 +117,10 @@ Where:
 
 4. False Negatives (FN): The number of actual positive instances that were incorrectly predicted as negative by the model.
 
-For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref:`precision <Precision>`, recall, F1-score, accuracy, balanced accuracy, geometric mean, and the index of balanced accuracy of the geometric mean.
+For the tasks of automatic cell type identification in scNoah, the following quality metrics are available: :ref:`precision <Precision>`, :ref:`recall <Recall>`, :ref:`F1-score <F1score>`, :ref:`accuracy <Accuracy>`, :ref:`balanced accuracy <Balancedaccuracy>`, :ref:`geometric mean <geometricmean>`, and the :ref:`index of balanced accuracy of the geometric mean <ibagm>`.
 
-For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: RMSE, MedianAE, MeanAE, EVS, and R² score.
+For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: :ref:`RMSE <RMSE>`, :ref:`MedianAE <MedianAE>`, :ref:`MeanAE <MeanAE>`, :ref:`EVS <EVS>`, and :ref:`R² score <Rscore>`.
+
 
 .. _Precision:
 Precision
@@ -145,6 +146,7 @@ For instance, in a T cell classification task, if a model predicts 100 cells as 
 This means that 80% of the cells classified as T cells were actually T cells.
 
 
+.. _Recall:
 Recall/Sensitivity
 ==================
 Recall, also known as sensitivity or the true positive rate, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
@@ -166,6 +168,7 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 actual
    Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80\%
 
 
+.. _F1score:
 F1-score
 ========
 The F1-score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
@@ -193,6 +196,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
    F1_score = 2 \times \frac {0.85 + 0.75}{0.85 \times 0.75} = 0.797 = 79.7\%
 
 
+.. _Accuracy:
 Accuracy
 ========
 Accuracy is a fundamental metric used to evaluate the performance of machine learning models, particularly in classification tasks. It measures the overall correctness of a model's predictions by calculating the proportion of correct predictions out of the total number of predictions made.
@@ -235,6 +239,7 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
 The model has a very high level of accuracy but is unable to detect AXL+ Dendritic cells.
 
 
+.. _Balancedaccuracy:
 Balanced accuracy
 =================
 Balanced accuracy is a performance metric used to evaluate classification models, particularly in multiclass scenarios (scRNA-seq cell type annotation) where the class (cell type) distribution may be imbalanced. In scRNA-seq cell type annotation it provides a more reliable assessment of model performance by averaging the recall (sensitivity) across all cell types, ensuring that each cell type contributes equally to the final score.
@@ -269,6 +274,8 @@ Suppose we evaluate the performance of a Monocytes and AXL+ Dendritic cells dete
 
 The model has a very high level of accuracy and low level of balanced accuracy. Model is unable to detect AXL+ Dendritic cells.
 
+
+.. _RMSE:
 Root Mean Square Error (RMSE)
 =============================
 Root Mean Square Error (RMSE) is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted values and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE is used as a quality metric for the performance of scEve models.
@@ -302,3 +309,17 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
    RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0 + 0 + 1}{4}} \approx 0.559
 
 
+.. _MedianAE:
+Median Absolute Error (MedianAE)
+================================
+Median Absolute Error (MedianAE) is a robust statistical metric used to evaluate the performance of regression models. It measures the median of the absolute differences between predicted values and actual values, providing a clear indication of prediction accuracy while being less sensitive to outliers compared to other metrics like Mean Absolute Error (:ref:`MeanAE <MeanAE>`).
+
+The MedianAE is defined mathematically as:
+.. math::
+   MedianAE = median(|y_{true\,i} - y_{pred\,i}|)
+
+`y_true` is the actual value for observation (surface protein) i.
+
+`y_pred` is the predicted value for observation (surface protein) i. 
+
+The absolute difference (|y_{true\,i} - y_{pred\,i}|) is calculated for each observation.
