@@ -376,7 +376,7 @@ The MedianAE is defined mathematically as:
 
 `y_pred` is the predicted value for observation (surface protein) i. 
 
-The absolute difference (`|y_true - y_pred|`) is calculated for each observation (surface protein).
+The absolute difference (:math:`|y_{true} - y_{pred}|`) is calculated for each observation (surface protein).
 
 Interpretation
 --------------
