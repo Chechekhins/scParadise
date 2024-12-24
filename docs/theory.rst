@@ -367,8 +367,6 @@ Median Absolute Error (MedianAE)
 Median Absolute Error (MedianAE) is a robust statistical metric used to evaluate the performance of regression models. It measures the median of the absolute differences between predicted values and actual values, providing a clear indication of prediction accuracy while being less sensitive to outliers compared to other metrics like Mean Absolute Error (:ref:`MeanAE <MeanAE>`).
 
 The MedianAE is defined mathematically as:
-.. math::
-   MedianAE = \text{median}(| y_{true\,i} - y_{pred\,i} |)
 
 .. math::
    MedianAE = \text{median} (|y_{true\,i} - y_{pred\,i}|)
@@ -394,7 +392,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   MedianAE = \text{median}(`| 3 - 2.5 |`, `| 0.5 - 0 |`, `| 2 - 2 |`, `| 7 - 8 |`) = \text{median}(0.5, 0.5, 0, 1) = 0.5
+   MedianAE = \text{median}(| 3 - 2.5 |, | 0.5 - 0 |, | 2 - 2 |, | 7 - 8 |) = \text{median}(0.5, 0.5, 0, 1) = 0.5
 
 
 .. _MeanAE:
@@ -403,8 +401,9 @@ Mean Absolute Error (MeanAE)
 Mean Absolute Error (MAE) is a statistical metric used to evaluate the accuracy of predictions in regression models. It measures the average absolute difference between the predicted values and the actual values, providing a straightforward way to assess model performance.
 
 The MeanAE is defined mathematically as:
+
 .. math::
-   MeanAE = \frac {1}{N} \sum_{i=1}^N | y_{true\,i} - y_{pred\,i} |
+   MeanAE = \frac {1}{N} \sum_{i=1}^N |y_{true\,i} - y_{pred\,i}|
 
 N is the number of observations (surface proteins).
 
