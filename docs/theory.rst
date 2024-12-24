@@ -371,7 +371,8 @@ The MedianAE is defined mathematically as:
    MedianAE = \text{median}(| y_{true\,i} - y_{pred\,i} |)
 
 .. math::
-   MedianAE = \text{median}
+   MedianAE = \text{median} (|y_{true\,i} - y_{pred\,i}|)
+
 `y_true` is the actual value for observation (surface protein) i.
 
 `y_pred` is the predicted value for observation (surface protein) i. 
