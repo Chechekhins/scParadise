@@ -311,12 +311,12 @@ Example
 -------
 Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
 
-* Actual Values: [3, 0, 2, 7]
+* Actual Values: [3, 0.5, 2, 7]
 
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0 + 0 + 1}{4}} \approx 0.559
+   RMSE = \sqrt{\frac {1}{4} (3 - 2.5)^2 + (0.5 - 0)^2 + (2 - 2)^2 + (7 - 8)^2} = \sqrt{\frac {0.25 + 0.25 + 0 + 1}{4}} \approx 0.612
 
 
 .. _MedianAE:
@@ -326,10 +326,67 @@ Median Absolute Error (MedianAE) is a robust statistical metric used to evaluate
 
 The MedianAE is defined mathematically as:
 .. math::
-   MedianAE = median(`| y_{true\,i} - y_{pred\,i} |`)
+   MedianAE = `\text{median}(`| y_{true\,i} - y_{pred\,i} |`)`
 
 `y_true` is the actual value for observation (surface protein) i.
 
 `y_pred` is the predicted value for observation (surface protein) i. 
 
 The absolute difference (`|y_true - y_pred|`) is calculated for each observation (surface protein).
+
+Interpretation
+--------------
+1. Lower MedianAE Values: Indicate a better fit of the model to the data, meaning that predictions are close to actual values.
+2. Higher MedianAE Values: Indicate greater discrepancies between predicted and actual values.
+3. An MedianAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
+
+Example
+-------
+Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
+
+* Actual Values: [3, 0.5, 2, 7]
+
+* Predicted Values: [2.5, 0.0, 2, 8]
+
+.. math::
+   MedianAE = `\text{median}(`| 3 - 2.5 |`, `| 0.5 - 0 |`, `| 2 - 2 |`, `| 7 - 8 |`)` = `\text{median}(0.5, 0.5, 0, 1)` = 0.5
+
+
+.. _MeanAE:
+Mean Absolute Error (MeanAE)
+============================
+Mean Absolute Error (MAE) is a statistical metric used to evaluate the accuracy of predictions in regression models. It measures the average absolute difference between the predicted values and the actual values, providing a straightforward way to assess model performance.
+
+The MeanAE is defined mathematically as:
+.. math::
+   MeanAE = \frac {1}{N} \sum_{i=1}^N `| y_{true\,i} - y_{pred\,i} |`
+
+N is the number of observations (surface proteins).
+
+`y_true` is the actual value for observation (surface protein) i.
+
+`y_pred` is the predicted value for observation (surface protein) i. 
+
+The absolute difference (`|y_true - y_pred|`) is calculated for each observation (surface protein).
+
+Key Characteristics
+-------------------
+1. Robustness to Outliers: MAE treats all errors equally, meaning that it does not disproportionately penalize larger errors as compared to metrics like Mean Squared Error (MSE), which squares the errors.
+2. Interpretability: The MAE provides a clear indication of the average magnitude of errors in predictions, making it easy to understand and communicate.
+
+Interpretation
+--------------
+1. Lower MeanAE Values: Indicate a better fit of the model to the data, meaning that predictions are close to actual values.
+2. Higher MeanAE Values: Suggest larger discrepancies between predicted and actual values.
+3. An MeanAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
+
+Example
+-------
+Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
+
+* Actual Values: [3, 0.5, 2, 7]
+
+* Predicted Values: [2.5, 0.0, 2, 8]
+
+.. math::
+   MeanAE = \frac {`| 3 - 2.5 |` + `| 0.5 - 0 |` + `| 2 - 2 |` + `| 7 - 8 |`}{4} = \frac {0.5 + 0.5 + 0 + 1}{4} = 0.5
