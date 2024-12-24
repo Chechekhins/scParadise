@@ -361,7 +361,7 @@ Mean Absolute Error (MAE) is a statistical metric used to evaluate the accuracy 
 
 The MeanAE is defined mathematically as:
 .. math::
-   MeanAE = \frac {1}{N} \sum_{i=1}^N `| y_{true\,i} - y_{pred\,i} |`
+   MeanAE = \frac {1}{N} \sum_{i=1}^N | y_{true\,i} - y_{pred\,i} |
 
 N is the number of observations (surface proteins).
 
@@ -391,4 +391,4 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   MeanAE = \frac {`| 3 - 2.5 |` + `| 0.5 - 0 |` + `| 2 - 2 |` + `| 7 - 8 |`}{4} = \frac {0.5 + 0.5 + 0 + 1}{4} = 0.5
+   MeanAE = \frac {| 3 - 2.5 | + | 0.5 - 0 | + | 2 - 2 | + | 7 - 8 |}{4} = \frac {0.5 + 0.5 + 0 + 1}{4} = 0.5
