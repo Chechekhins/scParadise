@@ -226,6 +226,7 @@ Geometric mean
 Geometric Mean (G-Mean) is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
 
 In scNoah metrics Geometric Mean mathematically can be expressed as:
+
 .. math::
   Geometric Mean = \sqrt{Sensitivity * Specificity}
 
