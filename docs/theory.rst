@@ -200,7 +200,7 @@ The F1-score is a crucial evaluation metric used in machine learning, particular
 Mathematically, f1-score can be expressed as:
 
 .. math::
-   F1_score = 2 \times \frac {Precision + Recall}{Precision \times Recall}
+   F1\,score = 2 \times \frac {Precision + Recall}{Precision \times Recall}
 
 Interpretation
 --------------
@@ -217,7 +217,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
-   F1_score = 2 \times \frac {0.85 + 0.75}{0.85 \times 0.75} = 0.797 = 79.7\%
+   F1\,score = 2 \times \frac {0.85 + 0.75}{0.85 \times 0.75} = 0.797 = 79.7\%
 
 
 .. _geometricmean:
