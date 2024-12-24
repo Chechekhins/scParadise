@@ -196,6 +196,16 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
    F1_score = 2 \times \frac {0.85 + 0.75}{0.85 \times 0.75} = 0.797 = 79.7\%
 
 
+.. _geometricmean:
+Geometric mean
+==============
+
+
+.. _ibagm:
+Index of balanced accuracy of the geometric mean
+================================================
+
+
 .. _Accuracy:
 Accuracy
 ========
@@ -322,4 +332,4 @@ The MedianAE is defined mathematically as:
 
 `y_pred` is the predicted value for observation (surface protein) i. 
 
-The absolute difference (|y_{true\,i} - y_{pred\,i}|) is calculated for each observation.
+The absolute difference (|y_true - y_pred|) is calculated for each observation (surface protein).
