@@ -326,7 +326,7 @@ Median Absolute Error (MedianAE) is a robust statistical metric used to evaluate
 
 The MedianAE is defined mathematically as:
 .. math::
-   MedianAE = `\text{median}(`| y_{true\,i} - y_{pred\,i} |`)`
+   MedianAE = \text{median}(`| y_{true\,i} - y_{pred\,i} |`)
 
 `y_true` is the actual value for observation (surface protein) i.
 
@@ -349,7 +349,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 * Predicted Values: [2.5, 0.0, 2, 8]
 
 .. math::
-   MedianAE = `\text{median}(`| 3 - 2.5 |`, `| 0.5 - 0 |`, `| 2 - 2 |`, `| 7 - 8 |`)` = `\text{median}(0.5, 0.5, 0, 1)` = 0.5
+   MedianAE = \text{median}(`| 3 - 2.5 |`, `| 0.5 - 0 |`, `| 2 - 2 |`, `| 7 - 8 |`) = \text{median}(0.5, 0.5, 0, 1) = 0.5
 
 
 .. _MeanAE:
