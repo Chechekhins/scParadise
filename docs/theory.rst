@@ -374,6 +374,8 @@ Interpretation
 2. Higher RMSE Values: Suggest poorer model performance, indicating larger discrepancies between predicted and actual values.
 3. An RMSE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
+The scEve models predict multiple proteins. By default, the value of the RMSE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+
 Example
 -------
 Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
@@ -407,6 +409,8 @@ Interpretation
 1. Lower MedianAE Values: Indicate a better fit of the model to the data, meaning that predictions are close to actual values.
 2. Higher MedianAE Values: Indicate greater discrepancies between predicted and actual values.
 3. An MedianAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
+
+The scEve models predict multiple proteins. By default, the value of the MedianAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
@@ -449,6 +453,8 @@ Interpretation
 2. Higher MeanAE Values: Suggest larger discrepancies between predicted and actual values.
 3. An MeanAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
+The scEve models predict multiple proteins. By default, the value of the MeanAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+
 Example
 -------
 Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
@@ -477,6 +483,8 @@ The EVS ranges from 0 to 1:
 
 1. An EVS of 1 indicates that the model perfectly explains all the variance in the target variable.
 2. An EVS of 0 means that the model does not explain any variance, equivalent to simply predicting the mean of the target values.
+
+The scEve models predict multiple proteins. By default, the value of the EVS defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
@@ -512,3 +520,19 @@ Calculate EVS:
    EVS = 1 - \frac {0.375}{5.797} \approx 1 - 0.0647 \approx 0.9353
 
 A high EVS (0.9535) indicates that the model effectively captures important patterns in the data.
+
+
+.. _Rscore:
+R² score
+========
+The **R² score**, also known as the **coefficient of determination**, is a statistical measure used in regression analysis to assess how well the independent variable(s) explain the variability of the dependent variable. It provides insights into the goodness of fit of a regression model.
+
+The R² score can be calculated using the following formula:
+
+.. math::
+   R^2 = 1 − \frac {TSS}{RSS}
+
+1. RSS (Residual Sum of Squares): The sum of squares of residuals, which measures the discrepancy between the data and the estimation model.
+
+2. TSS (Total Sum of Squares): The total variance in the dependent variable, calculated as the sum of squares of differences between each observed value and the mean of the dependent variable.
+
