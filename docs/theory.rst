@@ -51,11 +51,11 @@ scAdam is particularly valuable in biomedical research where understanding cellu
 .. _scEve:
 scEve models
 *************
-The scEve models are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data. Here’s a detailed overview based on the information provided:
+The **scEve models** are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data. Here’s a detailed overview based on the information provided:
 
 Overview of scEve
 ==================
-*	Purpose: The **scEve models** are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
+*	Purpose: The scEve models are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
 *	Functionality:
     1. Surface Protein Prediction: scEve utilizes the expression data from selected features (genes) to make predictions about the abundance of specific cell surface proteins. This is important for identifying and characterizing different cell types based on their protein markers.
     2. Integration with scAdam: The scEve models complement the scAdam models, which are focused on multi-level cell type annotation. Together, they enhance the overall analysis pipeline by providing both annotations and functional insights regarding cell surface markers.
