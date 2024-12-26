@@ -459,3 +459,56 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 
 .. math::
    MeanAE = \frac {| 3 - 2.5 | + | 0.5 - 0 | + | 2 - 2 | + | 7 - 8 |}{4} = \frac {0.5 + 0.5 + 0 + 1}{4} = 0.5
+
+
+.. _EVS:
+Explained Variance Score (EVS)
+==============================
+The Explained Variance Score (EVS) is a key metric used in machine learning, particularly for evaluating regression models. It quantifies how much of the variance in the target variable can be explained by the model's predictions compared to the variance of the actual data.
+
+Mathematically, it can be expressed as:
+
+.. math::
+   EVS = 1 - \frac {\text{Var}(y_{true} - y_{pred})}{\text{Var}(y_{true})}
+
+Interpretation
+--------------
+The EVS ranges from 0 to 1:
+
+1. An EVS of 1 indicates that the model perfectly explains all the variance in the target variable.
+2. An EVS of 0 means that the model does not explain any variance, equivalent to simply predicting the mean of the target values.
+
+Example
+-------
+Consider a small dataset (4 cells) with actual and predicted values of CD4 surface protein expression:
+
+* Actual Values: [3, 0.5, 2, 7]
+
+* Predicted Values: [2.5, 0.0, 2, 8]
+
+First, find the mean of actual values:
+
+.. math::
+   y = \frac {3 + 0.5 + 2 + 7}{4} = \frac {12.5}{4} = 3.125
+
+Then calculate variance:
+
+.. math::
+   \text{Var}(y_{true} = \frac {(3 - 3.125)^2 + (0.5 - 3.125)^2 + (2 - 3.125)^2 + (7 - 3.125)^2}{4} = frac {23.1875}{4} \approx 5.797
+
+Calculate the difference between actual and predicted values (Prediction errors):
+
+.. math::
+   y_{true} − y_{pred} = [3−2.5,\,0.5−0,\,2−2,\,7−8] = [0.5,\,0.5,\,0,\,−1]
+
+Calculate the Variance of Prediction Errors:
+
+.. math::
+   \text{Var}(y_{true} - y_{pred}) = \frac {(0.5)^2 + (0.5)^2 + (0)^2 + (-1)^2}{4} = frac {1.5}{4} = 0.375
+
+Calculate EVS:
+
+.. math::
+   EVS = 1 - \frac {0.375}{5.797} \approx 1 - 0.0647 \approx 0.9353
+
+A high EVS (0.9535) indicates that the model effectively captures important patterns in the data.
