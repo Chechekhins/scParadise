@@ -26,7 +26,7 @@ Key Characteristics
 .. _scAdam:
 scAdam models
 *************
-The scAdam model is a component of the scParadise framework, which is designed for fast reference-free multi-level multi-label cell type annotation. 
+The **scAdam model** is a component of the scParadise framework, which is designed for fast reference-free multi-level multi-label cell type annotation. 
 
 Overview of scAdam 
 ==================
@@ -55,7 +55,7 @@ The scEve models are part of the scParadise framework, which is designed for adv
 
 Overview of scEve
 ==================
-*	Purpose: The scEve models are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
+*	Purpose: The **scEve models** are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
 *	Functionality:
     1. Surface Protein Prediction: scEve utilizes the expression data from selected features (genes) to make predictions about the abundance of specific cell surface proteins. This is important for identifying and characterizing different cell types based on their protein markers.
     2. Integration with scAdam: The scEve models complement the scAdam models, which are focused on multi-level cell type annotation. Together, they enhance the overall analysis pipeline by providing both annotations and functional insights regarding cell surface markers.
@@ -76,7 +76,7 @@ The applications of scEve models include:
 scNoah metrics
 **************
 
-The scNoah models are part of the scParadise framework, which is designed for benchmarking of cell type annotation methods and modality prediction in scRNA-seq data.
+The **scNoah** is a part of the scParadise framework, which is designed for benchmarking of cell type annotation methods and modality prediction in scRNA-seq data.
 
 Overview of scNoah
 ==================
@@ -125,7 +125,7 @@ For the tasks of predicting the presence of surface proteins in scNoah, the foll
 .. _Precision:
 Precision
 =========
-Precision is a key metric in machine learning that evaluates the accuracy of a model's positive predictions. It is defined as the ratio of true positive predictions to the total number of instances predicted as positive (which includes both true positives and false positives). Usefull for scAdam model quality control.
+**Precision** is a key metric in machine learning that evaluates the accuracy of a model's positive predictions. It is defined as the ratio of true positive predictions to the total number of instances predicted as positive (which includes both true positives and false positives). Usefull for scAdam model quality control.
 
 Mathematically, precision can be expressed as:
 
@@ -149,7 +149,7 @@ This means that 80% of the cells classified as T cells were actually T cells.
 .. _Recall:
 Recall/Sensitivity
 ==================
-Recall, also known as sensitivity or the **True Positive Rate (TPR)**, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
+**Recall**, also known as **sensitivity** or the **True Positive Rate (TPR)**, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
 
 Mathematically, recall/sensitivity can be expressed as:
 
@@ -171,7 +171,7 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 actual
 .. _specificity:
 Specificity
 ===========
-Specificity, also known as the **True Negative Rate (TNR)**, quantifies the proportion of actual negative cases that are correctly classified as negative by the model. In other words, it indicates how effectively a model identifies instances that do not belong to the positive class (cell type).
+**Specificity**, also known as the **True Negative Rate (TNR)**, quantifies the proportion of actual negative cases that are correctly classified as negative by the model. In other words, it indicates how effectively a model identifies instances that do not belong to the positive class (cell type).
 
 The formula for calculating specificity is:
 
@@ -195,7 +195,7 @@ Suppose a T cell detection model is evaluated on a dataset containing 100 cells.
 .. _F1score:
 F1-score
 ========
-The F1-score is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
+The **F1-score** is a crucial evaluation metric used in machine learning, particularly for classification tasks. It combines both precision and recall into a single score, providing a balanced measure of a model's performance. This metric is especially useful in situations where the class distribution is imbalanced or when the costs of false positives and false negatives are significant.
 
 Mathematically, f1-score can be expressed as:
 
@@ -223,7 +223,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 .. _geometricmean:
 Geometric mean
 ==============
-Geometric Mean (GMean) is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
+**Geometric Mean (GMean)** is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
 
 In scNoah metrics Geometric Mean mathematically can be expressed as:
 
@@ -276,7 +276,7 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 .. _Accuracy:
 Accuracy
 ========
-Accuracy is a fundamental metric used to evaluate the performance of machine learning models, particularly in classification tasks. It measures the overall correctness of a model's predictions by calculating the proportion of correct predictions out of the total number of predictions made.
+**Accuracy** is a fundamental metric used to evaluate the performance of machine learning models, particularly in classification tasks. It measures the overall correctness of a model's predictions by calculating the proportion of correct predictions out of the total number of predictions made.
 
 Mathematically, accuracy can be expressed as:
 
@@ -301,7 +301,7 @@ Limitations
 While accuracy is a straightforward and intuitive measure, it may not always be the best indicator of model performance, especially in scRNA-seq cell type annotation.
 
 **Accuracy paradox**
-
+--------------------
 The "accuracy paradox" refers to situations where a model achieves high accuracy but performs poorly on critical aspects of the task. This often occurs in scRNA-seq cell type annotation where the majority cell type (CD14+ Monocytes in PBMC) dominates the predictions, leading to misleadingly high accuracy scores while neglecting minority cell types (Innate Lymphoid Cells in PBMC).
 
 To obtain a more comprehensive understanding of model performance, it is essential to use additional metrics such as precision, recall, F1 score, balanced accuracy, and others that account for the specific characteristics of the problem at hand.
@@ -319,7 +319,7 @@ The model has a very high level of accuracy but is unable to detect AXL+ Dendrit
 .. _Balancedaccuracy:
 Balanced accuracy
 =================
-Balanced accuracy is a performance metric used to evaluate classification models, particularly in multiclass scenarios (scRNA-seq cell type annotation) where the class (cell type) distribution may be imbalanced. In scRNA-seq cell type annotation it provides a more reliable assessment of model performance by averaging the recall (sensitivity) across all cell types, ensuring that each cell type contributes equally to the final score.
+**Balanced accuracy** is a performance metric used to evaluate classification models, particularly in multiclass scenarios (scRNA-seq cell type annotation) where the class (cell type) distribution may be imbalanced. In scRNA-seq cell type annotation it provides a more reliable assessment of model performance by averaging the recall (sensitivity) across all cell types, ensuring that each cell type contributes equally to the final score.
 
 In multiclass classification, balanced accuracy is calculated as the average of the recall scores for each class:
 
@@ -355,7 +355,7 @@ The model has a very high level of accuracy and low level of balanced accuracy. 
 .. _RMSE:
 Root Mean Square Error (RMSE)
 =============================
-Root Mean Square Error (RMSE) is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted values and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE is used as a quality metric for the performance of scEve models.
+**Root Mean Square Error (RMSE)** is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted values and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE is used as a quality metric for the performance of scEve models.
 
 RMSE is defined mathematically as the square root of the average of the squared differences between predicted values (y_pred) and actual values (y_true).
 
@@ -389,7 +389,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 .. _MedianAE:
 Median Absolute Error (MedianAE)
 ================================
-Median Absolute Error (MedianAE) is a robust statistical metric used to evaluate the performance of regression models. It measures the median of the absolute differences between predicted values and actual values, providing a clear indication of prediction accuracy while being less sensitive to outliers compared to other metrics like Mean Absolute Error (:ref:`MeanAE <MeanAE>`).
+**Median Absolute Error (MedianAE)** is a robust statistical metric used to evaluate the performance of regression models. It measures the median of the absolute differences between predicted values and actual values, providing a clear indication of prediction accuracy while being less sensitive to outliers compared to other metrics like Mean Absolute Error (:ref:`MeanAE <MeanAE>`).
 
 The MedianAE is defined mathematically as:
 
@@ -423,7 +423,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 .. _MeanAE:
 Mean Absolute Error (MeanAE)
 ============================
-Mean Absolute Error (MAE) is a statistical metric used to evaluate the accuracy of predictions in regression models. It measures the average absolute difference between the predicted values and the actual values, providing a straightforward way to assess model performance.
+**Mean Absolute Error (MeanAE)** is a statistical metric used to evaluate the accuracy of predictions in regression models. It measures the average absolute difference between the predicted values and the actual values, providing a straightforward way to assess model performance.
 
 The MeanAE is defined mathematically as:
 
