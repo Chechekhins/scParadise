@@ -223,12 +223,12 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 .. _geometricmean:
 Geometric mean
 ==============
-Geometric Mean (G-Mean) is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
+Geometric Mean (GMean) is a performance metric that is particularly useful for assessing classifiers in scenarios with class imbalance. It provides a balanced measure of a model's accuracy across different classes by focusing on the sensitivity (true positive rate) of each class.
 
 In scNoah metrics Geometric Mean mathematically can be expressed as:
 
 .. math::
-  Geometric Mean = \sqrt{Sensitivity * Specificity}
+   GMean = \sqrt{Sensitivity * Specificity}
 
 Key Characteristics
 -------------------
@@ -241,12 +241,36 @@ Suppose we evaluate the performance of a T cell detection model, and we obtain t
 * Specificity: 0.95 (95% of the actual non-T cells are correctly classified as non-T cells)
 
 .. math::
-   Geometric Mean = \sqrt{0.75 * 0.95} \approx 0.844 \approx 84.4\%
+   GMean = \sqrt{0.75 * 0.95} \approx 0.844 \approx 84.4\%
 
 
 .. _ibagm:
 Index of balanced accuracy of the geometric mean
 ================================================
+The **Index of Balanced Accuracy (IBA)** of the geometric mean in multi-class classification is a performance metric designed to evaluate classification models, particularly in scenarios where class distributions are imbalanced. It combines the concepts of balanced accuracy and the geometric mean of class-wise sensitivities to provide a comprehensive assessment of model performance.
+
+.. math::
+   IBA = (1 + \alpha*(Sensitivity − Specificity))*GMean^2
+
+:math:`\alpha` is a weighting factor that adjusts the influence of the difference between sensitivity and specificity (default = 0.1).
+
+Key Characteristics
+-------------------
+1. The IBA takes into account both sensitivity and specificity across all classes, ensuring that performance is evaluated fairly, especially in imbalanced datasets.
+
+2. The IBA is particularly useful in domains such as medical diagnosis, fraud detection, and any field where misclassification of minority classes can have significant consequences.
+
+Example
+-------
+Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
+* Recall/Sensitivity: 0.75 (the model correctly identifies 75% of all actual T cells)
+* Specificity: 0.95 (95% of the actual non-T cells are correctly classified as non-T cells)
+
+.. math::
+   GMean = \sqrt{0.75 * 0.95} \approx 0.844 \approx 84.4\%
+
+.. math::
+   IBA = (1 + 0.1*(0.75 − 0.95))*0.844^2 \approx 0.698 \approx 69.8\%
 
 
 .. _Accuracy:
