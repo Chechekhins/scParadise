@@ -121,6 +121,9 @@ For the tasks of automatic cell type identification in scNoah, the following qua
 
 For the tasks of predicting the presence of surface proteins in scNoah, the following quality metrics are available: :ref:`RMSE <RMSE>`, :ref:`MedianAE <MedianAE>`, :ref:`MeanAE <MeanAE>`, :ref:`EVS <EVS>`, and :ref:`R² score <Rscore>`.
 
+.. warning::
+   The best value of the error metrics (:ref:`RMSE <RMSE>`, :ref:`MedianAE <MedianAE>`, :ref:`MeanAE <MeanAE>`) is 0.0. The best value of :ref:`EVS <EVS>`, and :ref:`R² score <Rscore>` is 1.0.
+
 
 .. _Precision:
 Precision
@@ -364,9 +367,9 @@ RMSE is defined mathematically as the square root of the average of the squared 
 
 N is the number of cells.
 
-`y_true` is the actual value for observation (surface protein) i.
+:math:`y_{true}` is the actual value for observation (surface protein) i.
 
-`y_pred` is the predicted value for observation (surface protein) i. 
+:math:`y_{pred}` is the predicted value for observation (surface protein) i. 
 
 Interpretation
 --------------
@@ -399,9 +402,9 @@ The MedianAE is defined mathematically as:
 .. math::
    MedianAE = \text{median} (|y_{true\,i} - y_{pred\,i}|)
 
-`y_true` is the actual value for observation (surface protein) i.
+:math:`y_{true}` is the actual value for observation (surface protein) i.
 
-`y_pred` is the predicted value for observation (surface protein) i. 
+:math:`y_{pred}` is the predicted value for observation (surface protein) i. 
 
 The absolute difference (:math:`|y_{true} - y_{pred}|`) is calculated for each observation (surface protein).
 
@@ -411,7 +414,8 @@ Interpretation
 2. Higher MedianAE Values: Indicate greater discrepancies between predicted and actual values.
 3. An MedianAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
-The scEve models predict multiple proteins. By default, the value of the MedianAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+.. warning::
+   The scEve models predict multiple proteins. By default, the value of the MedianAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
@@ -437,9 +441,9 @@ The MeanAE is defined mathematically as:
 
 N is the number of observations (surface proteins).
 
-`y_true` is the actual value for observation (surface protein) i.
+:math:`y_{true}` is the actual value for observation (surface protein) i.
 
-`y_pred` is the predicted value for observation (surface protein) i. 
+:math:`y_{pred}` is the predicted value for observation (surface protein) i. 
 
 The absolute difference (:math:`|y_{true} - y_{pred}|`) is calculated for each observation (surface protein).
 
@@ -454,7 +458,8 @@ Interpretation
 2. Higher MeanAE Values: Suggest larger discrepancies between predicted and actual values.
 3. An MeanAE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
-The scEve models predict multiple proteins. By default, the value of the MeanAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+.. warning::
+   The scEve models predict multiple proteins. By default, the value of the MeanAE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
@@ -478,6 +483,10 @@ Mathematically, it can be expressed as:
 .. math::
    EVS = 1 - \frac {\text{Var}(y_{true} - y_{pred})}{\text{Var}(y_{true})}
 
+:math:`y_{true}` is the actual value for observation (surface protein) i.
+
+:math:`y_{pred}` is the predicted value for observation (surface protein) i. 
+
 Interpretation
 --------------
 The EVS ranges from 0 to 1:
@@ -485,7 +494,8 @@ The EVS ranges from 0 to 1:
 1. An EVS of 1 indicates that the model perfectly explains all the variance in the target variable.
 2. An EVS of 0 means that the model does not explain any variance, equivalent to simply predicting the mean of the target values.
 
-The scEve models predict multiple proteins. By default, the value of the EVS defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+.. warning::
+   The scEve models predict multiple proteins. By default, the value of the EVS defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
@@ -495,27 +505,27 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 
 * Predicted Values: [2.5, 0.0, 2, 8]
 
-First, find the mean of actual values:
+1. First, find the mean of actual values:
 
 .. math::
    y = \frac {3 + 0.5 + 2 + 7}{4} = \frac {12.5}{4} = 3.125
 
-Then calculate variance:
+2. Then calculate variance:
 
 .. math::
    \text{Var}(y_{true} = \frac {(3 - 3.125)^2 + (0.5 - 3.125)^2 + (2 - 3.125)^2 + (7 - 3.125)^2}{4} = frac {23.1875}{4} \approx 5.797
 
-Calculate the difference between actual and predicted values (Prediction errors):
+3. Calculate the difference between actual and predicted values (Prediction errors):
 
 .. math::
    y_{true} − y_{pred} = [3−2.5,\,0.5−0,\,2−2,\,7−8] = [0.5,\,0.5,\,0,\,−1]
 
-Calculate the Variance of Prediction Errors:
+4. Calculate the Variance of Prediction Errors:
 
 .. math::
    \text{Var}(y_{true} - y_{pred}) = \frac {(0.5)^2 + (0.5)^2 + (0)^2 + (-1)^2}{4} = frac {1.5}{4} = 0.375
 
-Calculate EVS:
+5. Calculate EVS:
 
 .. math::
    EVS = 1 - \frac {0.375}{5.797} \approx 1 - 0.0647 \approx 0.9353
@@ -531,9 +541,69 @@ The **R² score**, also known as the **coefficient of determination**, is a stat
 The R² score can be calculated using the following formula:
 
 .. math::
-   R^2 = 1 − \frac {TSS}{RSS}
+   R^2 = 1 − \frac {RSS}{TSS}
 
-1. RSS (Residual Sum of Squares): The sum of squares of residuals, which measures the discrepancy between the data and the estimation model.
+1. **RSS (Residual Sum of Squares)**: The sum of squares of residuals, which measures the discrepancy between the data and the estimation model.
 
-2. TSS (Total Sum of Squares): The total variance in the dependent variable, calculated as the sum of squares of differences between each observed value and the mean of the dependent variable.
+.. math::
+   RSS = \sum_{i=1}^N (y_{true\,i} - y_{pred\,i})^2
 
+:math:`y_{true}` is the actual observed value (surface protein).
+
+:math:`y_{pred}` is the predicted value (of surface protein) from the regression model.
+
+N is the number of observations (cells).
+
+
+2. **TSS (Total Sum of Squares** also known as the **Total Variation** or **Sum of Squares Total (SST)**: The total variance in the dependent variable, calculated as the sum of squares of differences between each observed value and the mean of the dependent variable.
+
+.. math::
+   TSS = \sum_{i=1}^N (y_{true\,i} - y_{mean})^2
+
+:math:`y_{true}` is the actual observed value (surface protein).
+
+:math:`y_{mean}` is the mean of the observed values (surface protein).
+
+N is the number of observations (cells).
+
+Interpretation
+--------------
+R² score ranges from 0 to 1:
+
+1. An R² of 0 indicates that the model explains none of the variability in the dependent variable.
+2. An R² of 1 indicates that the model explains all the variability in the dependent variable.
+
+.. warning::
+   The scEve models predict multiple proteins. By default, the value of the R² score defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+
+Example
+-------
+Consider a small dataset (4 cells) with actual and predicted values (by scEve model) of CD4 surface protein expression:
+
+* Actual Values: [3, 0.5, 2, 7]
+
+* Predicted Values: [2.5, 0.0, 2, 8]
+
+1. Calculate TSS:
+
+Mean of actual values:
+
+.. math::
+   y_{mean} = \frac {3 + 0.5 + 2 + 7}{4} = \frac {12.5}{4} = 3.125
+
+Calculate TSS:
+
+.. math::
+   TSS = (3 - 3.125)^2 + (0.5 - 3.125)^2 + (2 - 3.125)^2 + (7 - 3.125)^2 = 0.015625 + 6.890625 + 1.265625 + 15.015625 = 23.1875
+
+2. Calculate RSS:
+
+.. math::
+   RSS = (3 − 2.5)^2 + (0.5 − 0)^2 + (2 − 2)^2 + (7 − 8)^2 = 0.25 + 0.25 + 0 + 1 = 1.5
+
+3. Calculate R² score:
+
+.. math::
+   R^2 = 1 − \frac {1.5}{23.1875} \approx 1 - 0.0647 \approx 0.9353
+
+The R-squared score for this regression model is approximately 0.9353, indicating that about 93.53% of the variance in the dependent variable (surface protein) can be explained by the independent variables (gene expression) in the scEve model, suggesting a strong fit to the data.
