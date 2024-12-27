@@ -1,6 +1,7 @@
 Tissue/Model name,Description,Suspension,Accuracy,Balanced Accuracy,Number of Levels
 Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
 Human_BMMC,Bone marrow mononuclear cell of healthy adults,cells,0.947,0.942,3
+Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.957,0.956,2
 Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
 Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNAseq,cells,0.972,0.968,2
 Human_Retina,Single cell atlas of the human retina,cells,0.984,0.979,4
