@@ -2,4 +2,5 @@ Tissue/Model name,Description,Suspension,RMSE,MAE,Number of Proteins
 Human_PBMC_3p,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.305,0.226,224
 Human_PBMC_5p,Peripheral blood mononuclear cells of healthy adults 5' scRNA seq,cells,0.308,0.225,54
 Human_BMMC,Bone marrow mononuclear cell of healthy adults,cells,0.706,0.454,134
+Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.399,0.287,270
 Mouse_Spleen_Lymph_node,Spleen and Lymph node immune cells of healthy mouse,cells,0.313,0.214,113
