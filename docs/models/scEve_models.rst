@@ -33,6 +33,13 @@ scEve models
      - 0.454
      - 134
      - :cite:`2021:‎Luecken`
+   * - Human_Heart
+     - Human heart CITE-seq analysis of healthy and diseased states
+     - cells
+     - 0.399
+     - 0.287
+     - 270
+     - :cite:`2023:Amrute`
    * - Mouse_Spleen_Lymph_node
      - Spleen and Lymph node immune cells of healthy mouse
      - cells
