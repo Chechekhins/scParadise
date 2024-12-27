@@ -26,6 +26,13 @@ scAdam models
      - 0.942
      - 3
      - :cite:`2021:‎Luecken`
+   * - Human_Heart
+     - Human heart CITE-seq analysis of healthy and diseased states
+     - cells
+     - 0.957
+     - 0.956
+     - 2
+     - :cite:`2023:Amrute`
    * - Human_Lung
      - Core Human Lung Cell Atlas
      - cells
