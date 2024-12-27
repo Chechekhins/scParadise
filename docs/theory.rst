@@ -374,7 +374,8 @@ Interpretation
 2. Higher RMSE Values: Suggest poorer model performance, indicating larger discrepancies between predicted and actual values.
 3. An RMSE of 0 signifies a perfect fit, where predicted values match actual values exactly, although this is rarely achieved in practice.
 
-The scEve models predict multiple proteins. By default, the value of the RMSE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
+.. warning::
+   The scEve models predict multiple proteins. By default, the value of the RMSE defined by the function scnoah.report_reg is the average across all predicted proteins (multioutput = 'uniform_average'). However, you can change this to obtain predictions for each protein separately (multioutput = 'raw_values').
 
 Example
 -------
