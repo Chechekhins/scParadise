@@ -329,9 +329,7 @@ In multiclass classification, balanced accuracy is calculated as the average of 
 .. math::
    Balanced\,Accuracy = \frac {1}{N} \sum_{i=1}^N Recall_i
 
-i is a cell type.
-
-N is the total number of cell types.
+where i is a cell type and N is the total number of cell types.
 
 Importance in scRNA-seq annotation
 ----------------------------------
@@ -358,7 +356,7 @@ The model has a very high level of accuracy and low level of balanced accuracy. 
 .. _RMSE:
 Root Mean Square Error (RMSE)
 =============================
-**Root Mean Square Error (RMSE)** is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted values and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE is used as a quality metric for the performance of scEve models.
+**Root Mean Square Error (RMSE)** is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE serves as a quality metric for the performance of scEve models.
 
 RMSE is defined mathematically as the square root of the average of the squared differences between predicted values (y_pred) and actual values (y_true).
 
