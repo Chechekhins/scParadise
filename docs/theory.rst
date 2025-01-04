@@ -4,12 +4,12 @@ This section aims to clarify the key concepts that underpin the operation of the
 
 Model
 *****
-A machine learning model is a computational framework or program that has been trained to recognize patterns and make predictions based on input data. It is the result of applying a machine learning algorithm to a dataset, allowing the model to learn from the data and generalize its knowledge to new, unseen instances.
+A machine learning model is a computational framework or program that has been trained to recognize patterns and make predictions based on input data. Output predictions are the result of applying a machine learning algorithm to a dataset.
 
 Key Characteristics
 ===================
 
-1. Training: Machine learning models are created through a training process where they learn from data. During this phase, the algorithm optimizes its parameters to minimize prediction errors, resulting in a model capable of making accurate predictions.
+1. Training: Machine learning models are developed through a training process in which they learn from data. During this phase, the algorithm optimizes its parameters to minimize prediction errors, resulting in a model that can make accurate predictions.
 
 2. Types of Learning:
 
@@ -34,7 +34,7 @@ Overview of scAdam
 *	Functionality: The model incorporates several key steps in its pipeline:
     1.	Feature Selection (optional): scAdam begins by selecting significant features (genes) that are most relevant for the classification task. This includes identifying highly variable genes and excluding those that do not contribute meaningfully to distinguishing between different cell types.
     2.	Automated Dataset Balancing (optional): Given the imbalanced nature of many single-cell datasets (where certain cell types are underrepresented), scAdam employs techniques to balance the dataset, ensuring that all classes are adequately represented during training.
-    3.	Model Training: The model is then trained using the selected features and balanced data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
+    3.	Model Training: The model is then trained using the (selected) features and (balanced) data, allowing it to learn patterns associated with different cell types. We recommend using **balanced_accuracy** as an evaluation metric.
 
 Key Features
 ============
@@ -51,7 +51,7 @@ scAdam is particularly valuable in biomedical research where understanding cellu
 .. _scEve:
 scEve models
 *************
-The **scEve models** are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data. Here’s a detailed overview based on the information provided:
+The **scEve models** are part of the scParadise framework, which is designed for advanced analysis of single-cell RNA sequencing (scRNA-seq) data.
 
 Overview of scEve
 ==================
@@ -152,7 +152,7 @@ This means that 80% of the cells classified as T cells were actually T cells.
 .. _Recall:
 Recall/Sensitivity
 ==================
-**Recall**, also known as **sensitivity** or the **True Positive Rate (TPR)**, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model.Usefull for scAdam model quality control.
+**Recall**, also known as **sensitivity** or the **True Positive Rate (TPR)**, is a critical metric in classification tasks that measures the ability of a machine learning model to correctly identify all relevant instances within a dataset. It quantifies how many of the actual positive cases were accurately predicted by the model. Usefull for scAdam model quality control.
 
 Mathematically, recall/sensitivity can be expressed as:
 
@@ -165,7 +165,7 @@ Recall/Sensitivity answers the question: "What fraction of actual positive insta
 
 Example
 -------
-Suppose a T cell detection model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
+Suppose a model is evaluated on a dataset containing 100 actual T cells. The model correctly identified 80 of these T cells and missed 20.
 
 .. math::
    Recall/Sensitivity = \frac {80}{80+20} = \frac {80}{100} = 0.8 = 80\%
@@ -189,7 +189,7 @@ Interpretation
 
 Example
 -------
-Suppose a T cell detection model is evaluated on a dataset containing 100 cells. In the dataset, there are actually 20 T cells present. The model correctly identified 70 of cells as non T cells and 30 cells as T cells (10 actually not T cells).
+Suppose a model is evaluated on a dataset containing 100 cells. In the dataset, there are actually 20 T cells present. The model correctly identified 70 of cells as non T cells and 30 cells as T cells (10 actually not T cells).
 
 .. math::
    Specificity = \frac {70}{70+10} = \frac {70}{80} = 0.875 = 87.5\%
@@ -216,7 +216,7 @@ A high F1 score generally signifies a well-balanced model that achieves both hig
 Example
 -------
 Suppose we evaluate the performance of a T cell detection model, and we obtain the following metrics:
-* Precision: 0.85 (the model correctly identifies 85% of the T cells)
+* Precision: 0.85 (85% of predicted T cells are actually T cells)
 * Recall: 0.75 (the model correctly identifies 75% of all actual T cells)
 
 .. math::
@@ -235,7 +235,7 @@ In scNoah metrics Geometric Mean mathematically can be expressed as:
 
 Key Characteristics
 -------------------
-The Geometric mean ensures that the model performs well across all classes, not just the majority class. This is crucial in imbalanced datasets where one class may dominate.
+The Geometric mean ensures that the model performs well across all classes, not just the majority class. This is crucial in imbalanced datasets where one or several classes may dominate.
 
 Example
 -------
@@ -291,7 +291,7 @@ Typically, scRNA-seq datasets contain many cell types. Therefore, the problem of
 .. math::
    Accuracy = \frac {\sum_{i=1}^N TP_i}{\sum_{i=1}^N (TP_i + FP_i + FN_i)}
 
-i is a cell type.
+where i is a cell type.
 
 N is the total number of cell types.
 
