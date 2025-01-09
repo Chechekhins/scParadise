@@ -62,7 +62,7 @@ More information in [scParadise documentation](https://scparadise.readthedocs.io
 # Available models
 The full list of models is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/models/index.html)
 
-Also full list of models is available using scparadise.scadam.available_models for scAdam models and scparadise.sceve.available_models for scEve models.
+Also full list of models is available using scparadise.scadam.available_models() for scAdam models and scparadise.sceve.available_models() for scEve models.
 ### scAdam models
 | Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
 | :---: | :---: | :---: | :---: | :---: | :---: |
