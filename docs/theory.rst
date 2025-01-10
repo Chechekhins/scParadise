@@ -356,7 +356,7 @@ The model has a very high level of accuracy and low level of balanced accuracy. 
 .. _RMSE:
 Root Mean Square Error (RMSE)
 =============================
-**Root Mean Square Error (RMSE)** is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted and observed values. It is particularly useful in regression analysis and various fields such as climatology, finance, and machine learning. In scParadise, RMSE serves as a quality metric for the performance of scEve models.
+**Root Mean Square Error (RMSE)** is a statistical measure used to assess the accuracy of a predictive model by quantifying the differences between predicted and observed values. It is particularly useful in regression analysis. In scParadise, RMSE serves as a quality metric for the performance of scEve models.
 
 RMSE is defined mathematically as the square root of the average of the squared differences between predicted values (y_pred) and actual values (y_true).
 
@@ -481,6 +481,8 @@ Mathematically, it can be expressed as:
 .. math::
    EVS = 1 - \frac {\text{Var}(y_{true} - y_{pred})}{\text{Var}(y_{true})}
 
+:math:`Var` is the variance.
+
 :math:`y_{true}` is the actual value for observation (surface protein) i.
 
 :math:`y_{pred}` is the predicted value for observation (surface protein) i. 
@@ -511,7 +513,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 2. Then calculate variance:
 
 .. math::
-   \text{Var}(y_{true} = \frac {(3 - 3.125)^2 + (0.5 - 3.125)^2 + (2 - 3.125)^2 + (7 - 3.125)^2}{4} = frac {23.1875}{4} \approx 5.797
+   \text{Var}(y_{true} = \frac {(3 - 3.125)^2 + (0.5 - 3.125)^2 + (2 - 3.125)^2 + (7 - 3.125)^2}{4} = \frac {23.1875}{4} \approx 5.797
 
 3. Calculate the difference between actual and predicted values (Prediction errors):
 
@@ -521,7 +523,7 @@ Consider a small dataset (4 cells) with actual and predicted values of CD4 surfa
 4. Calculate the Variance of Prediction Errors:
 
 .. math::
-   \text{Var}(y_{true} - y_{pred}) = \frac {(0.5)^2 + (0.5)^2 + (0)^2 + (-1)^2}{4} = frac {1.5}{4} = 0.375
+   \text{Var}(y_{true} - y_{pred}) = \frac {(0.5)^2 + (0.5)^2 + (0)^2 + (-1)^2}{4} = \frac {1.5}{4} = 0.375
 
 5. Calculate EVS:
 
