@@ -7,6 +7,8 @@ scParadise is a fast, tunable, high-throughput automatic cell type annotation an
 
 scParadise enables users to utilize a selection of pre-existing models (scAdam or scEve) as well as to develop and train custom models tailored to specific research needs. scNoah facilitates the evaluation of novel models and methods for automated cell type annotation and modality prediction in scRNA-seq analysis.
 
+More information about scParadise modules is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/theory.html#)
+
 ![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
 
 # Installation
@@ -42,13 +44,13 @@ Required computing power: NVIDIA GeForce RTX 20 series or higher with installed 
 
 # Tutorials
 
-[Using scAdam for cell type classification](https://github.com/Chechekhins/scParadise/blob/main/scripts_package/scAdam_predict.ipynb)
+[Using scAdam for cell type classification](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scAdam/scAdam_predict.html)
 
-[Train custom scAdam model](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/scAdam_train.ipynb)
+[Train custom scAdam model](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scAdam/scAdam_train.html)
 
 [Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/R_scAdam_predict.R)
 
-[Using scEve model to improve clusterization](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEVE_clusterization.ipynb)
+[Using scEve model to improve clusterization](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/scEVE_clusterization.html)
 
 [Cross-species modality prediction using scEve](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/Cross-species%20modality%20prediction%20using%20scEve.ipynb)
 
