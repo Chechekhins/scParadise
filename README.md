@@ -1,5 +1,5 @@
 # scParadise
-Comprehensive information about the [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [modules](https://scparadise.readthedocs.io/en/latest/theory.html), [tutorials](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API](https://scparadise.readthedocs.io/en/latest/api/index.html) of scParadise is available in the scParadise documentation.
+Comprehensive information about the [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [modules](https://scparadise.readthedocs.io/en/latest/theory.html), [tutorials](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API](https://scparadise.readthedocs.io/en/latest/api/index.html) of scParadise is available in the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html).
 
 ## Short overview
 scParadise is an advanced Python framework designed for single-cell RNA sequencing (scRNA-seq) analysis, with a focus on accurate cell type annotation and modality prediction. It has three main tools:
