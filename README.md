@@ -1,4 +1,6 @@
 # scParadise
+Full information about scParadise [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [modules](https://scparadise.readthedocs.io/en/latest/theory.html), [tutorials](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API](https://scparadise.readthedocs.io/en/latest/api/index.html) is available in scParadise documentation.
+
 scParadise is a fast, tunable, high-throughput automatic cell type annotation and modality prediction framework. scParadise includes three sets of tools: 
 
 1) scAdam - fast multi-task multi-class cell type annotation
@@ -6,8 +8,6 @@ scParadise is a fast, tunable, high-throughput automatic cell type annotation an
 3) scNoah - benchmarking cell type annotation and modality prediction.
 
 scParadise enables users to utilize a selection of pre-existing models (scAdam or scEve) as well as to develop and train custom models tailored to specific research needs. scNoah facilitates the evaluation of novel models and methods for automated cell type annotation and modality prediction in scRNA-seq analysis.
-
-More information about scParadise modules is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/theory.html#)
 
 ![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
 
