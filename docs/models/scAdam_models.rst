@@ -40,6 +40,13 @@ scAdam models
      - 0.964
      - 5
      - :cite:`2023:Sikkema`
+   * - Human_Lung_Cancer
+     - Extended single-cell lung cancer atlas
+     - cells
+     - 0.937
+     - 0.936
+     - 3
+     - :cite:`2022:Salcher`
    * - Human_oropharyngeal_SCC
      - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNAseq
      - cells
