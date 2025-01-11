@@ -41,7 +41,7 @@ Also environment includes jupyterlab and pytorch for GPU-accelerated model train
 ## GPU support
 scParadise supports GPU usage automatically.
 
-Required computing power: NVIDIA GeForce RTX 20 series or higher with installed driver.
+Recommended computing power: NVIDIA GeForce RTX 20 series or higher with installed driver.
 
 # Tutorials
 
