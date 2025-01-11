@@ -12,12 +12,12 @@ scParadise enables users to utilize a selection of pre-existing models (scAdam o
 
 ![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
 
-# Installation
-## Using pip
+## Installation
+### Using pip
 ```console
 pip install scparadise
 ```
-## Create environment for using scparadise in R
+### Create environment for using scparadise in R
 ```console
 conda create -n scparadise python=3.9
 ```
@@ -29,7 +29,7 @@ pip install scparadise
 ```
 Set Python environment in R Studio: Tools - Global Options - Python
 
-## Create environment from scparadise.yml
+### Create environment from scparadise.yml
 1) Download [scparadise.yml](https://github.com/Chechekhins/scParadise/blob/main/scparadise.yml). 
 2) Execute the following command in Anaconda (from directory with scparadise.yml):
 ```console
@@ -43,7 +43,7 @@ scParadise supports GPU usage automatically.
 
 Recommended computing power: NVIDIA GeForce RTX 20 series or higher with installed driver.
 
-# Tutorials
+## Tutorials
 
 [Using scAdam for cell type classification](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scAdam/scAdam_predict.html)
 
@@ -57,12 +57,12 @@ Recommended computing power: NVIDIA GeForce RTX 20 series or higher with install
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
-# Model optimization
+## Model optimization
 
 scParadise supports both hyperparameter tuning and warm start training.
 More information in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scAdam/scAdam_model_optimization.html)
 
-# Available models
+## Available models
 The full list of models is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/models/index.html)
 
 Also full list of models is available using scparadise.scadam.available_models() for scAdam models and scparadise.sceve.available_models() for scEve models.
@@ -90,11 +90,11 @@ RMSE - Root Mean Squared Error
 
 For error metrics (RMSE, Mean AE), a lower value indicates better prediction.
 
-# Contributing
+## Contributing
 
 We warmly welcome contributions to scParadise! If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request. Additionally, we encourage you to report any issues you encounter while using scParadise. Your feedback is invaluable in helping us improve the tool!
 
-# Citation
+## Citation
 ```bibtex
 @article {Chechekhina2024.09.23.614509,
 	author = {Chechekhina, Elizaveta and Tkachuk, Vsevolod and Chechekhin, Vadim},
