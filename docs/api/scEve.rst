@@ -3,7 +3,7 @@ scEve
 
 Modality prediction using downloaded or custom scEve model.
 
-.. module:: scparadise.scadam
+.. module:: scparadise.sceve
 
 .. currentmodule:: scparadise
 
