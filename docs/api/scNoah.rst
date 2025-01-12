@@ -67,3 +67,15 @@ Count number of cell types per sample or condition.
 
    scnoah.cell_counter
 
+
+Explanations
+-----------
+
+Get explanations of gene importancies in scAdam model prediction.
+
+.. autosummary::
+   :nosignatures:
+   :toctree: generated/
+
+   scnoah.explain
+   scnoah.feature_importance
