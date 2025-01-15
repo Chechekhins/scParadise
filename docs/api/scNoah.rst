@@ -71,7 +71,7 @@ Count number of cell types per sample or condition.
 Explanations
 -----------
 
-Get explanations of gene importancies in scAdam model prediction.
+Get explanations of gene importances in scAdam model prediction.
 
 .. autosummary::
    :nosignatures:
