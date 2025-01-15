@@ -8,9 +8,9 @@ sys.path[:0] = [str(HERE.parent), str(HERE / "extensions")]
 
 project = "scParadise"
 repository_url = "https://github.com/Chechekhins/scParadise"
-copyright = '2024, Vadim Chechekhin'
+copyright = '2025, Vadim Chechekhin'
 author = "Vadim Chechekhin"
-release = "0.2.2b"
+release = "0.3.1b"
 
 html_context = {
     "display_github": True,  # Integrate GitHub
