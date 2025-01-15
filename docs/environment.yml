@@ -195,7 +195,7 @@ dependencies:
       - scanpy==1.10.3
       - scikit-learn==1.5.2
       - scipy==1.13.1
-      - scparadise==0.3.0b0
+      - scparadise==0.3.1b0
       - scvi-tools==1.1.6.post2
       - seaborn==0.13.2
       - send2trash==1.8.3
