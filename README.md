@@ -53,7 +53,7 @@ Recommended computing power: NVIDIA GeForce RTX 20 series or higher with install
 
 [Using scEve model to improve clusterization](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/scEVE_clusterization.html)
 
-[Cross-species modality prediction using scEve](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/Cross-species%20modality%20prediction%20using%20scEve.ipynb)
+[Cross-species modality prediction using scEve](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/Cross_species_modality_prediction_using_scEve.html)
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
