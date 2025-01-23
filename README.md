@@ -51,7 +51,7 @@ Recommended computing power: NVIDIA GeForce RTX 20 series or higher with install
 
 [Using scAdam in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scAdam/R_scAdam_predict.R)
 
-[Using scEve model to improve clusterization](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/scEVE_clusterization.html)
+[Using scEve model to improve clusterization](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/scEve_clusterization.html)
 
 [Cross-species modality prediction using scEve](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/Cross_species_modality_prediction_using_scEve.html)
 
