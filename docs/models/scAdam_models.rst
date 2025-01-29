@@ -82,6 +82,13 @@ scAdam models
      - 0.948
      - 2
      - unpublished data
+   * - Mouse_Testis
+     - Atlas of mouse testis
+     - cells
+     - 0.961
+     - 0.937
+     - 3
+     - unpublished atlas
    * - Mouse_iWAT
      - Pansci perigonadal adipose tissue atlas
      - nuclei
