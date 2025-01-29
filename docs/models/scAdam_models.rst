@@ -82,8 +82,8 @@ scAdam models
      - 0.948
      - 2
      - unpublished data
-   * - Mouse_Testis
-     - Atlas of mouse testis
+   * - Mouse_Testes
+     - Atlas of mouse testes 
      - cells
      - 0.961
      - 0.937
