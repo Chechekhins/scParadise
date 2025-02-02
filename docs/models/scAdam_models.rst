@@ -57,8 +57,8 @@ scAdam models
    * - Human_Cerebral_Cortex_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex
      - nuclei
-     - 0.975
      - 0.974
+     - 0.975
      - 2
      - :cite:`2023:Zhu`
    * - Human_Retina
