@@ -54,6 +54,13 @@ scAdam models
      - 0.968
      - 2
      - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
+   * - Human_Cerebral_Cortex_Dev_RNA
+     - Multi-omic profiling of the developing human cerebral cortex
+     - nuclei
+     - 0.966
+     - 0.967
+     - 2
+     - :cite:`2023:Zhu`
    * - Human_Retina
      - Single cell atlas of the human retina
      - cells
