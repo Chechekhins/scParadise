@@ -99,8 +99,8 @@ scAdam models
    * - Mouse_Testes
      - Atlas of mouse testes 
      - cells
-     - 0.961
-     - 0.937
+     - 0.975
+     - 0.975
      - 3
      - unpublished atlas
    * - Mouse_iWAT
