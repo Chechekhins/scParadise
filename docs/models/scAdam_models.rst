@@ -54,14 +54,14 @@ scAdam models
      - 0.968
      - 2
      - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
-   * - Human_Cerebral_Cortex_Dev_RNA
+   * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
      - 0.974
      - 0.975
      - 2
      - :cite:`2023:Zhu`
-   * - Human_Cerebral_Cortex_Dev_ATAC
+   * - Human_CC_Dev_ATAC
      - Multi-omic profiling of the developing human cerebral cortex (ATAC)
      - nuclei
      - 0.916
