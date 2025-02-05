@@ -5,8 +5,8 @@ Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0
 Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
 Human_Lung_Cancer,Extended single-cell lung cancer atlas (LuCA),cells,0.937,0.936,3
 Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq,cells,0.972,0.968,2
-Human_Cerebral_Cortex_Dev_RNA,Multi-omic profiling of the developing human cerebral cortex (RNA),nuclei,0.974,0.975,2
-Human_Cerebral_Cortex_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (ATAC),nuclei,0.916,0.912,2
+Human_CC_Dev_RNA,Multi-omic profiling of the developing human cerebral cortex (RNA),nuclei,0.974,0.975,2
+Human_CC_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (ATAC),nuclei,0.916,0.912,2
 Human_Retina,Single cell atlas of the human retina,cells,0.984,0.979,4
 Mouse_Retina,Single cell atlas of the mouse retina,cells,0.967,0.960,4
 Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
