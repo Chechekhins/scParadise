@@ -10,7 +10,7 @@ scAdam models
      - Suspension
      - Accuracy
      - Balanced Accuracy
-     - Number of Levels
+     - Levels
      - Reference
    * - Human_PBMC
      - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
