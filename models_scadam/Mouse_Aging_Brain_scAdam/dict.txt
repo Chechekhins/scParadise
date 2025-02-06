@@ -1,0 +1,1 @@
+[{"AC": 0, "CPC": 1, "EC": 2, "EPC": 3, "Hb_EC": 4, "MAC": 5, "MG": 6, "MNC": 7, "NRP": 8, "OLG": 9, "OPC": 10, "PC": 11, "SMC": 12, "TNC": 13, "imNeur": 14, "mNeur": 15}]
