@@ -89,6 +89,13 @@ scAdam models
      - 0.999
      - 2
      - :cite:`2024:Hao,2021:‎Kozareva`
+   * - Mouse_Aging_Brain
+     - Atlas of mouse aging brain
+     - cells
+     - 0.993
+     - 0.993
+     - 1
+     - :cite:`2020:Zhao`
    * - Mouse_Hippocampus
      - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
      - nuclei
