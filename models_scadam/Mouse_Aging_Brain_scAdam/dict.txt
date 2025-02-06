@@ -1,1 +1,1 @@
-[{"AC": 0, "CPC": 1, "EC": 2, "EPC": 3, "Hb_EC": 4, "MAC": 5, "MG": 6, "MNC": 7, "NRP": 8, "OLG": 9, "OPC": 10, "PC": 11, "SMC": 12, "TNC": 13, "imNeur": 14, "mNeur": 15}]
+[{"Astrocyte": 0, "Choroid plexux epithelial": 1, "Endothelial": 2, "Ependymocyte": 3, "Hemoglobin+ endothelial": 4, "Immature neuron": 5, "Macrophages": 6, "Mature neuron": 7, "Microglia": 8, "Mononuclear": 9, "Neuronal precursor": 10, "Oligodendrocyte": 11, "Oligodendrocyte progenitor": 12, "Pericyte": 13, "Smooth muscle": 14, "Tanycyte": 15}]
