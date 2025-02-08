@@ -69,7 +69,7 @@ Count number of cell types per sample or condition.
 
 
 Explanations
------------
+------------
 
 Get explanations of gene importances in scAdam model prediction.
 
@@ -79,3 +79,13 @@ Get explanations of gene importances in scAdam model prediction.
 
    scnoah.explain
    scnoah.feature_importance
+
+Managing large datasets
+-----------------------
+Get fraction of large dataset.
+
+.. autosummary::
+   :nosignatures:
+   :toctree: generated/
+
+   scnoah.get_frac
