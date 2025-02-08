@@ -295,7 +295,6 @@ dependencies:
       - torchmetrics==1.4.2
       - torchvision==0.19.1+cu121
       - tornado==6.4.1
-      - tosica==1.0.0
       - tqdm==4.66.5
       - traitlets==5.14.3
       - triton==3.0.0
