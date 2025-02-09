@@ -68,7 +68,7 @@ scAdam models
      - 0.912
      - 2
      - :cite:`2023:Zhu`
-   * - Human_Retina
+   * - Human_Retina_cell
      - Single cell atlas of the human retina
      - cells
      - 0.984
