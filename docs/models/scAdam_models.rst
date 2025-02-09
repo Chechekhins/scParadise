@@ -75,6 +75,13 @@ scAdam models
      - 0.979
      - 4
      - :cite:`2023:Li`
+   * - Human_Retina_nucleus
+     - Single nucleus atlas of the human retina
+     - nuclei
+     - 0.994
+     - 0.994
+     - 2
+     - :cite:`2023:Li`
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
