@@ -54,6 +54,13 @@ scAdam models
      - 0.968
      - 2
      - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
+   * - Human_Brain_SEA_AD
+     - Seattle Alzheimer’s Disease Brain Cell Atlas
+     - nuclei
+     - 0.997
+     - 0.997
+     - 3
+     - :cite:`2024:gabitto`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
