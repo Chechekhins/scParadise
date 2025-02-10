@@ -65,30 +65,7 @@ More information in [scParadise documentation](https://scparadise.readthedocs.io
 ## Available models
 The full list of models is available in [scParadise documentation](https://scparadise.readthedocs.io/en/latest/models/index.html)
 
-Also full list of models is available using scparadise.scadam.available_models() for scAdam models and scparadise.sceve.available_models() for scEve models.
-### scAdam models
-| Tissue/Model name | Description | Suspension | Accuracy | Balanced Accuracy | Number of Levels |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Human_PBMC  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.979 | 0.979 | 3 | 
-| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.947 | 0.942 | 3 | 
-| Human_Lung  | Core Human Lung Cell Atlas | cells | 0.965 | 0.964 | 5 | 
-| Human_Retina_cell  | Single cell atlas of the human retina | cells | 0.984 | 0.979 | 4 | 
-| Mouse_Retina  | Single cell atlas of the mouse retina | cells | 0.967 | 0.960 | 4 | 
-| Mouse_Cerebellum  | Single nuclei atlas of the Mouse cerebellum | nuclei | 0.999 | 0.999 | 2 | 
-| Macaque_Cerebellum  | Single nuclei atlas of the Macaque cerebellum | nuclei | 0.995 | 0.994 | 2 | 
-
-### scEve models
-| Tissue/Model name | Description | Suspension | RMSE | MAE | Number of Proteins |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Human_PBMC_3p  | Peripheral blood mononuclear cells of healthy adults 3' scRNA seq  | cells | 0.305 | 0.226 | 224 | 
-| Human_PBMC_5p  | Peripheral blood mononuclear cells of healthy adults 5' scRNA seq  | cells | 0.308 | 0.225 | 54 | 
-| Human_BMMC  | Bone marrow mononuclear cell of healthy adults  | cells | 0.706 | 0.454 | 134 | 
-
-Mean AE - Mean Absolute Error
-
-RMSE - Root Mean Squared Error
-
-For error metrics (RMSE, Mean AE), a lower value indicates better prediction.
+Also full list of models is available using `scparadise.scadam.available_models()` for scAdam models and `scparadise.sceve.available_models()` for scEve models.
 
 ## Contributing
 
