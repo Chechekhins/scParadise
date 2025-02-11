@@ -6,7 +6,7 @@
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi
+.. image:: https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi&logoColor=blue
     :target: https://pypi.org/project/scparadise/
     :alt: PyPI - Version
 
