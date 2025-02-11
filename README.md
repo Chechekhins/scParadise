@@ -1,6 +1,7 @@
 # scParadise
 [![PyPI version](https://badge.fury.io/py/scparadise.svg?icon=si%3Apython)](https://badge.fury.io/py/scparadise)
 [![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi&logoColor=blue&link=https%3A%2F%2Fpypi.org%2Fproject%2Fscparadise%2F)
 [![Documentation](https://readthedocs.org/projects/scparadise/badge/?version=latest)](https://scparadise.readthedocs.io/en/latest/?badge=latest)
 
 Comprehensive information about the [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [modules](https://scparadise.readthedocs.io/en/latest/theory.html), [tutorials](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API](https://scparadise.readthedocs.io/en/latest/api/index.html) of scParadise is available in the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html).
