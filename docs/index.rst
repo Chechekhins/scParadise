@@ -1,6 +1,8 @@
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
+.. image:: https://badge.fury.io/py/scparadise.svg?icon=si%3Apython
+    :target: https://badge.fury.io/py/scparadise
 
 Welcome to scParadise documentation!
 ===================================
