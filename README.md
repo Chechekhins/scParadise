@@ -1,5 +1,5 @@
 # scParadise
-[![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise);
+[![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise)
 
 Comprehensive information about the [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [modules](https://scparadise.readthedocs.io/en/latest/theory.html), [tutorials](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API](https://scparadise.readthedocs.io/en/latest/api/index.html) of scParadise is available in the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html).
 
