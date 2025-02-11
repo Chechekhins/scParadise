@@ -4,7 +4,7 @@
     :target: https://pepy.tech/projects/scparadise
     :alt: PyPI Downloads
 .. image:: https://img.shields.io/pypi/pyversions/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org
-    :alt: PyPI - Python Version
+    :alt: Python Version
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
