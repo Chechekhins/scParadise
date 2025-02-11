@@ -1,11 +1,11 @@
-.. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
-    :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
 .. image:: https://badge.fury.io/py/scparadise.svg?icon=si%3Apython
     :target: https://badge.fury.io/py/scparadise
 .. image:: https://static.pepy.tech/badge/scparadise
     :target: https://pepy.tech/projects/scparadise
     :alt: PyPI Downloads
+.. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
+    :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 Welcome to scParadise documentation!
 ===================================
