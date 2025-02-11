@@ -3,6 +3,9 @@
     :alt: Documentation Status
 .. image:: https://badge.fury.io/py/scparadise.svg?icon=si%3Apython
     :target: https://badge.fury.io/py/scparadise
+.. image:: https://static.pepy.tech/badge/scparadise
+    :target: https://pepy.tech/projects/scparadise
+    :alt: PyPI Downloads
 
 Welcome to scParadise documentation!
 ===================================
