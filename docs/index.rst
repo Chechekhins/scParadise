@@ -90,10 +90,8 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
    references
    citation
 
-A little joke from the scParadise team
-**************************************
-scAdam:
+Ыmall jokes from the scParadise team
+************************************
 So Adam gave names to all Monocytes, to the T cells of the blood, and to every living cell. But for Adam there was not found a helper comparable to him.
 
-scEve:
 She became pregnant and gave birth to new modality. Eve said, “With the Lord's help, I have given birth to a surface proteins.”
