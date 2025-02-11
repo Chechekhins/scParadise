@@ -3,11 +3,12 @@
 .. image:: https://static.pepy.tech/badge/scparadise
     :target: https://pepy.tech/projects/scparadise
     :alt: PyPI Downloads
-.. image:: https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi&logoColor=blue&link=https%3A%2F%2Fpypi.org%2Fproject%2Fscparadise%2F
-   :alt: PyPI - Version
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
+.. image:: https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi
+    :target: https://pypi.org/project/scparadise/
+    :alt: PyPI - Version
 
 Welcome to scParadise documentation!
 ===================================
