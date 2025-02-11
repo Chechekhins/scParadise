@@ -2,7 +2,7 @@
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-[![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise)
+[![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise) &nbsp;
 
 Welcome to scParadise documentation!
 ===================================
