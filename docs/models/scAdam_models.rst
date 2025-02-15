@@ -48,19 +48,26 @@ scAdam models
      - 3
      - :cite:`2022:Salcher`
    * - Human_oropharyngeal_SCC
-     - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNAseq
+     - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue
      - cells
      - 0.972
      - 0.968
      - 2
      - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
+   * - Human_Brain_atlas
+     - Human Brain Cell Atlas v1.0
+     - nuclei
+     - 0.998
+     - 0.998
+     - 2
+     - :cite:`2024:gabitto
    * - Human_Brain_SEA_AD
      - Seattle Alzheimer’s Disease Brain Cell Atlas
      - nuclei
      - 0.997
      - 0.997
      - 3
-     - :cite:`2024:gabitto`
+     - :cite:`2023:siletti`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
