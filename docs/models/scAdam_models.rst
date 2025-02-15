@@ -60,14 +60,14 @@ scAdam models
      - 0.998
      - 0.998
      - 2
-     - :cite:`2024:gabitto
+     - :cite:`2023:siletti`
    * - Human_Brain_SEA_AD
      - Seattle Alzheimer’s Disease Brain Cell Atlas
      - nuclei
      - 0.997
      - 0.997
      - 3
-     - :cite:`2023:siletti`
+     - :cite:`2024:gabitto`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
