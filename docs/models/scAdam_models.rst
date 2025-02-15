@@ -82,6 +82,13 @@ scAdam models
      - 0.912
      - 2
      - :cite:`2023:Zhu`
+   * - Human_Kidney_nucleus
+     - snRNA-seq of the Adult Human Kidney (V. 1.5)
+     - nuclei
+     - 0.973
+     - 0.972
+     - 3
+     - `cellxgene <https://cellxgene.cziscience.com/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f>`_
    * - Human_Retina_cell
      - Single cell atlas of the human retina
      - cells
