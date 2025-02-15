@@ -55,21 +55,21 @@ The **scEve models** are part of the scParadise framework, which is designed for
 
 Overview of scEve
 ==================
-*	Purpose: The scEve models are specifically focused on predicting cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
+*	Purpose: The scEve models are specifically focused on imputing cell surface protein abundance. This capability is crucial for understanding cellular functions and interactions at a granular level, providing insights into how cells communicate and operate within tissues.
 *	Functionality:
-    1. Surface Protein Prediction: scEve utilizes the expression data from selected features (genes) to make predictions about the abundance of specific cell surface proteins. This is important for identifying and characterizing different cell types based on their protein markers.
+    1. Surface Protein Imputation: scEve utilizes the expression data from selected features (genes) to make predictions about the abundance of specific cell surface proteins. This is important for identifying and characterizing different cell types based on their protein markers.
     2. Integration with scAdam: The scEve models complement the scAdam models, which are focused on multi-level cell type annotation. Together, they enhance the overall analysis pipeline by providing both annotations and functional insights regarding cell surface markers.
 
 Key Features
 ============
 * Enhanced Clustering and Cell Type Separation: The scEve models improve the clustering of cells and the separation of different cell types within single-cell datasets. This is particularly valuable in complex tissues where multiple cell types may be present in close proximity.
-* Visualization and Analysis Tools: By predicting surface protein levels, scEve aids in visualizing cellular composition and interactions, facilitating deeper biological insights.
+* Visualization and Analysis Tools: By imputing surface protein levels, scEve aids in visualizing cellular composition and interactions, facilitating deeper biological insights.
 * Fast and Reliable: The models are designed to be efficient, enabling rapid analyses that are essential in modern biomedical research.
 
 Applications
 ============
 The applications of scEve models include:
-* Cell Sorting: By predicting surface protein markers, researchers can isolate specific subpopulations of cells for further study. This is particularly useful in applications such as immunology and cancer research, where understanding specific cell types is critical.
+* Cell Sorting: By imputing surface protein markers, researchers can isolate specific subpopulations of cells for further study. This is particularly useful in applications such as immunology and cancer research, where understanding specific cell types is critical.
 * Functional Studies: The information gleaned from surface protein predictions can guide experiments aimed at understanding cellular functions and interactions within various biological contexts. 
 
 
