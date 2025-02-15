@@ -26,7 +26,7 @@ Create environment for using scparadise in R
 
 Set Python environment in R Studio: Tools - Global Options - Python
 
-Create environment from scparadise.yml
+Create environment from scparadise.yml (recommended)
 --------------------------------------
 
 1. Download `scparadise.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise.yml>`_.
@@ -42,5 +42,5 @@ Installed environment includes scvi-tools, scanpy, muon, harmony, jupyterlab and
 GPU support
 -----------
 
-scParadise supports GPU usage automatically. If you don't have GPU scParadise will automatically use CPU. 
+scParadise supports GPU (NVIDIA) usage automatically. If you don't have GPU scParadise will automatically use CPU. 
 We recommend using GPUs to train custom models as training on CPUs can take a long time.
