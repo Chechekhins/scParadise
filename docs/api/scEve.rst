@@ -1,7 +1,7 @@
 scEve
 =====
 
-Modality prediction using downloaded or custom scEve model.
+Modality imputation using downloaded or custom scEve model.
 
 .. module:: scparadise.sceve
 
@@ -36,7 +36,7 @@ Hyperparameter tuning is also available to achieve better model performance.
 Prediction 
 ----------
 
-Modality prediction using downloaded or custom scEve model.
+Modality imputation using downloaded or custom scEve model.
 
 .. autosummary::
    :nosignatures:
