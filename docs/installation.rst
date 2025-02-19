@@ -6,7 +6,7 @@ Using pip
 
 .. code-block:: python
 
-   pip install scparadise
+   pip install scparadise -U
 
 
 Create environment for using scparadise in R
@@ -22,12 +22,12 @@ Create environment for using scparadise in R
 
 .. code-block:: python
 
-   pip install scparadise
+   pip install scparadise -U
 
 Set Python environment in R Studio: Tools - Global Options - Python
 
 Create environment from scparadise.yml (recommended)
---------------------------------------
+----------------------------------------------------
 
 1. Download `scparadise.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise.yml>`_.
                              
@@ -37,7 +37,7 @@ Create environment from scparadise.yml (recommended)
 
    conda env create -f scparadise.yml
 
-Installed environment includes scvi-tools, scanpy, muon, harmony, jupyterlab and other packages for scRNA-seq analysis.
+Installed environment includes latest scparadise, scvi-tools, scanpy, muon, harmony, jupyterlab and other packages for scRNA-seq analysis.
 
 GPU support
 -----------
