@@ -11,10 +11,10 @@ Comprehensive information about the [installation](https://scparadise.readthedoc
 scParadise is an advanced Python framework designed for single-cell RNA sequencing (scRNA-seq) analysis, with a focus on accurate cell type annotation and modality prediction. It has three main tools:
 
 1) scAdam specializes in multilevel cell type annotation. Specifically, it identifies rare cell types that represent less than 1% of the population and uses deep learning techniques to improve the consistency and accuracy of diverse datasets.
-2) scEve aims to improve the prediction of surface protein markers. Clustering and separating cell types It facilitates the identification of specific cell subpopulations for targeting studies.
+2) scEve aims to improve the imputation of surface protein markers. Clustering and separating cell types It facilitates the identification of specific cell subpopulations for targeting studies.
 3) scNoah is a benchmarking tool used to evaluate the performance of various automatic cell type annotation and modality prediction methods.
 
-scParadise enables users to utilize a selection of pre-existing models (scAdam or scEve) as well as to develop and train custom models tailored to specific research needs. scNoah facilitates the evaluation of novel models and methods for automated cell type annotation and modality prediction in scRNA-seq analysis.
+scParadise enables users to utilize a selection of pre-existing models (scAdam or scEve) as well as to develop and train custom models tailored to specific research needs. scNoah facilitates the evaluation of novel models and methods for automated cell type annotation and modality imputation in scRNA-seq analysis.
 
 ![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
 
@@ -59,7 +59,7 @@ Recommended computing power: NVIDIA GeForce RTX 20 series or higher with install
 
 [Using scEve model to improve clusterization](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/scEve_clusterization.html)
 
-[Cross-species modality prediction using scEve](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/Cross_species_modality_prediction_using_scEve.html)
+[Cross-species modality imputation using scEve](https://scparadise.readthedocs.io/en/latest/tutorials/notebooks/scEve/Cross_species_modality_prediction_using_scEve.html)
 
 [Using scEve in R](https://github.com/Chechekhins/scParadise/blob/main/docs/tutorials/notebooks/scEve/scEve_predict_R.R)
 
