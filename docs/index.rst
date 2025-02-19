@@ -20,9 +20,9 @@ Welcome to scParadise documentation!
 
 `scParadise` includes three sets of tools: 
 
-    1) `scAdam` - fast multi-task multi-class cell type annotation.
-    2) `scEve` - modality imputation.
-    3) `scNoah` - benchmarking cell type annotation and modality imputation. 
+    1) `scAdam <https://scparadise.readthedocs.io/en/latest/theory.html#scadam-models>`_ - fast reference-free multi-task multi-class cell type annotation.
+    2) `scEve` - reference-free modality imputation.
+    3) `scNoah` - set of functions for benchmarking cell type annotation and modality imputation. 
 
 `scParadise` enables users to utilize a selection of pre-existing models (`scAdam` or `scEve`) 
 as well as to develop, train and optimize custom models tailored to specific research needs. 
@@ -89,6 +89,10 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
    GitHub <https://github.com/Chechekhins/scParadise>
    references
    citation
+
+Contributing
+_____________
+We warmly welcome contributions to scParadise! If you have any ideas, enhancements, or bug fixes, please feel free to submit a pull request. Additionally, we encourage you to report any issues you encounter while using scParadise. Your feedback is invaluable in helping us improve the tool!
 
 Small jokes from the scParadise team
 ____________________________________
