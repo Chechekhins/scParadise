@@ -94,8 +94,8 @@ View(df)
 # Download scEve model
 scp$sceve$download_model(model_name = 'Human_PBMC', save_path = '')
 
-# Predict surface proteins using scEve model
-adata_adt_pred <- scp$sceve$predict(adata, path_model = 'Human_PBMC_scEve', return_mdata = FALSE)
+# Impute surface proteins using scEve model
+adata_adt_imp <- scp$sceve$predict(adata, path_model = 'Human_PBMC_scEve', return_mdata = FALSE)
 
 ## scAdam (you can skip this step if cells are already annotated)
 # Download scAdam model
@@ -109,17 +109,17 @@ meta <- py_to_r(adata$obs)
 object@meta.data <- meta
 
 ## Convert AnnData adata_adt_pred to dgCMatrix adt_pred
-adt_pred <- t(as.sparse(py_to_r(adata_adt_pred$X$toarray())))
-adt_pred@Dimnames[[1]] <- py_to_r(adata_adt_pred$var_names$tolist())
-adt_pred@Dimnames[[2]] <- py_to_r(adata_adt_pred$obs_names$tolist())
-rm(adata_adt_pred)
+adt_imp <- t(as.sparse(py_to_r(adata_adt_imp$X$toarray())))
+adt_imp@Dimnames[[1]] <- py_to_r(adata_adt_imp$var_names$tolist())
+adt_imp@Dimnames[[2]] <- py_to_r(adata_adt_imp$obs_names$tolist())
+rm(adata_adt_imp)
 
 # Create ADT assay in Seurat object
-adt_pred <- CreateAssay5Object(data = adt_pred)
-object@assays$ADT <- adt_pred
+adt_imp <- CreateAssay5Object(data = adt_imp)
+object@assays$ADT <- adt_imp
 object@assays[["ADT"]]@key <- 'adt_'
 
-# PCA on predicted ADT data
+# PCA on imputed ADT data
 DefaultAssay(object) <- 'ADT'
 VariableFeatures(object) <- rownames(object[["ADT"]])
 # scEve predicts normalized data, so we skip normalization step
@@ -134,10 +134,6 @@ object <- FindMultiModalNeighbors(
   object, reduction.list = list("pca", "apca"), 
   k.nn = 15,
   dims.list = list(1:15, 1:20)
-)
-object <- FindMultiModalNeighbors(
-  object, reduction.list = list("pca", "apca"), 
-  k.nn = 10, dims.list = list(1:15, 1:20)
 )
 
 # UMAP dimensional reduction using WNN nn 
@@ -202,7 +198,7 @@ p2 <- DimPlot(object,
 p1+p2
 
 
-## Check predictions
+## Check predictions and imputations
 # CD4+ T cells
 FeaturePlot(object,
             features = c('CD3E', # RNA
