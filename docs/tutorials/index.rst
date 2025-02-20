@@ -1,6 +1,9 @@
 Tutorials
 =========
 
+Python notebooks
+----------------
+
 .. toctree::
    :maxdepth: 2
 
