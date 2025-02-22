@@ -89,3 +89,14 @@ Get fraction of large dataset.
    :toctree: generated/
 
    scnoah.get_frac
+   scnoah.get_samples
+
+Difference between clusters
+---------------------------
+Calculate Integral of absolute density difference and Mutual Information between two clusterings.
+
+.. autosummary::
+   :nosignatures:
+   :toctree: generated/
+
+   scnoah.clust_diff
