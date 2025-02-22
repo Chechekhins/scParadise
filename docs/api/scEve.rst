@@ -33,7 +33,7 @@ Hyperparameter tuning is also available to achieve better model performance.
    sceve.hyperparameter_tuning
    sceve.train_tuned
 
-Prediction 
+Imputation 
 ----------
 
 Modality imputation using downloaded or custom scEve model.
