@@ -110,6 +110,13 @@ scAdam models
      - 0.994
      - 2
      - :cite:`2023:Li`
+   * - Human_Testes
+     - Single cell atlas of the human testes
+     - cells
+     - 0.991
+     - 0.991
+     - 2
+     - unpublished atlas
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
