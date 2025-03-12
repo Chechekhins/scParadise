@@ -128,6 +128,7 @@ dependencies:
       - ml-collections==0.1.1
       - ml-dtypes==0.5.1
       - more-itertools==10.6.0
+      - mousipy==0.1.6
       - mpmath==1.3.0
       - msgpack==1.1.0
       - mudata==0.2.4
