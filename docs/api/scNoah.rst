@@ -40,10 +40,15 @@ Test modality prediction method quality using error metrics (RMSE, MedianAE, Mea
 Also, visualise metrics on cell embeddings.
 
 RMSE - Root mean squared error
+
 MeanAE - Mean absolute error
+
 MedianAE - Median absolute error
+
 EVS - Explained variance score
+
 R² score - Coefficient of determination
+
 PC - Pearson coefficient
 
 For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
