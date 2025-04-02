@@ -30,6 +30,8 @@ Create environment from scparadise.yml (recommended)
 ----------------------------------------------------
 
 1. Download `scparadise.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise.yml>`_.
+
+2. sudo apt-get install g++ (optional, if you are doing a clean install).
                              
 2. Execute the following command in Anaconda (from directory with scparadise.yml):
 
