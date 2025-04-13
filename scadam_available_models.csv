@@ -12,7 +12,7 @@ Human_CC_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (
 Human_Kidney_cell,scRNA-seq of the Adult Human Kidney (V. 1.5),cells,0.974,0.974,3
 Human_Kidney_nucleus,snRNA-seq of the Adult Human Kidney (V. 1.5),nuclei,0.973,0.972,3
 Human_Retina_cell,Single cell atlas of the human retina,cells,0.984,0.979,4
-Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,24
+Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,2
 Human_Testes,Single cell atlas of the human testes,cells,0.991,0.991,2
 Human_Adipose,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
 Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
