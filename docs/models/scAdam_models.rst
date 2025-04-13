@@ -116,7 +116,14 @@ scAdam models
      - 0.991
      - 0.991
      - 2
-     - unpublished atlas
+     - unpublished atlas by Chechekhin V.
+   * - Human_Adipose
+     - Subcutaneous adipose tissue atlas
+     - cells
+     - 0.973
+     - 0.954
+     - 3
+     - unpublished atlas by Laletin V. and Chechekhin V.
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
@@ -144,14 +151,14 @@ scAdam models
      - 0.949
      - 0.948
      - 2
-     - unpublished data
+     - unpublished atlas by Tychinin D.
    * - Mouse_Testes
      - Atlas of mouse testes 
      - cells
      - 0.975
      - 0.975
      - 3
-     - unpublished atlas
+     - unpublished atlas by Chechekhin V.
    * - Mouse_iWAT
      - Pansci perigonadal adipose tissue atlas
      - nuclei
