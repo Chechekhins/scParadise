@@ -151,7 +151,7 @@ scAdam models
      - 0.949
      - 0.948
      - 2
-     - unpublished atlas by Tychinin D.
+     - unpublished atlas by Tychinin D. and Mareeva S.
    * - Mouse_Testes
      - Atlas of mouse testes 
      - cells
