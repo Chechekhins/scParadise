@@ -1,36 +1,36 @@
 Tissue/Model name,Description,Suspension,Accuracy,Balanced Accuracy,Number of Levels
-Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
+Human_Adipose,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
 Human_BMMC,Bone marrow mononuclear cell of healthy adults,cells,0.947,0.942,3
-Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.957,0.956,2
-Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
-Human_Lung_Cancer,Extended single-cell lung cancer atlas (LuCA),cells,0.937,0.936,3
-Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq,cells,0.972,0.968,2
 Human_Brain_atlas,Human Brain Cell Atlas v1.0,nuclei,0.998,0.998,2
 Human_Brain_SEA_AD,Seattle Alzheimer’s Disease Brain Cell Atlas,nuclei,0.997,0.997,3
 Human_CC_Dev_RNA,Multi-omic profiling of the developing human cerebral cortex (RNA),nuclei,0.974,0.975,2
 Human_CC_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (ATAC),nuclei,0.916,0.912,2
+Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.957,0.956,2
 Human_Kidney_cell,scRNA-seq of the Adult Human Kidney (V. 1.5),cells,0.974,0.974,3
 Human_Kidney_nucleus,snRNA-seq of the Adult Human Kidney (V. 1.5),nuclei,0.973,0.972,3
+Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
+Human_Lung_Cancer,Extended single-cell lung cancer atlas (LuCA),cells,0.937,0.936,3
+Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq,cells,0.972,0.968,2
+Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
 Human_Retina_cell,Single cell atlas of the human retina,cells,0.984,0.979,4
 Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,2
 Human_Testes,Single cell atlas of the human testes,cells,0.991,0.991,2
-Human_Adipose,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
-Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
 Mouse_Aging_Brain,Atlas of mouse aging brain,cells,0.993,0.993,1
-Mouse_Hippocampus,Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA),nuclei,0.949,0.948,2
-Mouse_Testes,Atlas of mouse testes,cells,0.975,0.975,3
-Mouse_iWAT,Pansci inguinal adipose tissue atlas,nuclei,0.988,0.950,2
-Mouse_gWAT,Pansci perigonadal adipose tissue atlas,nuclei,0.977,0.947,2
 Mouse_BAT,Pansci brown adipose tissue atlas,nuclei,0.979,0.945,2
-Mouse_Muscle,Pansci muscle atlas,nuclei,0.975,0.942,2
-Mouse_Stomach,Pansci stomach atlas,nuclei,0.962,0.914,2
-Mouse_Duodenum,Pansci duodenum atlas,nuclei,0.964,0.897,2
-Mouse_Ileum,Pansci ileum atlas,nuclei,0.973,0.950,2
-Mouse_Jejunum,Pansci jejunum atlas,nuclei,0.975,0.926,2
+Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
 Mouse_Colon,Pansci colon atlas,nuclei,0.968,0.933,2
+Mouse_Duodenum,Pansci duodenum atlas,nuclei,0.964,0.897,2
+Mouse_gWAT,Pansci perigonadal adipose tissue atlas,nuclei,0.977,0.947,2
+Mouse_Heart,Pansci heart atlas,nuclei,0.961,0.932,2
+Mouse_Hippocampus,Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA),nuclei,0.949,0.948,2
+Mouse_Ileum,Pansci ileum atlas,nuclei,0.973,0.950,2
+Mouse_iWAT,Pansci inguinal adipose tissue atlas,nuclei,0.988,0.950,2
+Mouse_Jejunum,Pansci jejunum atlas,nuclei,0.975,0.926,2
+Mouse_Kidney,Pansci kidney atlas,nuclei,0.988,0.949,2
 Mouse_Liver,Pansci liver atlas,nuclei,0.986,0.950,2
 Mouse_Lung,Pansci lung atlas,nuclei,0.975,0.953,2
-Mouse_Kidney,Pansci kidney atlas,nuclei,0.988,0.949,2
-Mouse_Heart,Pansci heart atlas,nuclei,0.961,0.932,2
+Mouse_Muscle,Pansci muscle atlas,nuclei,0.975,0.942,2
+Mouse_Stomach,Pansci stomach atlas,nuclei,0.962,0.914,2
+Mouse_Testes,Atlas of mouse testes,cells,0.975,0.975,3
 Macaque_Cerebellum,Single nuclei atlas of the Macaque cerebellum,nuclei,0.995,0.994,2
 Marmoset_Cerebellum,Single nuclei atlas of the Marmoset cerebellum,nuclei,0.988,0.987,2
