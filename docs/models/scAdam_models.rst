@@ -12,13 +12,13 @@ scAdam models
      - Balanced Accuracy
      - Levels
      - Reference
-   * - Human_PBMC
-     - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
+   * - Human_Adipose
+     - Subcutaneous adipose tissue atlas
      - cells
-     - 0.979
-     - 0.979
+     - 0.973
+     - 0.954
      - 3
-     - :cite:`2021:Hao‎`
+     - unpublished atlas by Laletin V. and Chechekhin V.
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
@@ -26,34 +26,6 @@ scAdam models
      - 0.942
      - 3
      - :cite:`2021:‎Luecken`
-   * - Human_Heart
-     - Human heart CITE-seq analysis of healthy and diseased states
-     - cells
-     - 0.957
-     - 0.956
-     - 2
-     - :cite:`2023:Amrute`
-   * - Human_Lung
-     - Core Human Lung Cell Atlas
-     - cells
-     - 0.965
-     - 0.964
-     - 5
-     - :cite:`2023:Sikkema`
-   * - Human_Lung_Cancer
-     - Extended single-cell lung cancer atlas
-     - cells
-     - 0.937
-     - 0.936
-     - 3
-     - :cite:`2022:Salcher`
-   * - Human_oropharyngeal_SCC
-     - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue
-     - cells
-     - 0.972
-     - 0.968
-     - 2
-     - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
    * - Human_Brain_atlas
      - Human Brain Cell Atlas v1.0
      - nuclei
@@ -82,6 +54,13 @@ scAdam models
      - 0.912
      - 2
      - :cite:`2023:Zhu`
+   * - Human_Heart
+     - Human heart CITE-seq analysis of healthy and diseased states
+     - cells
+     - 0.957
+     - 0.956
+     - 2
+     - :cite:`2023:Amrute`
    * - Human_Kidney_cell
      - scRNA-seq of the Adult Human Kidney (V. 1.5)
      - cells
@@ -96,6 +75,34 @@ scAdam models
      - 0.972
      - 3
      - `cellxgene <https://cellxgene.cziscience.com/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f>`_
+   * - Human_Lung
+     - Core Human Lung Cell Atlas
+     - cells
+     - 0.965
+     - 0.964
+     - 5
+     - :cite:`2023:Sikkema`
+   * - Human_Lung_Cancer
+     - Extended single-cell lung cancer atlas
+     - cells
+     - 0.937
+     - 0.936
+     - 3
+     - :cite:`2022:Salcher`
+   * - Human_oropharyngeal_SCC
+     - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue
+     - cells
+     - 0.972
+     - 0.968
+     - 2
+     - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
+   * - Human_PBMC
+     - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
+     - cells
+     - 0.979
+     - 0.979
+     - 3
+     - :cite:`2021:Hao‎`
    * - Human_Retina_cell
      - Single cell atlas of the human retina
      - cells
@@ -117,13 +124,20 @@ scAdam models
      - 0.991
      - 2
      - unpublished atlas by Chechekhin V.
-   * - Human_Adipose
-     - Subcutaneous adipose tissue atlas
+   * - Mouse_Aging_Brain
+     - Atlas of mouse aging brain
      - cells
-     - 0.973
-     - 0.954
-     - 3
-     - unpublished atlas by Laletin V. and Chechekhin V.
+     - 0.993
+     - 0.993
+     - 1
+     - :cite:`2020:Zhao`
+   * - Mouse_BAT
+     - Pansci brown adipose tissue atlas
+     - nuclei
+     - 0.979
+     - 0.945
+     - 2
+     - :cite:`2024:Zhang`
    * - Mouse_Retina
      - Single cell atlas of the mouse retina
      - cells
@@ -138,53 +152,11 @@ scAdam models
      - 0.999
      - 2
      - :cite:`2024:Hao,2021:‎Kozareva`
-   * - Mouse_Aging_Brain
-     - Atlas of mouse aging brain
-     - cells
-     - 0.993
-     - 0.993
-     - 1
-     - :cite:`2020:Zhao`
-   * - Mouse_Hippocampus
-     - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
+   * - Mouse_Colon
+     - Pansci colon atlas
      - nuclei
-     - 0.949
-     - 0.948
-     - 2
-     - unpublished atlas by Tychinin D. and Mareeva S.
-   * - Mouse_Testes
-     - Atlas of mouse testes 
-     - cells
-     - 0.975
-     - 0.975
-     - 3
-     - unpublished atlas by Chechekhin V.
-   * - Mouse_iWAT
-     - Pansci perigonadal adipose tissue atlas
-     - nuclei
-     - 0.977
-     - 0.947
-     - 2
-     - :cite:`2024:Zhang`
-   * - Mouse_BAT
-     - Pansci brown adipose tissue atlas
-     - nuclei
-     - 0.979
-     - 0.945
-     - 2
-     - :cite:`2024:Zhang`
-   * - Mouse_Muscle
-     - Pansci muscle atlas
-     - nuclei
-     - 0.975	
-     - 0.942
-     - 2
-     - :cite:`2024:Zhang`
-   * - Mouse_Stomach
-     - Pansci stomach atlas
-     - nuclei
-     - 0.962
-     - 0.914
+     - 0.968
+     - 0.933
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Duodenum
@@ -194,11 +166,39 @@ scAdam models
      - 0.897
      - 2
      - :cite:`2024:Zhang`
+   * - Mouse_gWAT
+     - Pansci perigonadal adipose tissue atlas
+     - nuclei
+     - 0.977
+     - 0.947
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Heart
+     - Pansci heart atlas
+     - nuclei
+     - 0.961
+     - 0.932
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_Hippocampus
+     - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
+     - nuclei
+     - 0.949
+     - 0.948
+     - 2
+     - unpublished atlas by Mareeva S. and Tychinin D. 
    * - Mouse_Ileum
      - Pansci ileum atlas
      - nuclei
      - 0.973
      - 0.950
+     - 2
+     - :cite:`2024:Zhang`
+   * - Mouse_iWAT
+     - Pansci perigonadal adipose tissue atlas
+     - nuclei
+     - 0.977
+     - 0.947
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Jejunum
@@ -208,11 +208,11 @@ scAdam models
      - 0.926
      - 2
      - :cite:`2024:Zhang`
-   * - Mouse_Colon
-     - Pansci colon atlas
+   * - Mouse_Kidney
+     - Pansci kidney atlas
      - nuclei
-     - 0.968
-     - 0.933
+     - 0.988
+     - 0.949
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Liver
@@ -229,20 +229,27 @@ scAdam models
      - 0.953
      - 2
      - :cite:`2024:Zhang`
-   * - Mouse_Kidney
-     - Pansci kidney atlas
+   * - Mouse_Muscle
+     - Pansci muscle atlas
      - nuclei
-     - 0.988
-     - 0.949
+     - 0.975	
+     - 0.942
      - 2
      - :cite:`2024:Zhang`
-   * - Mouse_Heart
-     - Pansci heart atlas
+   * - Mouse_Stomach
+     - Pansci stomach atlas
      - nuclei
-     - 0.961
-     - 0.932
+     - 0.962
+     - 0.914
      - 2
      - :cite:`2024:Zhang`
+   * - Mouse_Testes
+     - Atlas of mouse testes 
+     - cells
+     - 0.975
+     - 0.975
+     - 3
+     - unpublished atlas by Chechekhin V.
    * - Macaque_Cerebellum
      - Single nuclei atlas of the Macaque cerebellum
      - nuclei
