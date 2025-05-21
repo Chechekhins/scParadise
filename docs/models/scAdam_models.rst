@@ -96,6 +96,13 @@ scAdam models
      - 0.968
      - 2
      - `cellxgene <https://cellxgene.cziscience.com/collections/3c34e6f1-6827-47dd-8e19-9edcd461893f>`_
+   * - Human_Pancreas
+     - Pancreatic islet atlas (non-diabetes, prediabetes and type 2 diabetes)
+     - cells
+     - 0.996
+     - 0.989
+     - 1
+     - :cite:`2025:bandesh‎`
    * - Human_PBMC
      - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
      - cells
