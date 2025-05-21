@@ -35,6 +35,7 @@ Create environment from scparadise.yml (recommended)
 
 .. code-block:: bash
 
+   sudo apt update
    sudo apt-get install g++
                              
 3. Execute the following command in Anaconda (from directory with scparadise.yml):
