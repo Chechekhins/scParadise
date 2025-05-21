@@ -1,0 +1,1 @@
+[{"Acinar": 0, "Alpha": 1, "Beta": 2, "Delta": 3, "Ductal": 4, "Endothelial": 5, "Epsilon": 6, "Leukocyte": 7, "Mast": 8, "PP": 9, "Schwann": 10, "Stellate": 11}]
