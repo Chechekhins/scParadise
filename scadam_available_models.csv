@@ -11,7 +11,7 @@ Human_Kidney_nucleus,snRNA-seq of the Adult Human Kidney (V. 1.5),nuclei,0.973,0
 Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
 Human_Lung_Cancer,Extended single-cell lung cancer atlas (LuCA),cells,0.937,0.936,3
 Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq,cells,0.972,0.968,2
-Human_Pancreas,Pancreatic islet atlas (non-diabetes and prediabetes and type 2 diabetes),cells,0.996,0.989,1
+Human_Pancreas,Pancreatic islet atlas,cells,0.996,0.989,1
 Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
 Human_Retina_cell,Single cell atlas of the human retina,cells,0.984,0.979,4
 Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,2
