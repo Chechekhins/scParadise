@@ -12,13 +12,6 @@ scAdam models
      - Balanced Accuracy
      - Levels
      - Reference
-   * - Human_Adipose
-     - Subcutaneous adipose tissue atlas
-     - cells
-     - 0.973
-     - 0.954
-     - 3
-     - unpublished atlas by Laletin V. and Chechekhin V.
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
@@ -124,12 +117,26 @@ scAdam models
      - 0.994
      - 2
      - :cite:`2023:Li`
+   * - Human_Subcutaneous_AT
+     - Subcutaneous adipose tissue atlas
+     - cells
+     - 0.973
+     - 0.954
+     - 3
+     - unpublished atlas by Laletin V. and Chechekhin V.
    * - Human_Testes
      - Single cell atlas of the human testes
      - cells
      - 0.991
      - 0.991
      - 2
+     - unpublished atlas by Chechekhin V.
+   * - Human_Visceral_AT
+     - Visceral adipose tissue atlas
+     - cells
+     - 0.978
+     - 0.975
+     - 3
      - unpublished atlas by Chechekhin V.
    * - Mouse_Aging_Brain
      - Atlas of mouse aging brain
