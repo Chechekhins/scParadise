@@ -1,5 +1,4 @@
 Tissue/Model name,Description,Suspension,Accuracy,Balanced Accuracy,Number of Levels
-Human_Adipose,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
 Human_BMMC,Bone marrow mononuclear cell of healthy adults,cells,0.947,0.942,3
 Human_Brain_atlas,Human Brain Cell Atlas v1.0,nuclei,0.998,0.998,2
 Human_Brain_SEA_AD,Seattle Alzheimer’s Disease Brain Cell Atlas,nuclei,0.997,0.997,3
@@ -15,7 +14,9 @@ Human_Pancreas,Pancreatic islet atlas,cells,0.996,0.989,1
 Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
 Human_Retina_cell,Single cell atlas of the human retina,cells,0.984,0.979,4
 Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,2
+Human_Subcutaneous_AT,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
 Human_Testes,Single cell atlas of the human testes,cells,0.991,0.991,2
+Human_Visceral_AT,Visceral adipose tissue atlas,cells,0.978,0.974,3
 Mouse_Aging_Brain,Atlas of mouse aging brain,cells,0.993,0.993,1
 Mouse_BAT,Pansci brown adipose tissue atlas,nuclei,0.979,0.945,2
 Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
