@@ -102,7 +102,7 @@ scAdam models
      - 0.996
      - 0.989
      - 1
-     - :cite:`2025:bandesh‎`
+     - :cite:`2024:bandesh‎`
    * - Human_PBMC
      - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
      - cells
