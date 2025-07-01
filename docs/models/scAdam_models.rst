@@ -19,6 +19,13 @@ scAdam models
      - 0.942
      - 3
      - :cite:`2021:‎Luecken`
+   * - Human_Bone_Marrow
+     - A Balanced Bone Marrow Reference
+     - cells
+     - 0.881
+     - 0.861
+     - 3
+     - :cite:`2025:‎Zeng`
    * - Human_Brain_atlas
      - Human Brain Cell Atlas v1.0
      - nuclei
