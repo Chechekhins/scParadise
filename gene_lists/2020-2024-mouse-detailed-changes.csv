@@ -1,4 +1,4 @@
-Gene Ensembl ID,2020 Gene Name,2024 Gene Name,2020 Gene Type,2024 Gene Type
+Gene_Ensembl_ID,2020_Gene_Name,2024_Gene_Name,2020_Gene_Type,2024_Gene_Type
 ENSMUSG00000000001,Gnai3,Gnai3,protein_coding,protein_coding
 ENSMUSG00000000003,Pbsn,Pbsn,protein_coding,protein_coding
 ENSMUSG00000000028,Cdc45,Cdc45,protein_coding,protein_coding
