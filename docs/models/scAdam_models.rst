@@ -25,7 +25,7 @@ scAdam models
      - 0.881
      - 0.861
      - 3
-     - :cite:`2025:‎Zeng`
+     - :cite:`2025:zeng`
    * - Human_Brain_atlas
      - Human Brain Cell Atlas v1.0
      - nuclei
