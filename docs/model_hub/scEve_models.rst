@@ -1,5 +1,5 @@
-scEve models
-============
+scEve model hub
+===============
 
 .. list-table::
    :widths: auto
