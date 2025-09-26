@@ -49,8 +49,8 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
       Do you want your cells to be annotated and modalities predicted?
 
-   .. grid-item-card:: Models
-      :link: models/index
+   .. grid-item-card:: Model hub
+      :link: model_hub/index
       :link-type: doc
 
       The table of scAdam and scEve models
@@ -83,7 +83,7 @@ If you have any ideas, enhancements, or bug fixes, please feel free to submit a 
 
    installation
    tutorials/index
-   models/index
+   model_hub/index
    api/index
    theory 
    GitHub <https://github.com/Chechekhins/scParadise>
