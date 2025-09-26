@@ -1,5 +1,5 @@
-scAdam models
-=============
+scAdam model hub
+================
 
 .. list-table::
    :widths: 10 40 15 10 10 10 20
