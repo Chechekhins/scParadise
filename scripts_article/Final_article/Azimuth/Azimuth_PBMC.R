@@ -15,8 +15,9 @@ Idents(rna) <- 'orig.ident'
 test_rna <- subset(rna, idents = c('P1_0','P2_0','P3_0','P4_0','P5_0','P6_0','P7_0','P8_0'), invert = T)
 table(test_rna$orig.ident)
 
-# Leave only zero day samples
-rna <- subset(rna, idents = c('P1_0','P2_0','P3_0','P4_0','P5_0','P6_0','P7_0','P8_0'), invert = F)
+# For comparison with scAdam we used the same dataset to create reference: 'P8_0', 'P7_0', 'P2_0', 'P6_0'
+# Below we used datasets for comparison with scEve
+rna <- subset(rna, idents = c('P1_0', 'P2_0', 'P3_0', 'P4_0', 'P5_0', 'P6_0', 'P7_0', 'P8_0'), invert = F)
 table(rna$orig.ident)
 
 # Split dataset into separate samples
@@ -26,7 +27,7 @@ obj_list <- SplitObject(object = rna, split.by = "orig.ident")
 # SCTransform of separate samples
 obj_list <- lapply(X = obj_list, FUN = SCTransform, method = "glmGamPoi")
 
-# Select 5000 integration features and prepare data for integration
+# Select 3000 integration features and prepare data for integration
 features <- SelectIntegrationFeatures(object.list = obj_list, nfeatures = 3000)
 obj_list <- PrepSCTIntegration(object.list = obj_list, anchor.features = features)
 
@@ -63,7 +64,7 @@ ref_sct <- RunUMAP(
   dims = 1:20,
   return.model = TRUE
 )
-saveRDS(ref_sct, 'PBMC_ref/CITEseq/ref_sct_small.rda')
+saveRDS(ref_sct, 'C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/ref_sct.rda')
 
 # ADT
 # Load data and subset based on meta_modified from python script PBMC_3p_dataset
@@ -93,8 +94,9 @@ test_adt <- GetAssayData(test_adt)
 # Create test_adt assay 
 test_adt <- CreateAssayObject(test_adt)
 
-# Leave only zero day samples  for reference dataset
-adt <- subset(adt, idents = c('P1_0','P2_0','P3_0','P4_0','P5_0','P6_0','P7_0','P8_0'), invert = F)
+# For comparison with scAdam we used the same dataset to create reference: 'P8_0', 'P7_0', 'P2_0', 'P6_0'
+# Below we used datasets for comparison with scEve
+adt <- subset(adt, idents = c('P1_0', 'P2_0', 'P3_0', 'P4_0', 'P5_0', 'P6_0', 'P7_0', 'P8_0'), invert = F)
 adt <- GetAssayData(adt)
 # Create adt assay 
 adt <- CreateAssayObject(adt)
@@ -105,7 +107,7 @@ ref_sct[["ADT"]] <- adt
 test_rna[['ADT']] <- test_adt
 
 # Save integrated dataset
-saveRDS(ref_sct, 'PBMC_ref/CITEseq/ref_sct_small.rda')
+saveRDS(ref_sct, 'C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/ref_sct.rda')
 
 # Create reference (ref) and test objects  
 
@@ -122,7 +124,7 @@ ref_azimuth <- AzimuthReference(
 )
 
 # Save Azimuth compatible reference dataset
-ref.dir <- file.path('C:/Users/vadim/scRNA/scParadise/scAdam/PBMC/3p/Azimuth/ref_small')
+ref.dir <- file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/reference')
 SaveAnnoyIndex(object = ref_azimuth[["refdr.annoy.neighbors"]], file = file.path(ref.dir, "idx.annoy"))
 saveRDS(object = ref_azimuth, file = file.path(ref.dir, "ref.Rds"))
 
@@ -144,18 +146,18 @@ for (folder in vec_test) {
   
   # Save metadata with real (celltype_l1, celltype_l2, celltype_l3) and 
   # predicted (predicted.celltype_l1, predicted.celltype_l2, predicted.celltype_l3) annotation levels  
-  write.csv(test@meta.data, file.path('C:/Users/vadim/scRNA/scParadise/scAdam/PBMC/3p/Azimuth/reports_small', paste(A,B, sep = '_'), 'meta.csv'))
+  write.csv(test@meta.data, file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/reports', paste(A,B, sep = '_'), 'meta.csv'))
   
   # Save real adt normalized data for future comparison by scparadise.scnoah.report_reg() in python
   write10xCounts(
-    path = file.path('C:/Users/vadim/scRNA/scParadise/scAdam/PBMC/3p/Azimuth/reports_small', paste(A,B, sep = '_'), 'ADT_matrix.h5'),
+    path = file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/reports', paste(A,B, sep = '_'), 'ADT_matrix.h5'),
     test@assays[["ADT"]]@data,
     type = 'HDF5',
     overwrite = TRUE
   )
   # Save imputed adt normalized data for future comparison by scparadise.scnoah.report_reg() in python
   write10xCounts(
-    path = file.path('C:/Users/vadim/scRNA/scParadise/scAdam/PBMC/3p/Azimuth/reports_small', paste(A,B, sep = '_'), 'impADT_matrix.h5'),
+    path = file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/PBMC_3p_CITE/Azimuth_test/reports', paste(A,B, sep = '_'), 'impADT_matrix.h5'),
     test@assays[["impADT"]]@data,
     type = 'HDF5',
     overwrite = TRUE

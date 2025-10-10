@@ -4,23 +4,23 @@ library(Azimuth) # 0.5.0
 library(DropletUtils) # 1.18.1
 
 # RNA assay
-rna <- Read10X('C:/Users/vadim/scRNA/scParadise/scripts_article/Mouse_aging_brain/dataset/')
+rna <- Read10X('C:/Users/vadim/scRNA/scParadise/scripts_article/Oropharyngeal_cancer/RNA', gene.column = 1)
 rna <- CreateSeuratObject(rna)
-meta <- read.csv('C:/Users/vadim/scRNA/scParadise/scripts_article/Mouse_aging_brain/meta.tsv', sep = '\t', row.names = 1)
-rna <- subset(rna, cells = rownames(meta), invert = F)
+meta <- read.csv('C:/Users/vadim/scRNA/scParadise/scripts_article/Oropharyngeal_cancer/metadata.csv', sep = ',', row.names = 1)
 rna@meta.data <- meta 
 
-# Create test_rna seurat object with test samples ('old1', 'oldex4', 'young1', 'young4')
-Idents(rna) <- 'orig.ident'
-test_rna <- subset(rna, idents = c('old2', 'old4', 'oldex2', 'oldex4', 'young1', 'young4'), invert = F) 
-table(test_rna$orig.ident)
+# Create test_rna seurat object with test samples 
+Idents(rna) <- 'donor_id'
+test_rna <- subset(rna, idents = c('HN490', 'HN492', 'HN482', 'HN488', 'HN485', 'HN487', 'HN483', 'HN489'), invert = F) 
+table(test_rna$donor_id)
 
-# Reference dataset ('old1', 'oldex2', 'young2', 'oldex1')
-rna <- subset(rna, idents = c('young2', 'old1', 'oldex1'), invert = F)
-table(rna$orig.ident)
+# Reference dataset
+rna <- subset(rna, idents = c('HN481'), invert = F)
+table(rna$donor_id)
+table(rna$sample_id)
 
 # Split dataset into separate samples
-obj_list <- SplitObject(object = rna, split.by = "orig.ident")
+obj_list <- SplitObject(object = rna, split.by = "sample_id")
 
 # https://github.com/satijalab/azimuth-references/blob/master/human_motorcortex/scripts/integrate.R
 # SCTransform of separate samples
@@ -63,38 +63,39 @@ ref_sct <- RunUMAP(
   dims = 1:20,
   return.model = TRUE
 )
+saveRDS(ref_sct, 'C:/Users/vadim/scRNA/scParadise/scripts_article/Oropharyngeal_cancer/Azimuth/ref.rda')
 
-# Save integrated dataset
-saveRDS(ref_sct, 'C:/Users/vadim/scRNA/scParadise/scripts_article/Mouse_aging_brain/Azimuth_test/ref_sct.rda')
 
-# Create Azimuth reference
+# Create reference (ref) and test objects  
 ref_azimuth <- AzimuthReference(
   object = ref_sct,
   refUMAP = "umap",
   refDR = "pca",
   refAssay = "integrated",
-  metadata = c("Celltype"),
+  metadata = c("cell_type"),
   dims = 1:50,
   k.param = 31,
   reference.version = "1.0.0"
 )
 
 # Save Azimuth compatible reference dataset
-ref.dir <- file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/Mouse_aging_brain/Azimuth_test/reference')
+ref.dir <- file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/Oropharyngeal_cancer/Azimuth/ref_azimuth')
 SaveAnnoyIndex(object = ref_azimuth[["refdr.annoy.neighbors"]], file = file.path(ref.dir, "idx.annoy"))
 saveRDS(object = ref_azimuth, file = file.path(ref.dir, "ref.Rds"))
 
-# Set of folders with 6 test datasets 
-vec_test <- c('old2', 'old4', 'oldex2', 'oldex4', 'young1', 'young4')
+# Set of folders with 8 test datasets 
+# Each test dataset contains 2 separate donors 
+vec_test <- c('HN490', 'HN492', 'HN482', 'HN488', 'HN485', 'HN487', 'HN483', 'HN489')
 
 for (folder in vec_test) {
+  # Sample
   test <- subset(test_rna, idents = c(folder), invert = F)
   
   # Use Azimuth reference to predict cell types in test dataset
   test <- RunAzimuth(test, 
                      reference = ref.dir)
   
-  # Save metadata with real (celltype_l1, celltype_l2, celltype_l3) and 
-  # predicted (predicted.celltype_l1, predicted.celltype_l2, predicted.celltype_l3) annotation levels  
-  write.csv(test@meta.data, file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/Mouse_aging_brain/Azimuth_test/reports', folder, 'meta.csv'))
+  # Save metadata with real (cell_type) and 
+  # predicted (predicted.cell_type) annotation levels  
+  write.csv(test@meta.data, file.path('C:/Users/vadim/scRNA/scParadise/scripts_article/Oropharyngeal_cancer/Azimuth/reports', folder, 'meta.csv'))
 }
