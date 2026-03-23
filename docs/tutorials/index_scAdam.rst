@@ -1,7 +1,7 @@
 scAdam
 ======
 
-Fast multi-task multi-class cell type annotation.
+Fast multi-level cell type annotation with unknown cell type identification.
 
 .. toctree::
    :maxdepth: 1
