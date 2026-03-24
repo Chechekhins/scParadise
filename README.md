@@ -19,7 +19,7 @@ scParadise enables users to utilize a selection of pre-existing models (scAdam o
 ![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
 
 ## Documentation
-The full scParadise documentation, including [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [usage](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API reference](https://scparadise.readthedocs.io/en/latest/api/index.html), is available in the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html)
+The full scParadise documentation, including [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [usage](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API reference](https://scparadise.readthedocs.io/en/latest/api/index.html), is available at the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html)
 
 ## GPU support
 scParadise supports GPU usage automatically.
