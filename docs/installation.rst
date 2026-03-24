@@ -29,7 +29,7 @@ If you want to use scParadise from R, you need to configure a Python environment
 Create environment from scparadise.yml (recommended)
 ----------------------------------------------------
 
-1. Download `scparadise_3.10.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.10.yaml>`_ or `scparadise_3.11.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.11.yaml>`.
+1. Download `scparadise_3.10.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.10.yaml>`_ or `scparadise_3.11.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.11.yaml>`_.
 
 2. Install g++ (optional, for a clean installation):
 
