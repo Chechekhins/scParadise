@@ -16,7 +16,7 @@ scParadise is an advanced Python framework designed for single-cell RNA sequenci
 
 scParadise enables users to utilize a selection of pre-existing models (scAdam or scEve) as well as to develop and train custom models tailored to specific research needs. scNoah facilitates the evaluation of novel models and methods for automated cell type annotation and modality imputation in scRNA-seq analysis.
 
-![Graphical_abstract](https://github.com/user-attachments/assets/ccfc8fba-5eee-42c4-8486-3b5416bb4bd4)
+![Graphical_abstract](https://github.com/user-attachments/assets/5665f3b6-00cc-49a5-836b-eaa0183863e9)
 
 ## Documentation
 The full scParadise documentation, including [installation](https://scparadise.readthedocs.io/en/latest/installation.html), [usage](https://scparadise.readthedocs.io/en/latest/tutorials/index.html), and [API reference](https://scparadise.readthedocs.io/en/latest/api/index.html), is available at the [scParadise documentation](https://scparadise.readthedocs.io/en/latest/index.html)
