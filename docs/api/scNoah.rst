@@ -36,20 +36,12 @@ Test annotation method quality using confusion matrix, accuracy, balanced accura
 Regression metrics
 ------------------
 
-Test modality prediction method quality using error metrics (RMSE, MedianAE, MeanAE), EVS, R² score and PC. 
+Test modality prediction method quality using error metrics (RMSE, MedianAE, MeanAE), EVS, R² score, PCC, SCC and KTCC. 
 Also, visualise metrics on cell embeddings.
 
-RMSE - Root mean squared error
-
-MeanAE - Mean absolute error
-
-MedianAE - Median absolute error
-
-EVS - Explained variance score
-
-R² score - Coefficient of determination
-
-PC - Pearson coefficient
+RMSE - Root mean squared error, MeanAE - Mean absolute error, MedianAE - Median absolute error,
+EVS - Explained variance score, R² score - Coefficient of determination, PCC - Pearson correlation coefficient, 
+SCC - Spearman correlation coefficient, KTCC - Kendall tau correlation coefficient.
 
 For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
@@ -59,7 +51,9 @@ For error metrics (RMSE, MedianAE, MeanAE): lower value - better prediction
 
    scnoah.report_reg
    scnoah.regres_status
-   scnoah.pearson_coef_prot
+   scnoah.pearson_coef
+   scnoah.spearman_coef
+   scnoah.kendalltau_coef
 
 Count cells
 -----------
@@ -83,7 +77,7 @@ Get explanations of gene importances in scAdam model prediction.
    :toctree: generated/
 
    scnoah.explain
-   scnoah.feature_importance
+   scnoah.feature_importance_df
 
 Managing large datasets
 -----------------------
