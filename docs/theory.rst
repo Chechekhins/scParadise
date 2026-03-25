@@ -44,6 +44,8 @@ Key Features
 
 *	Multi-task Learning: scAdam supports multitasking capabilities, enabling it to extract individual cell types for more targeted investigations.
 
+* Unknown cell type identification: This enables accurate cross-tissue cell type annotation and helps detect novel cell types arising under different conditions. For example, a model trained on healthy tissue can identify cell types/subtypes/states that appear in disease.
+
 Applications
 ============
 scAdam is particularly valuable in biomedical research where understanding cellular composition and interactions within tissues is critical. By providing accurate annotations of cell types from complex single-cell datasets, it aids researchers in exploring tissue architecture and cellular functions more effectively. 
