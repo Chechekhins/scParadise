@@ -40,6 +40,13 @@ scAdam models
      - 0.997
      - 3
      - :cite:`2024:gabitto`
+   * - Human_Brain_Dementia
+     - Cross-dementia human brain snRNA-seq
+     - nuclei
+     - 0.999
+     - 0.999
+     - 2
+     - :cite:`2024:Rexach`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
