@@ -1,1 +1,0 @@
-{"n_d": 8, "n_a": 8, "n_steps": 3, "n_shared": 2, "cat_emb_dim": 1, "n_independent": 2, "gamma": 1.3, "momentum": 0.02, "optimizer_params": {"lr": 0.02}, "mask_type": "entmax", "lambda_sparse": 0.001, "device_name": "cuda", "scheduler_params": {"step_size": 10, "gamma": 0.95}, "batch_size": 1024, "virtual_batch_size": 128, "patience": 10, "max_epochs": 100}
