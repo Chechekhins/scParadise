@@ -69,7 +69,7 @@ scAdam models
      - 2
      - :cite:`2023:Zhu`
    * - Human_Fetal
-     - A human cell atlas of fetal gene expression,nuclei
+     - A human cell atlas of fetal gene expression
      - nuclei
      - 0.984
      - 0.981
@@ -125,7 +125,7 @@ scAdam models
      - 1
      - :cite:`2025:Bandesh‎`
    * - Human_PBMC
-     - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
+     - Peripheral blood mononuclear cells of healthy adults
      - cells
      - 0.979
      - 0.979
@@ -223,7 +223,7 @@ scAdam models
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Hippocampus
-     - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
+     - Atlas of mouse hippocampus of health and 5xFAD mice
      - nuclei
      - 0.949
      - 0.948
@@ -274,7 +274,7 @@ scAdam models
    * - Mouse_Muscle
      - Pansci muscle atlas
      - nuclei
-     - 0.975	
+     - 0.975
      - 0.942
      - 2
      - :cite:`2024:Zhang`
