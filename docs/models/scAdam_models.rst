@@ -18,7 +18,7 @@ scAdam models
      - 0.947
      - 0.942
      - 3
-     - :cite:`2021:‎Luecken`
+     - :cite:`2021:Luecken`
    * - Human_Bone_Marrow
      - A Balanced Bone Marrow Reference
      - cells
@@ -123,14 +123,14 @@ scAdam models
      - 0.996
      - 0.989
      - 1
-     - :cite:`2025:Bandesh‎`
+     - :cite:`2025:Bandesh`
    * - Human_PBMC
      - Peripheral blood mononuclear cells of healthy adults
      - cells
      - 0.979
      - 0.979
      - 3
-     - :cite:`2021:Hao‎`
+     - :cite:`2021:Hao`
    * - Human_Retina_cell
      - Single cell atlas of the human retina
      - cells
@@ -193,7 +193,7 @@ scAdam models
      - 0.999
      - 0.999
      - 2
-     - :cite:`2024:Hao,2021:‎Kozareva`
+     - :cite:`2024:Hao,2021:Kozareva`
    * - Mouse_Colon
      - Pansci colon atlas
      - nuclei
