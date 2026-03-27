@@ -54,6 +54,13 @@ scAdam models
      - 0.912
      - 2
      - :cite:`2023:Zhu`
+   * - Human_Fetal
+     - A human cell atlas of fetal gene expression,nuclei
+     - nuclei
+     - 0.984
+     - 0.981
+     - 2
+     - :cite:`2020:Cao`
    * - Human_Heart
      - Human heart CITE-seq analysis of healthy and diseased states
      - cells
