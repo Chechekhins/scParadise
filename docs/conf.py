@@ -61,7 +61,7 @@ html_theme_options = {
     "show_toc_level": 1,
     "launch_buttons": {"colab_url": "https://colab.research.google.com"},
     "path_to_docs": "docs/",
-    "repository_branch": release,
+    "repository_branch": "main",
 }
 html_static_path = ["_static"]
 
@@ -69,4 +69,4 @@ html_static_path = ["_static"]
 # -- Options for nbshpinx ----------------------------------------------------
 # https://nbsphinx.readthedocs.io/en/0.8.0/configure.html
 
-nbsphinx_execute = "never"
+nbsphinx_execute = "auto"
