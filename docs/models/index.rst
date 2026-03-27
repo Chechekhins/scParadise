@@ -3,7 +3,7 @@ Models
 
 scParadise includes 2 type of models:
 
-1) scAdam models - reference free fast multi-level multi-class cell type annotation.
+1) scAdam models - reference free fast multi-level multi-class cell type annotation with unknown cell type identification.
 2) scEve models - reference free fast modality imputation in scRNA-seq data.
 
 .. toctree::
