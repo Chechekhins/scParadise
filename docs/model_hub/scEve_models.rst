@@ -18,21 +18,21 @@ scEve models
      - 0.292
      - 0.216
      - 224
-     - :cite:`2021:Hao‎`
+     - :cite:`2021:Hao`
    * - Human_PBMC_5p
      - Peripheral blood mononuclear cells of healthy adults 5' scRNA seq	
      - cells
      - 0.308
      - 0.225
      - 54
-     - :cite:`2021:Hao‎`
+     - :cite:`2021:Hao`
    * - Human_BMMC
      - Bone marrow mononuclear cell of healthy adults
      - cells
      - 0.706
      - 0.454
      - 134
-     - :cite:`2021:‎Luecken`
+     - :cite:`2021:Luecken`
    * - Human_Heart
      - Human heart CITE-seq analysis of healthy and diseased states
      - cells
