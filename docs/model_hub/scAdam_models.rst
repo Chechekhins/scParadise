@@ -1,5 +1,5 @@
-scAdam model hub
-================
+scAdam models
+=============
 
 .. list-table::
    :widths: 10 40 15 10 10 10 20
@@ -18,7 +18,7 @@ scAdam model hub
      - 0.947
      - 0.942
      - 3
-     - :cite:`2021:‎Luecken`
+     - :cite:`2021:Luecken`
    * - Human_Bone_Marrow
      - A Balanced Bone Marrow Reference
      - cells
@@ -33,12 +33,26 @@ scAdam model hub
      - 0.998
      - 2
      - :cite:`2023:siletti`
-   * - Human_Brain_SEA_AD
-     - Seattle Alzheimer’s Disease Brain Cell Atlas
+   * - Human_Brain_Dementia
+     - Cross-dementia human brain snRNA-seq
+     - nuclei
+     - 0.999
+     - 0.999
+     - 2
+     - :cite:`2024:Rexach`
+   * - Human_Brain_DLPFC
+     - Seattle Alzheimer’s disease dorsolateral prefrontal cortex
      - nuclei
      - 0.997
      - 0.997
-     - 3
+     - 2
+     - :cite:`2024:gabitto`
+   * - Human_Brain_MTG
+     - Seattle Alzheimer’s disease middle temporal gyrus
+     - nuclei
+     - 0.998
+     - 0.998
+     - 2
      - :cite:`2024:gabitto`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
@@ -54,6 +68,13 @@ scAdam model hub
      - 0.912
      - 2
      - :cite:`2023:Zhu`
+   * - Human_Fetal
+     - A human cell atlas of fetal gene expression
+     - nuclei
+     - 0.984
+     - 0.981
+     - 2
+     - :cite:`2020:Cao`
    * - Human_Heart
      - Human heart CITE-seq analysis of healthy and diseased states
      - cells
@@ -102,14 +123,14 @@ scAdam model hub
      - 0.996
      - 0.989
      - 1
-     - :cite:`2025:bandesh‎`
+     - :cite:`2025:Bandesh`
    * - Human_PBMC
-     - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
+     - Peripheral blood mononuclear cells of healthy adults
      - cells
      - 0.979
      - 0.979
      - 3
-     - :cite:`2021:Hao‎`
+     - :cite:`2021:Hao`
    * - Human_Retina_cell
      - Single cell atlas of the human retina
      - cells
@@ -172,7 +193,7 @@ scAdam model hub
      - 0.999
      - 0.999
      - 2
-     - :cite:`2024:Hao,2021:‎Kozareva`
+     - :cite:`2024:Hao,2021:Kozareva`
    * - Mouse_Colon
      - Pansci colon atlas
      - nuclei
@@ -202,7 +223,7 @@ scAdam model hub
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Hippocampus
-     - Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA)
+     - Atlas of mouse hippocampus of health and 5xFAD mice
      - nuclei
      - 0.949
      - 0.948
@@ -253,7 +274,7 @@ scAdam model hub
    * - Mouse_Muscle
      - Pansci muscle atlas
      - nuclei
-     - 0.975	
+     - 0.975
      - 0.942
      - 2
      - :cite:`2024:Zhang`

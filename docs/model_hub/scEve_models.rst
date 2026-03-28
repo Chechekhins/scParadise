@@ -1,5 +1,5 @@
-scEve model hub
-===============
+scEve models
+============
 
 .. list-table::
    :widths: auto
@@ -15,8 +15,8 @@ scEve model hub
    * - Human_PBMC_3p
      - Peripheral blood mononuclear cells of healthy adults 3' scRNA seq	
      - cells
-     - 0.305
-     - 0.226
+     - 0.292
+     - 0.216
      - 224
      - :cite:`2021:Hao‎`
    * - Human_PBMC_5p
