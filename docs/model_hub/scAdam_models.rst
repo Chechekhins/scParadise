@@ -54,6 +54,13 @@ scAdam models
      - 0.998
      - 2
      - :cite:`2024:gabitto`
+   * - Human_Breast_cancer
+     - Single-cell atlas of human breast cancers
+     - cells
+     - 0.955
+     - 0.943
+     - 2
+     - :cite:`2026:Chen`
    * - Human_CC_Dev_RNA
      - Multi-omic profiling of the developing human cerebral cortex (RNA)
      - nuclei
