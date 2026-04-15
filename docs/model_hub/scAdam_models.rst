@@ -82,6 +82,13 @@ scAdam models
      - 0.956
      - 2
      - :cite:`2023:Amrute`
+   * - Human_HNSCC
+     - A highly resolved integrated single-cell atlas of HPV-negative Head and Neck Cancer
+     - cells
+     - 0.980
+     - 0.981
+     - 2
+     - :cite:`2026:Kroehling`
    * - Human_Kidney_cell
      - scRNA-seq of the Adult Human Kidney (V. 1.5)
      - cells
