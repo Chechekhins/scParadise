@@ -9,6 +9,7 @@ Human_CC_Dev_RNA,Multi-omic profiling of the developing human cerebral cortex (R
 Human_CC_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (ATAC),nuclei,0.916,0.912,2
 Human_Fetal,A human cell atlas of fetal gene expression,nuclei,0.984,0.981,2
 Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.957,0.956,2
+Human_HNSCC,Single-cell atlas of HPV-negative Head and Neck Cancer,cells,0.980,0.981,2
 Human_Kidney_cell,scRNA-seq of the Adult Human Kidney (V. 1.5),cells,0.974,0.974,3
 Human_Kidney_nucleus,snRNA-seq of the Adult Human Kidney (V. 1.5),nuclei,0.973,0.972,3
 Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
