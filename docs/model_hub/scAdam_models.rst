@@ -110,6 +110,13 @@ scAdam models
      - 0.936
      - 3
      - :cite:`2022:Salcher`
+   * - Human_Optic_nerve
+     - Single nuclei atlas of the human optic nerve
+     - nuclei
+     - 0.995
+     - 0.994
+     - 2
+     - `cellxgene <https://cellxgene.cziscience.com/collections/05e3d0fc-c9dd-4f14-9163-2b242b3bb5c2?explainNewTab>`_
    * - Human_oropharyngeal_SCC
      - Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue
      - cells
