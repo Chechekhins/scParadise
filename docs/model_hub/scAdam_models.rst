@@ -83,7 +83,7 @@ scAdam models
      - 2
      - :cite:`2023:Amrute`
    * - Human_HNSCC
-     - A highly resolved integrated single-cell atlas of HPV-negative Head and Neck Cancer
+     - Single-cell atlas of HPV-negative Head and Neck Cancer
      - cells
      - 0.980
      - 0.981
