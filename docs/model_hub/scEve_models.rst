@@ -36,8 +36,8 @@ scEve models
    * - Human_Heart
      - Human heart CITE-seq analysis of healthy and diseased states
      - cells
-     - 0.399
-     - 0.287
+     - 0.378
+     - 0.274
      - 270
      - :cite:`2023:Amrute`
    * - Mouse_Spleen_Lymph_node
