@@ -1,5 +1,6 @@
 # scParadise
 [![PyPI version](https://badge.fury.io/py/scparadise.svg?icon=si%3Apython)](https://badge.fury.io/py/scparadise)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/scparadise)
 [![PyPI Downloads](https://static.pepy.tech/badge/scparadise)](https://pepy.tech/projects/scparadise)
 [![Documentation](https://readthedocs.org/projects/scparadise/badge/?version=latest)](https://scparadise.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - Version](https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi&logoColor=blue)
