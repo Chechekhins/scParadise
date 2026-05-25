@@ -1,14 +1,14 @@
 .. image:: https://badge.fury.io/py/scparadise.svg?icon=si%3Apython
     :target: https://badge.fury.io/py/scparadise
+.. image:: https://img.shields.io/pypi/pyversions/scparadise
+    :target: https://pypi.org/project/scparadise/
+    :alt: Python Version
 .. image:: https://static.pepy.tech/badge/scparadise
     :target: https://pepy.tech/projects/scparadise
     :alt: PyPI Downloads
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://img.shields.io/pypi/v/scparadise?pypiBaseUrl=https%3A%2F%2Fpypi.org&logo=pypi&logoColor=blue
-    :target: https://pypi.org/project/scparadise/
-    :alt: PyPI - Version
 .. image:: https://img.shields.io/badge/preprint-available-brightgreen
     :target: https://www.biorxiv.org/content/10.1101/2024.09.23.614509v1.full
     :alt: Preprint
