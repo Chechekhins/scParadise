@@ -1,0 +1,32 @@
+Provider: Silverchair
+Database: Oxford University Press
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+AU  - Chechekhina, Elizaveta
+AU  - Shcherbakova, Liya
+AU  - Vigovskiy, Maksim
+AU  - Tukhvatulin, Amir
+AU  - Logunov, Denis
+AU  - Tychinin, Dmitry
+AU  - Svetlichnyy, Dmitry
+AU  - Kulebyakin, Konstantin
+AU  - Tkachuk, Vsevolod
+AU  - Chechekhin, Vadim
+T1  - scParadise: tunable, highly accurate multi-level cell type annotation, unknown cell type identification, and modality imputation
+PY  - 2026
+Y1  - 2026/06/24
+DO  - 10.1093/nar/gkag612
+JO  - Nucleic Acids Research
+JA  - Nucleic Acids Res
+VL  - 54
+IS  - 11
+SP  - gkag612
+SN  - 1362-4962
+AB  - In single-cell biology, the main limitation has shifted from data generation to converting sparse, heterogeneous single-cell RNA sequencing (scRNA-seq) datasets into accurate cell types, interpretable multi-omic states, and reproducible conclusions. To address these challenges, we present scParadise, which transforms scRNA-seq data to a new scientific knowledge. scParadise comprises three integrated tools: scAdam, a multi-level cell type annotation tool with unknown cell type identification; scEve, a cross-tissue modality imputation tool; and scNoah, a standardized benchmarking tool. Using scParadise, we corrected annotation mistakes in the Tabula Muris Senis atlas, showing that cells labeled as granulocytes are exclusively neutrophils and that presumably annotated macrophages actually represent a range of different cell types. Moreover, we identify three previously unknown natural killer T (NKT) cell subsets by imputing protein expression across tissues, which include CD56dim CD3+, CD56dim CD3+ CD4+, and CD56dim CD3+ CD8+ cell subsets in human visceral adipose tissue, which we verify by flow cytometry. These new subsets engage in obesity-related tumor necrosis factor-centric crosstalk with myeloid and adipose progenitors, thereby illuminating a new paradigm for immune–stromal interactions that contribute to chronic inflammation and impaired adipogenesis.
+Y2  - 6/18/2026
+UR  - https://doi.org/10.1093/nar/gkag612
+ER  - 
+
+
+

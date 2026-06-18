@@ -1,0 +1,26 @@
+RT Journal Article
+A1 Chechekhina, Elizaveta
+A1 Shcherbakova, Liya
+A1 Vigovskiy, Maksim
+A1 Tukhvatulin, Amir
+A1 Logunov, Denis
+A1 Tychinin, Dmitry
+A1 Svetlichnyy, Dmitry
+A1 Kulebyakin, Konstantin
+A1 Tkachuk, Vsevolod
+A1 Chechekhin, Vadim
+T1 scParadise: tunable, highly accurate multi-level cell type annotation, unknown cell type identification, and modality imputation
+JF Nucleic Acids Research
+JO Nucleic Acids Res
+YR 2026
+DO 10.1093/nar/gkag612
+OP gkag612
+VO 54
+IS 11
+SN 1362-4962
+AB In single-cell biology, the main limitation has shifted from data generation to converting sparse, heterogeneous single-cell RNA sequencing (scRNA-seq) datasets into accurate cell types, interpretable multi-omic states, and reproducible conclusions. To address these challenges, we present scParadise, which transforms scRNA-seq data to a new scientific knowledge. scParadise comprises three integrated tools: scAdam, a multi-level cell type annotation tool with unknown cell type identification; scEve, a cross-tissue modality imputation tool; and scNoah, a standardized benchmarking tool. Using scParadise, we corrected annotation mistakes in the Tabula Muris Senis atlas, showing that cells labeled as granulocytes are exclusively neutrophils and that presumably annotated macrophages actually represent a range of different cell types. Moreover, we identify three previously unknown natural killer T (NKT) cell subsets by imputing protein expression across tissues, which include CD56dim CD3+, CD56dim CD3+ CD4+, and CD56dim CD3+ CD8+ cell subsets in human visceral adipose tissue, which we verify by flow cytometry. These new subsets engage in obesity-related tumor necrosis factor-centric crosstalk with myeloid and adipose progenitors, thereby illuminating a new paradigm for immune–stromal interactions that contribute to chronic inflammation and impaired adipogenesis.
+RD 6/18/2026
+UL https://doi.org/10.1093/nar/gkag612
+
+
+
