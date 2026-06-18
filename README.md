@@ -42,13 +42,19 @@ We warmly welcome contributions to scParadise! If you have any ideas, enhancemen
 
 ## Citation
 ```bibtex
-@article {Chechekhina2024.09.23.614509,
-	author = {Chechekhina, Elizaveta and Tkachuk, Vsevolod and Chechekhin, Vadim},
-	title = {scParadise: Tunable highly accurate multi-task cell type annotation and surface protein abundance prediction},
-	year = {2024},
-	doi = {10.1101/2024.09.23.614509},
-	URL = {https://www.biorxiv.org/content/early/2024/09/24/2024.09.23.614509},
-	journal = {bioRxiv}
- }
+@article{10.1093/nar/gkag612,
+    author = {Chechekhina, Elizaveta and Shcherbakova, Liya and Vigovskiy, Maksim and Tukhvatulin, Amir and Logunov, Denis and Tychinin, Dmitry and Svetlichnyy, Dmitry and Kulebyakin, Konstantin and Tkachuk, Vsevolod and Chechekhin, Vadim},
+    title = {scParadise: tunable, highly accurate multi-level cell type annotation, unknown cell type identification, and modality imputation},
+    journal = {Nucleic Acids Research},
+    volume = {54},
+    number = {11},
+    pages = {gkag612},
+    year = {2026},
+    month = {06},
+    issn = {1362-4962},
+    doi = {10.1093/nar/gkag612},
+    url = {https://doi.org/10.1093/nar/gkag612},
+    eprint = {https://academic.oup.com/nar/article-pdf/54/11/gkag612/68547489/gkag612.pdf},
+}
 ```
  
