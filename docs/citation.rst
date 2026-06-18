@@ -1,20 +1,15 @@
 Citation
 ========
 
-Chechekhina E., Tkachuk V., Chechekhin V., scParadise: Tunable highly accurate multi-task cell type annotation and surface protein abundance prediction, 2024, bioRxiv, https://www.biorxiv.org/content/early/2024/09/24/2024.09.23.614509
+Chechekhina E., Chechekhin V., scParadise: tunable, highly accurate multi-level cell type annotation, unknown cell type identification, and modality imputation, 2026, Nucleic Acids Research, https://academic.oup.com/nar/article/54/11/gkag612/8710948
 
 .. list-table::
    :widths: auto
 
-   * - `Bibtex <https://www.biorxiv.org/highwire/citation/4104797/bibtext>`_
-     - `EndNote 8 (xml) <https://www.biorxiv.org/highwire/citation/4104797/endnote-8-xml>`_
-     - `EndNote (tagged) <https://www.biorxiv.org/highwire/citation/4104797/endnote-tagged>`_
-     - `Mendeley <https://www.biorxiv.org/highwire/citation/4104797/mendeley>`_
-     - `Bookends <https://www.biorxiv.org/highwire/citation/4104797/bookends>`_
-     - `Easybib <https://www.biorxiv.org/highwire/citation/4104797/easybib>`_
-     - `Zotero <https://www.biorxiv.org/highwire/citation/4104797/zotero>`_
-     - `RIS <https://www.biorxiv.org/highwire/citation/4104797/ris>`_
-     - `Medlars <https://www.biorxiv.org/highwire/citation/4104797/medlars>`_
+   * - `Bibtex <https://github.com/Chechekhins/scParadise/blob/main/docs/citation/citations-20260618T091709.bibtex>`_
+     - `EndNote <https://github.com/Chechekhins/scParadise/blob/main/docs/citation/citations-20260618T091820.enw>`_
+     - `Mendeley <https://github.com/Chechekhins/scParadise/blob/main/docs/citation/citations-20260618T091822.ris>`_
+     - `Medlars <https://github.com/Chechekhins/scParadise/blob/main/docs/citation/citations-20260618T091826.txt>`_
 
 
 
