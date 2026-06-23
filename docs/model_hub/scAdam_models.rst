@@ -75,6 +75,13 @@ scAdam models
      - 0.912
      - 2
      - :cite:`2023:Zhu`
+   * - Human_Endometrium
+     - Non-pregnant endometrium
+     - nuclei
+     - 0.971
+     - 0.970
+     - 2
+     - :cite:`2021:Garcia`
    * - Human_Fetal
      - A human cell atlas of fetal gene expression
      - nuclei
@@ -166,6 +173,13 @@ scAdam models
      - 0.994
      - 2
      - :cite:`2023:Li`
+   * - Human_Skin
+     - Skin atlas
+     - cells
+     - 0.983
+     - 0.980
+     - 2
+     - :cite:`2026:Fiskin`
    * - Human_Subcutaneous_AT
      - Subcutaneous adipose tissue atlas
      - cells
