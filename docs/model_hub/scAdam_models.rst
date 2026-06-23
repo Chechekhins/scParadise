@@ -200,7 +200,7 @@ scAdam models
      - 0.978
      - 0.975
      - 3
-     - unpublished atlas by Chechekhin V.
+     - :cite:`2026:Chechekhina`
    * - Mouse_Aging_Brain
      - Atlas of mouse aging brain
      - cells
