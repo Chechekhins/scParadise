@@ -151,7 +151,7 @@ scAdam models
      - 0.996
      - 0.989
      - 1
-     - :cite:`2025:Bandesh`
+     - :cite:`2026:Bandesh`
    * - Human_PBMC
      - Peripheral blood mononuclear cells of healthy adults
      - cells
