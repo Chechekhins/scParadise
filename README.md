@@ -10,7 +10,7 @@ Comprehensive information about the [installation](https://scparadise.readthedoc
 ## Short overview
 scParadise is an advanced Python framework designed for single-cell RNA sequencing (scRNA-seq) analysis, with a focus on accurate cell type annotation and modality prediction. It has three main tools:
 
-1) scAdam specializes in multi-level cell type annotation and unknown cell type identification. Specifically, it identifies rare cell types that represent less than 1% of the population and uses deep learning techniques to improve the consistency and accuracy of diverse datasets. In addition, scAdam has the capability to identify cell types that were not used during model training. This enables scAdam to perform accurate cross-tissue cell type annotation and to detect novel, previously unknown cell types.
+1) scAdam specializes in multi-level cell type annotation and unknown cell type identification. Specifically, it identifies rare cell types that represent less than 1% of the population and uses deep learning techniques to improve the consistency and accuracy of diverse datasets. In addition, scAdam has the capability to identify cell types that were not used during model training. This enables scAdam to perform accurate cross-tissue cell type annotation and to detect novel, previously unknown cell types in diseased (altered) tissue.
 2) scEve specializes in imputation of new modalities. It facilitates the identification of specific cell subpopulations for targeting studies.
 3) scNoah is a benchmarking tool used to evaluate the performance of various automatic cell type annotation and modality imputation methods.
 
