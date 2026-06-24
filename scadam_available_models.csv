@@ -1,47 +1,47 @@
-Tissue/Model name,Description,Suspension,Accuracy,Balanced Accuracy,Number of Levels
-Human_BMMC,Bone marrow mononuclear cell of healthy adults,cells,0.947,0.942,3
-Human_Bone_Marrow,A Balanced Bone Marrow Reference,cells,0.881,0.861,3
-Human_Brain_atlas,Human Brain Cell Atlas v1.0,nuclei,0.998,0.998,2
-Human_Brain_Dementia,Cross-dementia human brain snRNA-seq,nuclei,0.999,0.999,2
-Human_Brain_DLPFC,Seattle Alzheimer’s disease dorsolateral prefrontal cortex,nuclei,0.997,0.997,2
-Human_Brain_MTG,Seattle Alzheimer’s disease middle temporal gyrus,nuclei,0.998,0.998,2
-Human_Breast_cancer,Single-cell atlas of human breast cancers,cells,0.955,0.943,2
-Human_CC_Dev_RNA,Multi-omic profiling of the developing human cerebral cortex (RNA),nuclei,0.974,0.975,2
-Human_CC_Dev_ATAC,Multi-omic profiling of the developing human cerebral cortex (ATAC),nuclei,0.916,0.912,2
-Human_Endometrium,Non-pregnant endometrium,cells,0.971,0.970,2
-Human_Fetal,A human cell atlas of fetal gene expression,nuclei,0.984,0.981,2
-Human_Heart,Human heart CITE-seq analysis of healthy and diseased states,cells,0.957,0.956,2
-Human_HNSCC,Single-cell atlas of HPV-negative Head and Neck Cancer,cells,0.980,0.981,2
-Human_Kidney_cell,scRNA-seq of the Adult Human Kidney (V. 1.5),cells,0.974,0.974,3
-Human_Kidney_nucleus,snRNA-seq of the Adult Human Kidney (V. 1.5),nuclei,0.973,0.972,3
-Human_Lung,Core Human Lung Cell Atlas,cells,0.965,0.964,5
-Human_Lung_Cancer,Extended single-cell lung cancer atlas (LuCA),cells,0.937,0.936,3
-Human_Optic_nerve,Single nuclei atlas of the human optic nerve,nuclei,0.995,0.994,2
-Human_oropharyngeal_SCC,Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq,cells,0.972,0.968,2
-Human_Pancreas,Pancreatic islet atlas,cells,0.996,0.989,1
-Human_PBMC,Peripheral blood mononuclear cells of healthy adults 3' scRNA seq,cells,0.979,0.979,3
-Human_Retina_cell,Single cell atlas of the human retina,cells,0.984,0.979,4
-Human_Retina_nucleus,Single nucleus atlas of the human retina,nuclei,0.994,0.994,2
-Human_Skin,Skin atlas,cells,0.983,0.980,2
-Human_Subcutaneous_AT,Subcutaneous adipose tissue atlas,cells,0.973,0.954,3
-Human_Testes,Single cell atlas of the human testes,cells,0.991,0.991,2
-Human_Visceral_AT,Visceral adipose tissue atlas,cells,0.978,0.975,3
-Mouse_Aging_Brain,Atlas of mouse aging brain,cells,0.993,0.993,1
-Mouse_BAT,Pansci brown adipose tissue atlas,nuclei,0.979,0.945,2
-Mouse_Cerebellum,Single nuclei atlas of the Mouse cerebellum,nuclei,0.999,0.999,2
-Mouse_Colon,Pansci colon atlas,nuclei,0.968,0.933,2
-Mouse_Duodenum,Pansci duodenum atlas,nuclei,0.964,0.897,2
-Mouse_gWAT,Pansci perigonadal adipose tissue atlas,nuclei,0.977,0.947,2
-Mouse_Heart,Pansci heart atlas,nuclei,0.961,0.932,2
-Mouse_Hippocampus,Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA),nuclei,0.949,0.948,2
-Mouse_Ileum,Pansci ileum atlas,nuclei,0.973,0.950,2
-Mouse_iWAT,Pansci inguinal adipose tissue atlas,nuclei,0.988,0.950,2
-Mouse_Jejunum,Pansci jejunum atlas,nuclei,0.975,0.926,2
-Mouse_Kidney,Pansci kidney atlas,nuclei,0.988,0.949,2
-Mouse_Liver,Pansci liver atlas,nuclei,0.986,0.950,2
-Mouse_Lung,Pansci lung atlas,nuclei,0.975,0.953,2
-Mouse_Muscle,Pansci muscle atlas,nuclei,0.975,0.942,2
-Mouse_Stomach,Pansci stomach atlas,nuclei,0.962,0.914,2
-Mouse_Testes,Atlas of mouse testes,cells,0.975,0.975,3
-Macaque_Cerebellum,Single nuclei atlas of the Macaque cerebellum,nuclei,0.995,0.994,2
-Marmoset_Cerebellum,Single nuclei atlas of the Marmoset cerebellum,nuclei,0.988,0.987,2
+Model name;Tissue/Organ;Species;Description;Suspension;Accuracy;Balanced Accuracy;Number of Levels
+Human_BMMC;bone marrow;human;Bone marrow mononuclear cell of healthy adults;cells;0.947;0.942;3
+Human_Bone_Marrow;bone marrow;human;A Balanced Bone Marrow Reference;cells;0.881;0.861;3
+Human_Brain_atlas;brain;human;Human Brain Cell Atlas v1.0;nuclei;0.998;0.998;2
+Human_Brain_Dementia;brain;human;Cross-dementia human brain snRNA-seq;nuclei;0.999;0.999;2
+Human_Brain_DLPFC;brain;human;Seattle Alzheimer’s disease dorsolateral prefrontal cortex;nuclei;0.997;0.997;2
+Human_Brain_MTG;brain;human;Seattle Alzheimer’s disease middle temporal gyrus;nuclei;0.998;0.998;2
+Human_Breast_cancer;breast;human;Single-cell atlas of human breast cancers;cells;0.955;0.943;2
+Human_CC_Dev_RNA;brain;human;Multi-omic profiling of the developing human cerebral cortex (RNA);nuclei;0.974;0.975;2
+Human_CC_Dev_ATAC;brain;human;Multi-omic profiling of the developing human cerebral cortex (ATAC);nuclei;0.916;0.912;2
+Human_Endometrium;endometrium;human;Non-pregnant endometrium;cells;0.971;0.97;2
+Human_Fetal;fetal;human;A human cell atlas of fetal gene expression;nuclei;0.984;0.981;2
+Human_Heart;heart;human;Human heart CITE-seq analysis of healthy and diseased states;cells;0.957;0.956;2
+Human_HNSCC;airway;human;Single-cell atlas of HPV-negative Head and Neck Cancer;cells;0.98;0.981;2
+Human_Kidney_cell;kidney;human;scRNA-seq of the Adult Human Kidney (V. 1.5);cells;0.974;0.974;3
+Human_Kidney_nucleus;kidney;human;snRNA-seq of the Adult Human Kidney (V. 1.5);nuclei;0.973;0.972;3
+Human_Lung;lung;human;Core Human Lung Cell Atlas;cells;0.965;0.964;5
+Human_Lung_Cancer;lung;human;Extended single-cell lung cancer atlas (LuCA);cells;0.937;0.936;3
+Human_Optic_nerve;eye;human;Single nuclei atlas of the human optic nerve;nuclei;0.995;0.994;2
+Human_oropharyngeal_SCC;airway;human;Oropharyngeal HPV+/HPV- squamous cell carcinoma and normal tissue scRNA-seq;cells;0.972;0.968;2
+Human_Pancreas;pancreas;human;Pancreatic islet atlas;cells;0.996;0.989;1
+Human_PBMC;blood;human;Peripheral blood mononuclear cells of healthy adults 3' scRNA seq;cells;0.979;0.979;3
+Human_Retina_cell;eye;human;Single cell atlas of the human retina;cells;0.984;0.979;4
+Human_Retina_nucleus;eye;human;Single nucleus atlas of the human retina;nuclei;0.994;0.994;2
+Human_Skin;skin;human;Skin atlas;cells;0.983;0.98;2
+Human_Subcutaneous_AT;adipose;human;Subcutaneous adipose tissue atlas;cells;0.973;0.954;3
+Human_Testes;testes;human;Single cell atlas of the human testes;cells;0.991;0.991;2
+Human_Visceral_AT;adipose;human;Visceral adipose tissue atlas;cells;0.978;0.975;3
+Mouse_Aging_Brain;brain;mouse;Atlas of mouse aging brain;cells;0.993;0.993;1
+Mouse_BAT;adipose;mouse;Pansci brown adipose tissue atlas;nuclei;0.979;0.945;2
+Mouse_Cerebellum;brain;mouse;Single nuclei atlas of the Mouse cerebellum;nuclei;0.999;0.999;2
+Mouse_Colon;colon;mouse;Pansci colon atlas;nuclei;0.968;0.933;2
+Mouse_Duodenum;duodenum;mouse;Pansci duodenum atlas;nuclei;0.964;0.897;2
+Mouse_gWAT;adipose;mouse;Pansci perigonadal adipose tissue atlas;nuclei;0.977;0.947;2
+Mouse_Heart;heart;mouse;Pansci heart atlas;nuclei;0.961;0.932;2
+Mouse_Hippocampus;brain;mouse;Atlas of mouse hippocampus of health and 5xFAD mice (3' snRNA);nuclei;0.949;0.948;2
+Mouse_Ileum;ileum;mouse;Pansci ileum atlas;nuclei;0.973;0.95;2
+Mouse_iWAT;adipose;mouse;Pansci inguinal adipose tissue atlas;nuclei;0.988;0.95;2
+Mouse_Jejunum;jejunum;mouse;Pansci jejunum atlas;nuclei;0.975;0.926;2
+Mouse_Kidney;kidney;mouse;Pansci kidney atlas;nuclei;0.988;0.949;2
+Mouse_Liver;liver;mouse;Pansci liver atlas;nuclei;0.986;0.95;2
+Mouse_Lung;lung;mouse;Pansci lung atlas;nuclei;0.975;0.953;2
+Mouse_Muscle;muscle;mouse;Pansci muscle atlas;nuclei;0.975;0.942;2
+Mouse_Stomach;stomach;mouse;Pansci stomach atlas;nuclei;0.962;0.914;2
+Mouse_Testes;testes;mouse;Atlas of mouse testes;cells;0.975;0.975;3
+Macaque_Cerebellum;brain;macaque;Single nuclei atlas of the Macaque cerebellum;nuclei;0.995;0.994;2
+Marmoset_Cerebellum;brain;marmoset;single nuclei atlas of the marmoset cerebellum;nuclei;0.988;0.987;2
