@@ -199,6 +199,7 @@ dependencies:
       - sphinxcontrib-jsmath==1.0.1
       - sphinxcontrib-qthelp==2.0.0
       - sphinxcontrib-serializinghtml==2.0.0
+      - sphinx-copybutton==0.5.2
       - sqlalchemy==2.0.48
       - stack-data==0.6.3
       - statsmodels==0.14.6
