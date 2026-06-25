@@ -29,6 +29,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.mathjax",
     "sphinx_design",
+    "sphinx_copybutton",
     "nbsphinx",
     "sphinx.ext.autosummary",
     "sphinxcontrib.bibtex",
