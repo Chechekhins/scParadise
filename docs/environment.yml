@@ -112,6 +112,7 @@ dependencies:
       - mudata==0.3.3
       - multidict==6.7.1
       - muon==0.1.7
+      - myst_nb==1.2.0
       - natsort==8.4.0
       - nbclient==0.10.4
       - nbconvert==7.17.0
