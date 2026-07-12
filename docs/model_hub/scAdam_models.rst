@@ -258,12 +258,12 @@ scAdam models
      - 2
      - :cite:`2024:Zhang`
    * - Mouse_Hippocampus
-     - Atlas of mouse hippocampus of health and 5xFAD mice
+     - Atlas of adult mouse male hippocampus
      - nuclei
-     - 0.949
-     - 0.948
-     - 2
-     - unpublished atlas by Mareeva S. and Tychinin D. 
+     - 0.994
+     - 0.994
+     - 3
+     - :cite:`2026:De`
    * - Mouse_Ileum
      - Pansci ileum atlas
      - nuclei
