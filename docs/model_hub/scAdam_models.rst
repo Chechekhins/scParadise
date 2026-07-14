@@ -369,3 +369,17 @@ scAdam models
      - 0.998
      - 1
      - :cite:`2022:Guilliams`
+   * - Monkey_Liver
+     - Monkey Liver Cell Atlas
+     - cells
+     - 0.986
+     - 0.983
+     - 1
+     - :cite:`2022:Guilliams`
+   * - Zebrafish_Liver
+     - Zebrafish Liver Cell Atlas
+     - cells
+     - 0.989
+     - 0.987
+     - 1
+     - :cite:`2022:Guilliams`
