@@ -49,3 +49,5 @@ Marmoset_Cerebellum;brain;marmoset;single nuclei atlas of the marmoset cerebellu
 Chicken_Liver;liver;chicken;Chicken Liver Cell Atlas;cells;0.978;0.980;1
 Pig_Liver;liver;pig;Pig Liver Cell Atlas;cells;0.997;0.997;1
 Hamster_Liver;liver;hamster;Hamster Liver Cell Atlas;cells;0.997;0.998;1
+Monkey_Liver;liver;monkey;Monkey Liver Cell Atlas;cells;0.986;0.983;1
+Zebrafish_Liver;liver;zebrafish;Zebrafish Liver Cell Atlas;cells;0.989;0.987;1
