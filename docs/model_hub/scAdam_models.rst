@@ -117,6 +117,13 @@ scAdam models
      - 0.972
      - 3
      - `cellxgene <https://cellxgene.cziscience.com/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f>`_
+   * - Human_Liver
+     - Human Liver Cell Atlas
+     - cells/nuclei
+     - 0.991
+     - 0.993
+     - 2
+     - :cite:`2022:Guilliams`
    * - Human_Lung
      - Core Human Lung Cell Atlas
      - cells
@@ -341,3 +348,10 @@ scAdam models
      - 0.987
      - 2
      - :cite:`2024:Hao`
+   * - Chicken_Liver
+     - Chicken Liver Cell Atlas
+     - cells
+     - 0.978
+     - 0.980
+     - 1
+     - :cite:`2022:Guilliams`
