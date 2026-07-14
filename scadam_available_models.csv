@@ -48,3 +48,4 @@ Macaque_Cerebellum;brain;macaque;Single nuclei atlas of the Macaque cerebellum;n
 Marmoset_Cerebellum;brain;marmoset;single nuclei atlas of the marmoset cerebellum;nuclei;0.988;0.987;2
 Chicken_Liver;liver;chicken;Chicken Liver Cell Atlas;cells;0.978;0.980;1
 Pig_Liver;liver;pig;Pig Liver Cell Atlas;cells;0.997;0.997;1
+Hamster_Liver;liver;hamster;Hamster Liver Cell Atlas;cells;0.997;0.998;1
