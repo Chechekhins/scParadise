@@ -355,3 +355,10 @@ scAdam models
      - 0.980
      - 1
      - :cite:`2022:Guilliams`
+   * - Pig_Liver
+     - Pig Liver Cell Atlas
+     - cells
+     - 0.997
+     - 0.997
+     - 1
+     - :cite:`2022:Guilliams`
