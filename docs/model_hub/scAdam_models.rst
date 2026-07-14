@@ -362,3 +362,10 @@ scAdam models
      - 0.997
      - 1
      - :cite:`2022:Guilliams`
+   * - Hamster_Liver
+     - Hamster Liver Cell Atlas
+     - cells
+     - 0.997
+     - 0.998
+     - 1
+     - :cite:`2022:Guilliams`
