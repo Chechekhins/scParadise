@@ -14,6 +14,7 @@ Human_Heart;heart;human;Human heart CITE-seq analysis of healthy and diseased st
 Human_HNSCC;airway;human;Single-cell atlas of HPV-negative Head and Neck Cancer;cells;0.98;0.981;2
 Human_Kidney_cell;kidney;human;scRNA-seq of the Adult Human Kidney (V. 1.5);cells;0.974;0.974;3
 Human_Kidney_nucleus;kidney;human;snRNA-seq of the Adult Human Kidney (V. 1.5);nuclei;0.973;0.972;3
+Human_Liver;liver;human;Human Liver Cell Atlas;cells/nuclei;0.991;0.993;2
 Human_Lung;lung;human;Core Human Lung Cell Atlas;cells;0.965;0.964;5
 Human_Lung_Cancer;lung;human;Extended single-cell lung cancer atlas (LuCA);cells;0.937;0.936;3
 Human_Optic_nerve;eye;human;Single nuclei atlas of the human optic nerve;nuclei;0.995;0.994;2
@@ -45,3 +46,5 @@ Mouse_Stomach;stomach;mouse;Pansci stomach atlas;nuclei;0.962;0.914;2
 Mouse_Testes;testes;mouse;Atlas of mouse testes;cells;0.975;0.975;3
 Macaque_Cerebellum;brain;macaque;Single nuclei atlas of the Macaque cerebellum;nuclei;0.995;0.994;2
 Marmoset_Cerebellum;brain;marmoset;single nuclei atlas of the marmoset cerebellum;nuclei;0.988;0.987;2
+Chicken_Liver;liver;chicken;Chicken Liver Cell Atlas;cells;0.978;0.980;1
+Pig_Liver;liver;pig;Pig Liver Cell Atlas;cells;0.997;0.997;1
