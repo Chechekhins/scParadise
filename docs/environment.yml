@@ -1,4 +1,4 @@
-name: scparadise_py3.12
+name: /opt/conda-envs/scparadise_py3.12
 channels:
   - defaults
 dependencies:
@@ -236,6 +236,7 @@ dependencies:
       - soupsieve==2.9.2
       - sparse==0.19.2
       - sphinx==9.1.0
+      - sphinx-autodoc-typehints==3.13.5
       - sphinx-book-theme==1.4.0
       - sphinx-copybutton==0.5.2
       - sphinx-design==0.7.0
@@ -280,3 +281,4 @@ dependencies:
       - zarr==3.3.0
 variables:
   PYTHONNOUSERSITE: '1'
+prefix: /opt/conda-envs/scparadise_py3.12
