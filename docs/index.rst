@@ -9,9 +9,6 @@
 .. image:: https://readthedocs.org/projects/scparadise/badge/?version=latest
     :target: https://scparadise.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://img.shields.io/badge/preprint-available-brightgreen
-    :target: https://www.biorxiv.org/content/10.1101/2024.09.23.614509v1.full
-    :alt: Preprint
 
 Welcome to scParadise documentation!
 ===================================
