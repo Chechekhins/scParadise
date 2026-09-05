@@ -8,5 +8,5 @@ Reference dataset independent modality prediction.
   
    notebooks/scEve/scEve_clustering
    notebooks/scEve/scEve_train
-   notebooks/scEve/Cross_species_modality_prediction_using_scEve
+   notebooks/scEve/Cross_species_modality_imputation_using_scEve
 
