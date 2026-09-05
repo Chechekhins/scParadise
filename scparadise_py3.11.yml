@@ -250,4 +250,5 @@ dependencies:
       - xarray==2026.7.0
       - yarl==1.24.5
       - zarr==3.1.6
-prefix: /home/vadim/.conda/envs/scparadise_py3.11
+variables:
+  PYTHONNOUSERSITE: '1'
