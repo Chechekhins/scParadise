@@ -10,7 +10,7 @@ project = "scParadise"
 repository_url = "https://github.com/Chechekhins/scParadise"
 copyright = '2026, Vadim Chechekhin'
 author = "Vadim Chechekhin"
-release = "1.0.0"
+release = "1.2.0"
 
 html_context = {
     "display_github": True,  # Integrate GitHub
