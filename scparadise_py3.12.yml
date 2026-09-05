@@ -1,0 +1,8 @@
+name: /opt/conda-envs/scparadise_py3.12
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+variables:
+  PYTHONNOUSERSITE: '1'
+prefix: /opt/conda-envs/scparadise_py3.12

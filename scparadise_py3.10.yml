@@ -1,0 +1,7 @@
+name: scparadise_py3.10
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+prefix: /home/vadim/.conda/envs/scparadise_py3.10
