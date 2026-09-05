@@ -1,4 +1,4 @@
-name: /opt/conda-envs/scparadise_py3.12
+name: scparadise_py3.12
 channels:
   - defaults
 dependencies:
