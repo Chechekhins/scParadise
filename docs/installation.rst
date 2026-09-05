@@ -14,7 +14,7 @@ Create environment for using scparadise
 
 .. code-block:: bash
 
-   conda create -n scparadise python=3.10
+   conda create -n scparadise python=3.12
 
 .. code-block:: bash
 
@@ -29,7 +29,7 @@ If you want to use scParadise from R, you need to configure a Python environment
 Create environment from scparadise.yml (recommended)
 ----------------------------------------------------
 
-1. Download `scparadise_3.10.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.10.yaml>`_ or `scparadise_3.11.yaml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_3.11.yaml>`_.
+1. Download `scparadise_py3.12.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_py3.12.yml>`_ or `scparadise_py3.11.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_py3.11.yml>`_ or `scparadise_py3.10.yml <https://github.com/Chechekhins/scParadise/blob/main/scparadise_py3.10.yml>`_.
 
 2. Install g++ (optional, for a clean installation):
 
@@ -38,13 +38,13 @@ Create environment from scparadise.yml (recommended)
    sudo apt update
    sudo apt-get install g++
                              
-3. Execute the following command in Anaconda (from directory with scparadise_3.10.yaml or scparadise_3.11.yaml):
+3. Execute the following command in Anaconda (from directory with scparadise_py3.12.yml or scparadise_py3.11.yml or scparadise_py3.10.yml):
 
 .. code-block:: bash
 
-   conda env create -f scparadise_3.10.yaml
+   conda env create -f scparadise_py3.12.yml
 
-The installed environment is based on Python 3.10 (scparadise_3.10) or 3.11 (scparadise_3.11) and includes the latest version of scparadise, scvi-tools, scanpy, muon, harmony, jupyterlab, liana, decoupler and other packages for scRNA-seq analysis.
+The installed environment is based on Python 3.12 (scparadise_py3.12) or 3.11 (scparadise_py3.11) or 3.10 (scparadise_py3.10) and includes the latest version of scparadise, scvi-tools, scanpy, muon, harmony, jupyterlab, liana, decoupler and other packages for scRNA-seq analysis.
 
 GPU support
 -----------
