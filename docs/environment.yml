@@ -1,4 +1,4 @@
-name: /opt/conda-envs/scparadise_py3.12
+name: scparadise_py3.12
 channels:
   - defaults
 dependencies:
@@ -281,4 +281,3 @@ dependencies:
       - zarr==3.3.0
 variables:
   PYTHONNOUSERSITE: '1'
-prefix: /opt/conda-envs/scparadise_py3.12
